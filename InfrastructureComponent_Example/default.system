@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:system="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" id="_KykrEFobEeCigo30slKAcg" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_cum9YFocEeCigo30slKAcg" entityName="Assembly_InfrastructureTest &lt;InfrastructureTest>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_fEHHEFoaEeCigo30slKAcg"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Ol8PEHajEeCemvzKP2fF3Q" entityName="Assembly_HelperComponent &lt;HelperComponent>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_zWgRAHacEeC1WLl_v3vmgg"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_V9iHsHajEeCemvzKP2fF3Q" entityName="Assembly_BusinessComponent &lt;BusinessComponent>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_UeG8QFobEeCigo30slKAcg"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_bF6WwHajEeCemvzKP2fF3Q" entityName="ProvDelegation Provided_BusinessInterface -> Provided_BusinessInterface_BusinessComponent" outerProvidedRole_ProvidedDelegationConnector="_raa1EFodEeCigo30slKAcg" assemblyContext_ProvidedDelegationConnector="_V9iHsHajEeCemvzKP2fF3Q">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_VwwP4FobEeCigo30slKAcg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyInfrastructureConnector" id="_cWDI8HajEeCemvzKP2fF3Q" entityName="InfrastructureConnector Assembly_BusinessComponent &lt;BusinessComponent> -> Assembly_InfrastructureTest &lt;InfrastructureTest>" providingAssemblyContext__AssemblyInfrastructureConnector="_cum9YFocEeCigo30slKAcg" requiringAssemblyContext__AssemblyInfrastructureConnector="_V9iHsHajEeCemvzKP2fF3Q">
+    <providedRole__AssemblyInfrastructureConnector href="default.repository#_0N35olobEeCigo30slKAcg"/>
+    <requiredRole__AssemblyInfrastructureConnector href="default.repository#_-aeQhFobEeCigo30slKAcg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_dNtJsHajEeCemvzKP2fF3Q" entityName="Connector Assembly_BusinessComponent &lt;BusinessComponent> -> Assembly_HelperComponent &lt;HelperComponent>" requiringAssemblyContext_AssemblyConnector="_V9iHsHajEeCemvzKP2fF3Q" providingAssemblyContext_AssemblyConnector="_Ol8PEHajEeCemvzKP2fF3Q">
+    <providedRole_AssemblyConnector href="default.repository#_j8ztsHadEeC1WLl_v3vmgg"/>
+    <requiredRole_AssemblyConnector href="default.repository#_i2zH4HadEeC1WLl_v3vmgg"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_raa1EFodEeCigo30slKAcg" entityName="Provided_BusinessInterface">
+    <providedInterface__OperationProvidedRole href="default.repository#_R29T0FobEeCigo30slKAcg"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

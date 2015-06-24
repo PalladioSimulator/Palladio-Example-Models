@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:DecisionSpace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:_2="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_3="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/3.0" xmlns:specific="http://sdq.ipd.uka.de/DesignDecision/Specific/3.0">
+  <degreesOfFreedom xsi:type="specific:ContinuousProcessingRateDegree" lowerBoundIncluded="false" to="7.0" from="1.75">
+    <primaryChanged xsi:type="ResourceContainer" href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <processingresourcetype href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ContinuousProcessingRateDegree" lowerBoundIncluded="false" to="8.0" from="2.0">
+    <primaryChanged xsi:type="ResourceContainer" href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <processingresourcetype href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ContinuousProcessingRateDegree" lowerBoundIncluded="false" to="6.0" from="1.5">
+    <primaryChanged xsi:type="ResourceContainer" href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+    <processingresourcetype href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AssembledComponentDegree">
+    <primaryChanged xsi:type="_1:AssemblyContext" href="quickbooking.system#_YXdtAC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="_2:BasicComponent" href="default.repository#_ZZH7IC6IEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="_2:BasicComponent" href="default.repository#__VPcQOtlEd-m3_hR0FtH3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree">
+    <primaryChanged xsi:type="_3:AllocationContext" href="quickbooking.allocation#_hAVWgOtpEd-dK48mtzySgA"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree">
+    <primaryChanged xsi:type="_3:AllocationContext" href="quickbooking.allocation#_htuoAOtpEd-dK48mtzySgA"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree">
+    <primaryChanged xsi:type="_3:AllocationContext" href="quickbooking.allocation#_i_XPAOtpEd-dK48mtzySgA"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <classDesignOptions xsi:type="ResourceContainer" href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+  </degreesOfFreedom>
+</designdecision:DecisionSpace>

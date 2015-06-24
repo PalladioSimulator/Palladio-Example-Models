@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reliability="http://sdq.ipd.uka.de/PalladioComponentModel/Reliability/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_XPYAYC6IEd-Jla2o7wkBzQ" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_YyVn8C6IEd-Jla2o7wkBzQ" entityName="BusinessTripMgmt">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_fYvUMC6IEd-Jla2o7wkBzQ" entityName="Provided_I1_C1" providedInterface__OperationProvidedRole="_bh5lgC6IEd-Jla2o7wkBzQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_frf4IC6IEd-Jla2o7wkBzQ" entityName="Required_I2_C1" requiredInterface__OperationRequiredRole="_cyLhoC6IEd-Jla2o7wkBzQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_rng-MC6IEd-Jla2o7wkBzQ" entityName="Required_I3_C1" requiredInterface__OperationRequiredRole="_pPmroC6IEd-Jla2o7wkBzQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_oLsiIC6JEd-Jla2o7wkBzQ" describedService__SEFF="_8A9Bka7LEd-Z7e7zQl8I9w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_pLgZUC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_vGuakC6JEd-Jla2o7wkBzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_pLhAYC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_0EkNkC6JEd-Jla2o7wkBzQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_vGuakC6JEd-Jla2o7wkBzQ" entityName="action" predecessor_AbstractAction="_pLgZUC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_0EkNkC6JEd-Jla2o7wkBzQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="4"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="1.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_0EkNkC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_vGuakC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_pLhAYC6JEd-Jla2o7wkBzQ">
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_Bwzn8OszEd-swe4bkXmV_Q">
+          <branchBehaviour_BranchTransition id="_uBiA54sAEeG0c6Q1F-wA1Q">
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_5mRioC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_2L0N8C6JEd-Jla2o7wkBzQ" successor_AbstractAction="_2L01AC6JEd-Jla2o7wkBzQ" calledService_ExternalService="_8A9Bk67LEd-Z7e7zQl8I9w" role_ExternalService="_frf4IC6IEd-Jla2o7wkBzQ">
+              <inputVariableUsages__CallAction>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="isBank.VALUE"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="isBank"/>
+              </inputVariableUsages__CallAction>
+            </steps_Behaviour>
+            <steps_Behaviour xsi:type="seff:StartAction" id="_2L0N8C6JEd-Jla2o7wkBzQ" successor_AbstractAction="_5mRioC6JEd-Jla2o7wkBzQ"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_2L01AC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_5mRioC6JEd-Jla2o7wkBzQ"/>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="isBook.VALUE"/>
+        </branches_Branch>
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_C9QM8OszEd-swe4bkXmV_Q">
+          <branchBehaviour_BranchTransition id="_uBin84sAEeG0c6Q1F-wA1Q">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_3V3mQC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_6vz9kC6JEd-Jla2o7wkBzQ"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_6vz9kC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_3V3mQC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_3V3mQS6JEd-Jla2o7wkBzQ" calledService_ExternalService="_8A9Bla7LEd-Z7e7zQl8I9w" role_ExternalService="_rng-MC6IEd-Jla2o7wkBzQ"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_3V3mQS6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_6vz9kC6JEd-Jla2o7wkBzQ"/>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="NOT isBook.VALUE"/>
+        </branches_Branch>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_ZZH7IC6IEd-Jla2o7wkBzQ" entityName="BookingSystem">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gCeNsC6IEd-Jla2o7wkBzQ" entityName="Provided_I2_C2" providedInterface__OperationProvidedRole="_cyLhoC6IEd-Jla2o7wkBzQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_6D7mkOtYEd-m3_hR0FtH3Q" requiredInterface__OperationRequiredRole="_zdIuAOsyEd-swe4bkXmV_Q"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_phvvEC6JEd-Jla2o7wkBzQ" describedService__SEFF="_8A9Bk67LEd-Z7e7zQl8I9w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_pwjnIC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_HcazEC6KEd-Jla2o7wkBzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_pwkOMC6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_DIhMgOtZEd-m3_hR0FtH3Q"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_HcazEC6KEd-Jla2o7wkBzQ" predecessor_AbstractAction="_pwjnIC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_DIhMgOtZEd-m3_hR0FtH3Q">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="1.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_DIhMgOtZEd-m3_hR0FtH3Q" predecessor_AbstractAction="_HcazEC6KEd-Jla2o7wkBzQ" successor_AbstractAction="_pwkOMC6JEd-Jla2o7wkBzQ" calledService_ExternalService="_1cTwcOsyEd-swe4bkXmV_Q" role_ExternalService="_6D7mkOtYEd-m3_hR0FtH3Q">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="isBank.VALUE"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="isBank"/>
+        </inputVariableUsages__CallAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Z2udIC6IEd-Jla2o7wkBzQ" entityName="Payment System">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_rGi_IC6IEd-Jla2o7wkBzQ" entityName="Provided_I3_C3" providedInterface__OperationProvidedRole="_pPmroC6IEd-Jla2o7wkBzQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_34DaIOsyEd-swe4bkXmV_Q" providedInterface__OperationProvidedRole="_zdIuAOsyEd-swe4bkXmV_Q"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_qBCTIC6JEd-Jla2o7wkBzQ" describedService__SEFF="_8A9Bla7LEd-Z7e7zQl8I9w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_qUBgkC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_QG_9kC6KEd-Jla2o7wkBzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_qUBgkS6JEd-Jla2o7wkBzQ" predecessor_AbstractAction="_QG_9kC6KEd-Jla2o7wkBzQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_QG_9kC6KEd-Jla2o7wkBzQ" predecessor_AbstractAction="_qUBgkC6JEd-Jla2o7wkBzQ" successor_AbstractAction="_qUBgkS6JEd-Jla2o7wkBzQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="3"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="1.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_34ISoOsyEd-swe4bkXmV_Q" describedService__SEFF="_1cTwcOsyEd-swe4bkXmV_Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_34JgwOsyEd-swe4bkXmV_Q" successor_AbstractAction="_u_HY0OtZEd-m3_hR0FtH3Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_34KH0OsyEd-swe4bkXmV_Q" predecessor_AbstractAction="_u_HY0OtZEd-m3_hR0FtH3Q"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_u_HY0OtZEd-m3_hR0FtH3Q" entityName="isBank?" predecessor_AbstractAction="_34JgwOsyEd-swe4bkXmV_Q" successor_AbstractAction="_34KH0OsyEd-swe4bkXmV_Q">
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_vWsyYOtZEd-m3_hR0FtH3Q">
+          <branchBehaviour_BranchTransition id="_uBlrQYsAEeG0c6Q1F-wA1Q">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_vWtZcOtZEd-m3_hR0FtH3Q" successor_AbstractAction="_QG_9kC6KEd-Jla2o7wkBzQ2"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_vWuAgOtZEd-m3_hR0FtH3Q" predecessor_AbstractAction="_QG_9kC6KEd-Jla2o7wkBzQ2"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_QG_9kC6KEd-Jla2o7wkBzQ2" entityName="bankPayment" predecessor_AbstractAction="_vWtZcOtZEd-m3_hR0FtH3Q" successor_AbstractAction="_vWuAgOtZEd-m3_hR0FtH3Q">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="3"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+              </resourceDemand_Action>
+              <internalFailureOccurrenceDescriptions__InternalAction failureProbability="1.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+            </steps_Behaviour>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="isBank.VALUE"/>
+        </branches_Branch>
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_v0I8UOtZEd-m3_hR0FtH3Q">
+          <branchBehaviour_BranchTransition id="_uBmSUYsAEeG0c6Q1F-wA1Q">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_v0KxgOtZEd-m3_hR0FtH3Q" successor_AbstractAction="_QS5rkC6KEd-Jla2o7wkBzQ2"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_v0KxgetZEd-m3_hR0FtH3Q" predecessor_AbstractAction="_QS5rkC6KEd-Jla2o7wkBzQ2"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_QS5rkC6KEd-Jla2o7wkBzQ2" entityName="CCpayment" predecessor_AbstractAction="_v0KxgOtZEd-m3_hR0FtH3Q" successor_AbstractAction="_v0KxgetZEd-m3_hR0FtH3Q">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="4&#xD;&#xA;"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+              </resourceDemand_Action>
+              <internalFailureOccurrenceDescriptions__InternalAction failureProbability="3.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+            </steps_Behaviour>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="NOT isBank.VALUE"/>
+        </branches_Branch>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+    <passiveResource_BasicComponent id="__hz0ANrPEd-YZv0HsvRIgQ" entityName="semaphore">
+      <capacity_PassiveResource specification="1"/>
+    </passiveResource_BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__VPcQOtlEd-m3_hR0FtH3Q" entityName="QuickBooking">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_AhcwsOtmEd-m3_hR0FtH3Q" providedInterface__OperationProvidedRole="_cyLhoC6IEd-Jla2o7wkBzQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_A39MMOtmEd-m3_hR0FtH3Q" requiredInterface__OperationRequiredRole="_zdIuAOsyEd-swe4bkXmV_Q"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_AhdXwOtmEd-m3_hR0FtH3Q" describedService__SEFF="_8A9Bk67LEd-Z7e7zQl8I9w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Ahd-0OtmEd-m3_hR0FtH3Q" successor_AbstractAction="_c1GMgOtmEd-m3_hR0FtH3Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Ahd-0etmEd-m3_hR0FtH3Q" predecessor_AbstractAction="_5R5l8O13Ed-XnbkEivYoKw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_c1GMgOtmEd-m3_hR0FtH3Q" entityName="checkCache" predecessor_AbstractAction="_Ahd-0OtmEd-m3_hR0FtH3Q" successor_AbstractAction="_fEh4gOtmEd-m3_hR0FtH3Q">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0.5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="2.5E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_fEh4gOtmEd-m3_hR0FtH3Q" entityName="determineCheapest" predecessor_AbstractAction="_c1GMgOtmEd-m3_hR0FtH3Q" successor_AbstractAction="_5R5l8O13Ed-XnbkEivYoKw">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="2.5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="1.0E-4" softwareInducedFailureType__InternalFailureOccurrenceDescription="_PL68dtrQEd-YZv0HsvRIgQ"/>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_5R5l8O13Ed-XnbkEivYoKw" predecessor_AbstractAction="_fEh4gOtmEd-m3_hR0FtH3Q" successor_AbstractAction="_Ahd-0etmEd-m3_hR0FtH3Q" calledService_ExternalService="_1cTwcOsyEd-swe4bkXmV_Q" role_ExternalService="_A39MMOtmEd-m3_hR0FtH3Q">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="isBank.VALUE"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="isBank"/>
+        </inputVariableUsages__CallAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_bh5lgC6IEd-Jla2o7wkBzQ" entityName="IBusiness Trip">
+    <signatures__OperationInterface id="_8A9Bka7LEd-Z7e7zQl8I9w" entityName="plan">
+      <parameters__OperationSignature parameterName="isBook">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="isBank">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_cyLhoC6IEd-Jla2o7wkBzQ" entityName="IBooking">
+    <signatures__OperationInterface id="_8A9Bk67LEd-Z7e7zQl8I9w" entityName="book">
+      <parameters__OperationSignature parameterName="isBank">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_pPmroC6IEd-Jla2o7wkBzQ" entityName="IEmployeePayment">
+    <signatures__OperationInterface id="_8A9Bla7LEd-Z7e7zQl8I9w" entityName="reimburse"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_zdIuAOsyEd-swe4bkXmV_Q" entityName="IExternalPayment">
+    <signatures__OperationInterface id="_1cTwcOsyEd-swe4bkXmV_Q" entityName="pay">
+      <parameters__OperationSignature parameterName="isBank">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <failureTypes__Repository xsi:type="reliability:SoftwareInducedFailureType" id="_PL68dtrQEd-YZv0HsvRIgQ" entityName="SWFailure" internalFailureOccurrenceDescriptions__SoftwareInducedFailureType="//@components__Repository.0/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.1/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.2/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.2/@serviceEffectSpecifications__BasicComponent.1/@steps_Behaviour.2/@branches_Branch.0/@branchBehaviour_BranchTransition/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.2/@serviceEffectSpecifications__BasicComponent.1/@steps_Behaviour.2/@branches_Branch.1/@branchBehaviour_BranchTransition/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.3/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.3/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.3/@internalFailureOccurrenceDescriptions__InternalAction.0"/>
+</repository:Repository>

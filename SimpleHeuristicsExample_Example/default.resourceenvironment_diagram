@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/4.0 http://sdq.ipd.uka.de/PalladioComponentModel/4.0#//resourceenvironment" xmi:id="__JMvoOv6Ed-F_NHjCnvnIQ" type="ResourceEnvironmentModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="__K-4UOv6Ed-F_NHjCnvnIQ" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4Uuv6Ed-F_NHjCnvnIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4U-v6Ed-F_NHjCnvnIQ" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="__K-4VOv6Ed-F_NHjCnvnIQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__K-4Vev6Ed-F_NHjCnvnIQ"/>
+    </children>
+    <element xmi:type="ResourceContainer" href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__K-4Uev6Ed-F_NHjCnvnIQ"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__K-4Vuv6Ed-F_NHjCnvnIQ" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4WOv6Ed-F_NHjCnvnIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4Wev6Ed-F_NHjCnvnIQ" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="__K-4Wuv6Ed-F_NHjCnvnIQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__K-4W-v6Ed-F_NHjCnvnIQ"/>
+    </children>
+    <element xmi:type="ResourceContainer" href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__K-4V-v6Ed-F_NHjCnvnIQ" x="310"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__K-4XOv6Ed-F_NHjCnvnIQ" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4Xuv6Ed-F_NHjCnvnIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__K-4X-v6Ed-F_NHjCnvnIQ" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="__K-4YOv6Ed-F_NHjCnvnIQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__K-4Yev6Ed-F_NHjCnvnIQ"/>
+    </children>
+    <element xmi:type="ResourceContainer" href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__K-4Xev6Ed-F_NHjCnvnIQ" x="620"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__K-4Yuv6Ed-F_NHjCnvnIQ" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="__LICQev6Ed-F_NHjCnvnIQ" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="__LICQuv6Ed-F_NHjCnvnIQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__LICQ-v6Ed-F_NHjCnvnIQ"/>
+    </children>
+    <element xmi:type="LinkingResource" href="default.resourceenvironment#_nTuUoK63Ed-35MKFzRJ9sw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__LICQOv6Ed-F_NHjCnvnIQ" x="310" y="410"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_A261sOv7Ed-F_NHjCnvnIQ" type="Note" fontName="Segoe UI" description="Note that the speed of servers is given in 0.5 GHz" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A261tOv7Ed-F_NHjCnvnIQ" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A261tev7Ed-F_NHjCnvnIQ" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_A261sev7Ed-F_NHjCnvnIQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_A261suv7Ed-F_NHjCnvnIQ"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A261s-v7Ed-F_NHjCnvnIQ" x="-5" y="410"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="__JMvoev6Ed-F_NHjCnvnIQ"/>
+  <element xmi:type="ResourceEnvironment" href="default.resourceenvironment#/"/>
+</notation:Diagram>

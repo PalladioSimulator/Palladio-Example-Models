@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ASCII"?>
+<quality:QualityRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:identifier="http://sdq.ipd.uka.de/Identifier/1.0" xmlns:quality="http://fzi.de/PalladioComponentModel/Quality/0.2" xmlns:qualityannotation="http://fzi.de/PalladioComponentModel/Quality/QualityAnnotation/0.2" xsi:schemaLocation="http://fzi.de/PalladioComponentModel/Quality/QualityAnnotation/0.2 http://fzi.de/PalladioComponentModel/Quality/0.2#//qualityannotation" identifier:id="_NFCMYHoZEeCcr9S57ccJVQ">
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFCzcHoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFT5MHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_twp4gCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFVuYHoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HguUI5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFW8gXoZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFW8gHoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFXjkHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HguUJ5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFXjknoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFXjkXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFXjk3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFXjlHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_ulQlQCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFXjlXoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_Hgu7NZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFXjl3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFXjlnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFXjmHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_Hgu7OZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFXjmnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFXjmXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFXjm3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFXjnHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_xSaIACZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFXjnXoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_Hgu7QJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFXjn3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFXjnnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKoHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_Hgu7RJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKonoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKoXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKo3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKpHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_x4QnECZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKpXoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgviQJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYKp3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKpnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKqHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgviRJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKqnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKqXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKq3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKrHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_1OY1YCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKrXoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgviS5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKr3oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKrnoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKsHoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKsXoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_1t1KcCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKsnoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgviUpIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKtHoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKs3oZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKtXoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKtnoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_ygMJwCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKt3oZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgviWZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKuXoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKuHoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKunoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKu3oZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_zloH0CZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKvHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwJUJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKvnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKvXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKv3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKwHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_2MFMsCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKwXoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgwJV5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYKw3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKwnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKxHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwJW5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKxnoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKxXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKx3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYKyHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_2wln8CZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKyXoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgwJYpIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYKy3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKynoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYKzHoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwJZpIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYKznoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYKzXoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYKz3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK0HoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_wCYqkCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK0XoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgwJbZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYK03oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK0noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK1HoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwwYZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK1noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK1XoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK13oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK2HoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_wuC2sCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK2XoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgwwaJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYK23oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK2noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK3HoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwwbJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK3noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK3XoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK33oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK4HoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_0IDfcCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK4XoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_Hgwwc5IVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK43oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK4noZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK5HoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK5XoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_0uyvUCZ4EdywZLVVlfU7gQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK5noZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgwwepIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK6HoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK53oZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK6XoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK6noZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_9f1bUGafEeCCuI19Qg4dIw"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK63oZEeCcr9S57ccJVQ" category="Infrastructure">
+      <precision identifier:id="_HgwwgZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK7XoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK7HoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK7noZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgxXcpIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYK8HoZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK73oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK8XoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgxXdpIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK83oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK8noZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK9HoZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYK9XoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_9f3QgGafEeCCuI19Qg4dIw"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK9noZEeCcr9S57ccJVQ" category="Infrastructure">
+      <precision identifier:id="_HgxXfZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK-HoZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK93oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK-XoZEeCcr9S57ccJVQ" category="Component">
+      <precision identifier:id="_HgxXgZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_NFYK-3oZEeCcr9S57ccJVQ"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK-noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYK_HoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_HgxXhZIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYK_noZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYK_XoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_NFYK_3oZEeCcr9S57ccJVQ" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_NFYLAHoZEeCcr9S57ccJVQ" checksumAlg="" resourceDemandingSEFF="mediastore.repository#_ooPE4GagEeCCuI19Qg4dIw"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_NFYLAXoZEeCcr9S57ccJVQ" category="ResourceDemand">
+      <precision identifier:id="_Hgx-gJIVEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_NFYLA3oZEeCcr9S57ccJVQ" absolute="1.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_NFYLAnoZEeCcr9S57ccJVQ"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+</quality:QualityRepository>

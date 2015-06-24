@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0"  xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:reliability="http://sdq.ipd.uka.de/PalladioComponentModel/Reliability/5.0" id="_qqVdMSifEeCxO_9MozM6LA" entityName="defaultRepository">
+  <components__Repository xsi:type="BasicComponent" id="_rjJ7kCifEeCxO_9MozM6LA" entityName="InternalComp">
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_xYORgCifEeCxO_9MozM6LA" entityName="Provided_Worker_InternalComp" providedInterface__OperationProvidedRole="_uuTB4CifEeCxO_9MozM6LA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" id="_xYRU0CifEeCxO_9MozM6LA" describedService__SEFF="_vgukYCifEeCxO_9MozM6LA">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_xYTKACifEeCxO_9MozM6LA" successor_AbstractAction="_UXNj8CigEeCxO_9MozM6LA"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_xYTxECifEeCxO_9MozM6LA" predecessor_AbstractAction="_UXNj8CigEeCxO_9MozM6LA"/>
+      <steps_Behaviour xsi:type="_1:InternalAction" id="_UXNj8CigEeCxO_9MozM6LA" predecessor_AbstractAction="_xYTKACifEeCxO_9MozM6LA" successor_AbstractAction="_xYTxECifEeCxO_9MozM6LA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="10"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="CompositeComponent" id="_x2uLYCifEeCxO_9MozM6LA" entityName="CompComp">
+    <assemblyContexts__ComposedStructure id="_4UrGQCifEeCxO_9MozM6LA" entityName="Assembly_InternalComp &lt;InternalComp>" encapsulatedComponent__AssemblyContext="_rjJ7kCifEeCxO_9MozM6LA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_DCnPoCigEeCxO_9MozM6LA" entityName="ProvDelegation Provided_Worker_CompComp -> Provided_Worker_InternalComp" innerProvidedRole_ProvidedDelegationConnector="_xYORgCifEeCxO_9MozM6LA" outerProvidedRole_ProvidedDelegationConnector="_z3NccCifEeCxO_9MozM6LA" assemblyContext_ProvidedDelegationConnector="_4UrGQCifEeCxO_9MozM6LA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_z3NccCifEeCxO_9MozM6LA" entityName="Provided_Worker_CompComp" providedInterface__OperationProvidedRole="_uuTB4CifEeCxO_9MozM6LA"/>
+  </components__Repository>
+  <components__Repository xsi:type="BasicComponent" id="_Fp_hkCigEeCxO_9MozM6LA" entityName="LoadBalancer_2">
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_HjARoCigEeCxO_9MozM6LA" entityName="Provided_Worker_LoadBalancer_2" providedInterface__OperationProvidedRole="_uuTB4CifEeCxO_9MozM6LA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="OperationRequiredRole" id="_MhchkCigEeCxO_9MozM6LA" entityName="Required_Worker_LoadBalancer_2_2" requiredInterface__OperationRequiredRole="_uuTB4CifEeCxO_9MozM6LA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="OperationRequiredRole" id="_NfA9ECigEeCxO_9MozM6LA" entityName="Required_Worker_LoadBalancer_2_1" requiredInterface__OperationRequiredRole="_uuTB4CifEeCxO_9MozM6LA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" id="_HjA4sCigEeCxO_9MozM6LA" describedService__SEFF="_vgukYCifEeCxO_9MozM6LA">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_HjA4sSigEeCxO_9MozM6LA" successor_AbstractAction="_aXBxUCigEeCxO_9MozM6LA"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_HjBfwCigEeCxO_9MozM6LA" predecessor_AbstractAction="_aXBxUCigEeCxO_9MozM6LA"/>
+      <steps_Behaviour xsi:type="_1:BranchAction" id="_aXBxUCigEeCxO_9MozM6LA" predecessor_AbstractAction="_HjA4sSigEeCxO_9MozM6LA" successor_AbstractAction="_HjBfwCigEeCxO_9MozM6LA">
+        <branches_Branch xsi:type="_1:ProbabilisticBranchTransition" id="_b3sS0CigEeCxO_9MozM6LA" branchProbability="0.5">
+          <branchBehaviour_BranchTransition>
+            <steps_Behaviour xsi:type="_1:StartAction" id="_b37jYCigEeCxO_9MozM6LA" successor_AbstractAction="_t22nECigEeCxO_9MozM6LA"/>
+            <steps_Behaviour xsi:type="_1:StopAction" id="_b37jYSigEeCxO_9MozM6LA" predecessor_AbstractAction="_t22nECigEeCxO_9MozM6LA"/>
+            <steps_Behaviour xsi:type="_1:ExternalCallAction" id="_t22nECigEeCxO_9MozM6LA" predecessor_AbstractAction="_b37jYCigEeCxO_9MozM6LA" successor_AbstractAction="_b37jYSigEeCxO_9MozM6LA" calledService_ExternalService="_vgukYCifEeCxO_9MozM6LA" role_ExternalService="_NfA9ECigEeCxO_9MozM6LA"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+        <branches_Branch xsi:type="_1:ProbabilisticBranchTransition" id="_db3bUCigEeCxO_9MozM6LA" branchProbability="0.5">
+          <branchBehaviour_BranchTransition>
+            <steps_Behaviour xsi:type="_1:StartAction" id="_db4CYCigEeCxO_9MozM6LA" successor_AbstractAction="_qideICigEeCxO_9MozM6LA"/>
+            <steps_Behaviour xsi:type="_1:StopAction" id="_db4CYSigEeCxO_9MozM6LA" predecessor_AbstractAction="_qideICigEeCxO_9MozM6LA"/>
+            <steps_Behaviour xsi:type="_1:ExternalCallAction" id="_qideICigEeCxO_9MozM6LA" predecessor_AbstractAction="_db4CYCigEeCxO_9MozM6LA" successor_AbstractAction="_db4CYSigEeCxO_9MozM6LA" calledService_ExternalService="_vgukYCifEeCxO_9MozM6LA" role_ExternalService="_MhchkCigEeCxO_9MozM6LA"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="OperationInterface" id="_uuTB4CifEeCxO_9MozM6LA" entityName="Worker">
+    <signatures__OperationInterface id="_vgukYCifEeCxO_9MozM6LA" entityName="work"/>
+  </interfaces__Repository>
+</Repository>

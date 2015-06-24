@@ -1,0 +1,15 @@
+#Mon Aug 13 11:52:18 CEST 2012
+eclipse.preferences.version=1
+encoding/NestedSubsystemDirectlyAllocated.allocation=UTF-8
+encoding/allocateSubSystemDirectly.allocation=UTF-8
+encoding/default-allocateSubsystemDirectly.allocation=UTF-8
+encoding/empty.allocation=UTF-8
+encoding/emptyForNested.allocation=UTF-8
+encoding/nestedSubSystem.usagemodel=UTF-8
+encoding/nestedSubSystemsInnerSubAllocated.allocation=UTF-8
+encoding/nestedSubsystems.allocation=UTF-8
+encoding/nestedSubsystems.system=UTF-8
+encoding/subsystemInstantiatedTwice.system=UTF-8
+encoding/subsystemInstantiatedTwice.usagemodel=UTF-8
+encoding/subsystemInstantiatedTwiceContentsAllocated.allocation=UTF-8
+encoding/subsystemInstantiatedTwiceDirectlyAllocated.allocation=UTF-8

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0">
+  <linkingResources__ResourceEnvironment id="_PmFPwCorEeCe5oaIS7BKWQ" entityName="link" connectedResourceContainers_LinkingResource="_WHmuESihEeCxO_9MozM6LA _qCu_wSihEeCxO_9MozM6LA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_RcD58CorEeCe5oaIS7BKWQ">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="0.001"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1000"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_WHmuESihEeCxO_9MozM6LA" entityName="Kiste1">
+    <activeResourceSpecifications_ResourceContainer > <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1000"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_qCu_wSihEeCxO_9MozM6LA" entityName="Kiste2">
+    <activeResourceSpecifications_ResourceContainer > <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1000"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+</ResourceEnvironment>

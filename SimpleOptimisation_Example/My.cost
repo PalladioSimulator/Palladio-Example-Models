@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cost:CostRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:cost="http://sdq.ipd.uka.de/CostModel/1.0">
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="5.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_6e51YJutEd6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="2.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_8RyvUJutEd6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="5.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_8xFTYJutEd6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="8.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_9mR2AJutEd6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="12.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_lSuOsJuxEd6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="4.0">
+    <repositoryComponent xsi:type="BasicComponent" href="default.repository#_UQf8cJu0Ed6drucJ1qoe4Q"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="1.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.0/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="1.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.1/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="1.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.2/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="2.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.3/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="2.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.6/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="2.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.9/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="3.5">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.4/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="3.5">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.7/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="3.5">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.10/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="5.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.5/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="5.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.8/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedInitialCost="5.0">
+    <processingresourcespecification href="My.resourceenvironment#//@resourceContainer_ResourceEnvironment.11/@activeResourceSpecifications_ResourceContainer.0"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="7.0">
+    <repositoryComponent xsi:type="CompositeComponent" href="default.repository#_GrfvMJyMEd6Gn-xRPLZ8iw"/>
+  </cost>
+  <cost xsi:type="cost:ComponentCost" componentInitialCost="17.0">
+    <repositoryComponent xsi:type="CompositeComponent" href="default.repository#_ICXbgJyMEd6Gn-xRPLZ8iw"/>
+  </cost>
+</cost:CostRepository>

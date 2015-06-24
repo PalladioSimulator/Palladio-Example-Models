@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:reliability="http://sdq.ipd.uka.de/PalladioComponentModel/Reliability/5.0"  xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:pcm.subsystem="http://sdq.ipd.uka.de/PalladioComponentModel/SubSystem/5.0" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="BasicComponent" id="_os1t4CHbEd62GabW1zGSBw" entityName="AComponent">
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_qZKs0CHbEd62GabW1zGSBw" entityName="Provided_AnInterface_AComponent" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" id="12345" describedService__SEFF="_YyD8kgwuEeCAhIZrAutpSA">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_tfAiwCHjEd6ZSMvOJK-6LQ"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_qZUd0SHbEd62GabW1zGSBw" predecessor_AbstractAction="_tfAiwCHjEd6ZSMvOJK-6LQ"/>
+      <steps_Behaviour xsi:type="_1:BranchAction" id="_tfAiwCHjEd6ZSMvOJK-6LQ" entityName="branch" predecessor_AbstractAction="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_qZUd0SHbEd62GabW1zGSBw">
+        <branches_Branch xsi:type="_1:ProbabilisticBranchTransition" id="_Yx3IQQwuEeCAhIZrAutpSA" branchProbability="0.3">
+          <branchBehaviour_BranchTransition>
+            <steps_Behaviour xsi:type="_1:StartAction" id="_4bIu0M6aEd6-4s7bDNaOhA" successor_AbstractAction="_8VUscM6aEd6-4s7bDNaOhA"/>
+            <steps_Behaviour xsi:type="_1:StopAction" id="_4bIu0c6aEd6-4s7bDNaOhA" predecessor_AbstractAction="_8VUscM6aEd6-4s7bDNaOhA"/>
+            <steps_Behaviour xsi:type="_1:InternalAction" id="_8VUscM6aEd6-4s7bDNaOhA" predecessor_AbstractAction="_4bIu0M6aEd6-4s7bDNaOhA" successor_AbstractAction="_4bIu0c6aEd6-4s7bDNaOhA">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="0.1&#xD;&#xA;"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+              </resourceDemand_Action>
+            </steps_Behaviour>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+        <branches_Branch xsi:type="_1:ProbabilisticBranchTransition" id="_Yx49cQwuEeCAhIZrAutpSA" branchProbability="0.7">
+          <branchBehaviour_BranchTransition>
+            <steps_Behaviour xsi:type="_1:StartAction" id="_59ocUM6aEd6-4s7bDNaOhA" successor_AbstractAction="_-xfz8M6aEd6-4s7bDNaOhA"/>
+            <steps_Behaviour xsi:type="_1:StopAction" id="_59ocUc6aEd6-4s7bDNaOhA" predecessor_AbstractAction="_-xfz8M6aEd6-4s7bDNaOhA"/>
+            <steps_Behaviour xsi:type="_1:InternalAction" id="_-xfz8M6aEd6-4s7bDNaOhA" predecessor_AbstractAction="_59ocUM6aEd6-4s7bDNaOhA" successor_AbstractAction="_59ocUc6aEd6-4s7bDNaOhA">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="0.2"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+              </resourceDemand_Action>
+            </steps_Behaviour>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="pcm.subsystem:SubSystem" id="_kKuccHgxEd6MsN0sq6tbVQ" entityName="ASubsystem">
+    <assemblyContexts__ComposedStructure id="_rukBUHgxEd6MsN0sq6tbVQ" entityName="Assembly_AComponent &lt;AComponent>" encapsulatedComponent__AssemblyContext="_os1t4CHbEd62GabW1zGSBw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sa0qYHgxEd6MsN0sq6tbVQ" entityName="ProvDelegation Provided_AnInterface_ASubsystem -> Provided_AnInterface_AComponent" innerProvidedRole_ProvidedDelegationConnector="_qZKs0CHbEd62GabW1zGSBw" outerProvidedRole_ProvidedDelegationConnector="_lthE4HgxEd6MsN0sq6tbVQ" assemblyContext_ProvidedDelegationConnector="_rukBUHgxEd6MsN0sq6tbVQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_lthE4HgxEd6MsN0sq6tbVQ" entityName="Provided_AnInterface_ASubsystem" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+  </components__Repository>
+  <components__Repository xsi:type="pcm.subsystem:SubSystem" id="_AMeNgH2kEd6u9Md61yj-5Q" entityName="AnotherSubsystem">
+    <assemblyContexts__ComposedStructure id="_JqOhYH2kEd6u9Md61yj-5Q" entityName="Assembly_AnotherComponent &lt;AnotherComponent>" encapsulatedComponent__AssemblyContext="_Eoa0YH2kEd6u9Md61yj-5Q"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KstSEH2kEd6u9Md61yj-5Q" entityName="ProvDelegation Provided_AnInterface_AnotherSubsystem -> Provided_AnInterface_AnotherComponent" innerProvidedRole_ProvidedDelegationConnector="_GFIqAH2kEd6u9Md61yj-5Q" outerProvidedRole_ProvidedDelegationConnector="_BQl88H2kEd6u9Md61yj-5Q" assemblyContext_ProvidedDelegationConnector="_JqOhYH2kEd6u9Md61yj-5Q"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_BQl88H2kEd6u9Md61yj-5Q" entityName="Provided_AnInterface_AnotherSubsystem" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+  </components__Repository>
+  <components__Repository xsi:type="BasicComponent" id="_Eoa0YH2kEd6u9Md61yj-5Q" entityName="AnotherComponent">
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_GFIqAH2kEd6u9Md61yj-5Q" entityName="Provided_AnInterface_AnotherComponent" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="_1:ResourceDemandingSEFF" id="_GFIqAX2kEd6u9Md61yj-5Q" describedService__SEFF="_YyD8kgwuEeCAhIZrAutpSA">
+      <steps_Behaviour xsi:type="_1:StartAction" id="_GFIqAn2kEd6u9Md61yj-5Q" successor_AbstractAction="_GFIqA32kEd6u9Md61yj-5Q"/>
+      <steps_Behaviour xsi:type="_1:StopAction" id="_GFIqA32kEd6u9Md61yj-5Q" predecessor_AbstractAction="_GFIqAn2kEd6u9Md61yj-5Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="pcm.subsystem:SubSystem" id="_uJ2_0H2nEd6u9Md61yj-5Q" entityName="ANestedSubsystem">
+    <assemblyContexts__ComposedStructure id="_zswnsH2nEd6u9Md61yj-5Q" entityName="Assembly_ASubsystem &lt;ASubsystem>" encapsulatedComponent__AssemblyContext="_kKuccHgxEd6MsN0sq6tbVQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_1A368H2nEd6u9Md61yj-5Q" entityName="ProvDelegation Provided_AnInterface_ANestedSubsystem -> Provided_AnInterface_ASubsystem" innerProvidedRole_ProvidedDelegationConnector="_lthE4HgxEd6MsN0sq6tbVQ" outerProvidedRole_ProvidedDelegationConnector="_wFp-IH2nEd6u9Md61yj-5Q" assemblyContext_ProvidedDelegationConnector="_zswnsH2nEd6u9Md61yj-5Q"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_wFp-IH2nEd6u9Md61yj-5Q" entityName="Provided_AnInterface_ANestedSubsystem" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+  </components__Repository>
+  <components__Repository xsi:type="CompositeComponent" id="_AI4mYM7XEd6iUd5rK-zvKg" entityName="TestCC">
+    <assemblyContexts__ComposedStructure id="_gxmLsM7cEd6226cA91lvow" entityName="Assembly_AComponent &lt;AComponent>" encapsulatedComponent__AssemblyContext="_os1t4CHbEd62GabW1zGSBw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_iIlMwM7cEd6226cA91lvow" entityName="ProvDelegation Provided_AnInterface_TestCC -> Provided_AnInterface_AComponent" innerProvidedRole_ProvidedDelegationConnector="_qZKs0CHbEd62GabW1zGSBw" outerProvidedRole_ProvidedDelegationConnector="_BKhCgM7XEd6iUd5rK-zvKg" assemblyContext_ProvidedDelegationConnector="_gxmLsM7cEd6226cA91lvow"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_BKhCgM7XEd6iUd5rK-zvKg" entityName="Provided_AnInterface_TestCC" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="OperationInterface" id="_n7g-oCHbEd62GabW1zGSBw" entityName="AnInterface">
+    <signatures__OperationInterface id="_YyD8kgwuEeCAhIZrAutpSA" entityName="do"/>
+  </interfaces__Repository>
+</Repository>

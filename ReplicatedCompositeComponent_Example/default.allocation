@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_l0D_4CihEeCxO_9MozM6LA" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_6RVx0CigEeCxO_9MozM6LA"/>
+  <allocationContexts_Allocation id="_248dMCihEeCxO_9MozM6LA" entityName="Allocation_Assembly_LoadBalancer_2 &lt;LoadBalancer_2> &lt;LoadBalancer_2>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_WHmuESihEeCxO_9MozM6LA"/>
+    <assemblyContext_AllocationContext href="default.system#_9wR94CigEeCxO_9MozM6LA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_4ooSICihEeCxO_9MozM6LA" entityName="Allocation_Assembly_CompComp &lt;CompComp> &lt;CompComp>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_WHmuESihEeCxO_9MozM6LA"/>
+    <assemblyContext_AllocationContext href="default.system#__l7Q4CigEeCxO_9MozM6LA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_6vl-oCihEeCxO_9MozM6LA" entityName="Allocation_Assembly_CompComp &lt;CompComp> &lt;CompComp>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_qCu_wSihEeCxO_9MozM6LA"/>
+    <assemblyContext_AllocationContext href="default.system#_Af_FYCihEeCxO_9MozM6LA"/>
+  </allocationContexts_Allocation>
+</Allocation>

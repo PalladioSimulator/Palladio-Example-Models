@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pcm.usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pcm.usagemodel="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0">
+  <usageScenario_UsageModel id="_DGz3IAAAEdy5_5tCZjPAAA" entityName="SetVaribleUsage">
+    <workload_UsageScenario xsi:type="pcm.usagemodel:ClosedWorkload" population="1">
+      <thinkTime_ClosedWorkload specification="0"/>
+    </workload_UsageScenario>
+    <scenarioBehaviour_UsageScenario id="_Ij-DYAAAEdy5_5tCZjPAAA">
+      <actions_ScenarioBehaviour xsi:type="pcm.usagemodel:Start" successor="//@usageScenario_UsageModel.0/@scenarioBehaviour_UsageScenario/@actions_ScenarioBehaviour.2"/>
+      <actions_ScenarioBehaviour xsi:type="pcm.usagemodel:Stop" predecessor="//@usageScenario_UsageModel.0/@scenarioBehaviour_UsageScenario/@actions_ScenarioBehaviour.2"/>
+      <actions_ScenarioBehaviour xsi:type="pcm.usagemodel:EntryLevelSystemCall" successor="//@usageScenario_UsageModel.0/@scenarioBehaviour_UsageScenario/@actions_ScenarioBehaviour.1" predecessor="//@usageScenario_UsageModel.0/@scenarioBehaviour_UsageScenario/@actions_ScenarioBehaviour.0">
+        <providedRole_EntryLevelSystemCall href="setvariable.system#_fW7TQP__Edu5_5tCZjPAAA"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#//@interfaces__Repository.0/@signatures__OperationInterface.0"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
+</pcm.usagemodel:UsageModel>

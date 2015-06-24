@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.uka.ipd.sdq.dsolver_plugin.PCMSolverLaunchConfigurationType">
+<booleanAttribute key="LQNS Stop On Message Loss" value="true"/>
+<booleanAttribute key="LQSIM Stop On Message Loss" value="true"/>
+<stringAttribute key="SREOutputDir" value="D:\Programme\eclipse\eclipse-dsl-luna-RC3-win32"/>
+<booleanAttribute key="SREUseInputModel" value="false"/>
+<stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+<stringAttribute key="allocationFile" value="platform:/resource/Simple Tactics Example/default.allocation"/>
+<stringAttribute key="blocks" value=""/>
+<booleanAttribute key="clear" value="true"/>
+<stringAttribute key="convValue" value="0.001"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<stringAttribute key="eventMiddlewareRepositoryFile" value="pathmap://PCM_MODELS/default_event_middleware.repository"/>
+<booleanAttribute key="infiniteTaskMultiplicity" value="true"/>
+<stringAttribute key="itLimit" value="50"/>
+<stringAttribute key="lqnPragmas" value=""/>
+<stringAttribute key="lqnsOutputDir" value="C:\lqn\SimpleHeuristicsExample_Example"/>
+<stringAttribute key="lqsimOutputDir" value="D:\Programme\eclipse\eclipse-dsl-luna-RC3-win32"/>
+<stringAttribute key="lqsimoutput" value="Human Readable Output"/>
+<intAttribute key="maxDomain" value="256"/>
+<stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
+<stringAttribute key="outpath" value="de.uka.ipd.sdq.temporary"/>
+<stringAttribute key="output" value="Human Readable Output"/>
+<stringAttribute key="printInt" value="10"/>
+<stringAttribute key="psQuantum" value="0.001"/>
+<stringAttribute key="runTime" value=""/>
+<stringAttribute key="samplingDist" value="1.0"/>
+<booleanAttribute key="simulateAccuracy" value="false"/>
+<stringAttribute key="solver" value="LQNS (Layered Queueing Network Solver)"/>
+<stringAttribute key="underCoeff" value="0.5"/>
+<stringAttribute key="usageFile" value="platform:/resource/Simple Tactics Example/default.usagemodel"/>
+</launchConfiguration>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_jkVXAP1nEdyHRtyNpj5nfQ" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_k8LTsP1nEdyHRtyNpj5nfQ" entityName="LockingComponent">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_u33gwP1nEdyHRtyNpj5nfQ" entityName="Provided_ILock_Impl" providedInterface__OperationProvidedRole="_nFHWIP1nEdyHRtyNpj5nfQ"/>
+    <componentParameterUsage_ImplementationComponentType>
+      <variableCharacterisation_VariableUsage type="VALUE">
+        <specification_VariableCharacterisation specification="1"/>
+      </variableCharacterisation_VariableUsage>
+      <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="lockCount"/>
+    </componentParameterUsage_ImplementationComponentType>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_u35V8P1nEdyHRtyNpj5nfQ" describedService__SEFF="_nrg55RexEeKPEYCkJN99mA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_u39nYP1nEdyHRtyNpj5nfQ" successor_AbstractAction="_zb5asP1pEdyHRtyNpj5nfQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_u3_ckP1nEdyHRtyNpj5nfQ" predecessor_AbstractAction="_svKc8P1pEdyHRtyNpj5nfQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_svKc8P1pEdyHRtyNpj5nfQ" entityName="calculate" predecessor_AbstractAction="_zb5asP1pEdyHRtyNpj5nfQ" successor_AbstractAction="_u3_ckP1nEdyHRtyNpj5nfQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="10"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:AcquireAction" id="_zb5asP1pEdyHRtyNpj5nfQ" entityName="acquire" predecessor_AbstractAction="_u39nYP1nEdyHRtyNpj5nfQ" successor_AbstractAction="_svKc8P1pEdyHRtyNpj5nfQ" passiveresource_AcquireAction="_wS-M0P1nEdyHRtyNpj5nfQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_u4ADoP1nEdyHRtyNpj5nfQ" describedService__SEFF="_nrg55hexEeKPEYCkJN99mA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_u4AqsP1nEdyHRtyNpj5nfQ" successor_AbstractAction="_3Xsh4P1pEdyHRtyNpj5nfQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_u4Aqsf1nEdyHRtyNpj5nfQ" predecessor_AbstractAction="_3Xsh4P1pEdyHRtyNpj5nfQ"/>
+      <steps_Behaviour xsi:type="seff:ReleaseAction" id="_3Xsh4P1pEdyHRtyNpj5nfQ" predecessor_AbstractAction="_u4AqsP1nEdyHRtyNpj5nfQ" successor_AbstractAction="_u4Aqsf1nEdyHRtyNpj5nfQ" passiveResource_ReleaseAction="_wS-M0P1nEdyHRtyNpj5nfQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <passiveResource_BasicComponent id="_wS-M0P1nEdyHRtyNpj5nfQ" entityName="lock">
+      <capacity_PassiveResource specification="lockCount.VALUE"/>
+    </passiveResource_BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_nFHWIP1nEdyHRtyNpj5nfQ" entityName="ILock">
+    <signatures__OperationInterface id="_nrg55RexEeKPEYCkJN99mA" entityName="acquire"/>
+    <signatures__OperationInterface id="_nrg55hexEeKPEYCkJN99mA" entityName="release"/>
+  </interfaces__Repository>
+</repository:Repository>

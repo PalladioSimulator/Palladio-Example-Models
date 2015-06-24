@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0">
+  <resourceContainer_ResourceEnvironment id="_mQlaUXJ1Ed2efr_U4e1c6Q" entityName="machine">
+    <activeResourceSpecifications_ResourceContainer > <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#FCFS"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+</ResourceEnvironment>

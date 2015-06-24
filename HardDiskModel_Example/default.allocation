@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_lP6ngHJ1Ed2efr_U4e1c6Q" entityName="defaultAllocation">
+  <allocationContexts_Allocation id="_x-2_UHJ1Ed2efr_U4e1c6Q" entityName="Allocation_Assembly_HardDiskModel &lt;HardDiskModel> &lt;HardDiskModel>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_mQlaUXJ1Ed2efr_U4e1c6Q"/>
+    <assemblyContext_AllocationContext href="default.system#_bNOakHJ1Ed2efr_U4e1c6Q"/>
+  </allocationContexts_Allocation>
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_aGSnsHJ1Ed2efr_U4e1c6Q"/>
+</Allocation>

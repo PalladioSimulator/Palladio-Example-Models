@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:system="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" id="_VreA0C6MEd-Jla2o7wkBzQ" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_X594sC6MEd-Jla2o7wkBzQ" entityName="Assembly_BusinessTripMgmt">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_YyVn8C6IEd-Jla2o7wkBzQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_YXdtAC6MEd-Jla2o7wkBzQ" entityName="Assembly_BookingSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_ZZH7IC6IEd-Jla2o7wkBzQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Y4vOEC6MEd-Jla2o7wkBzQ" entityName="Assembly_PaymentSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_Z2udIC6IEd-Jla2o7wkBzQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_cIRFIC6MEd-Jla2o7wkBzQ" entityName="Connector Assembly_C1 &lt;C1> -> Assembly_C2 &lt;C2>" requiringAssemblyContext_AssemblyConnector="_X594sC6MEd-Jla2o7wkBzQ" providingAssemblyContext_AssemblyConnector="_YXdtAC6MEd-Jla2o7wkBzQ">
+    <providedRole_AssemblyConnector href="default.repository#_gCeNsC6IEd-Jla2o7wkBzQ"/>
+    <requiredRole_AssemblyConnector href="default.repository#_frf4IC6IEd-Jla2o7wkBzQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_cu8DkC6MEd-Jla2o7wkBzQ" entityName="Connector Assembly_C1 &lt;C1> -> Assembly_C3 &lt;C3>" requiringAssemblyContext_AssemblyConnector="_X594sC6MEd-Jla2o7wkBzQ" providingAssemblyContext_AssemblyConnector="_Y4vOEC6MEd-Jla2o7wkBzQ">
+    <providedRole_AssemblyConnector href="default.repository#_rGi_IC6IEd-Jla2o7wkBzQ"/>
+    <requiredRole_AssemblyConnector href="default.repository#_rng-MC6IEd-Jla2o7wkBzQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NW8S4OtaEd-m3_hR0FtH3Q" entityName="Connector Assembly_BookingSystem -> Assembly_PaymentSystem" requiringAssemblyContext_AssemblyConnector="_YXdtAC6MEd-Jla2o7wkBzQ" providingAssemblyContext_AssemblyConnector="_Y4vOEC6MEd-Jla2o7wkBzQ">
+    <providedRole_AssemblyConnector href="default.repository#_34DaIOsyEd-swe4bkXmV_Q"/>
+    <requiredRole_AssemblyConnector href="default.repository#_6D7mkOtYEd-m3_hR0FtH3Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_bwKHIC6MEd-Jla2o7wkBzQ" entityName="ProvDelegation Provided_I1 -> Provided_I1_C1" outerProvidedRole_ProvidedDelegationConnector="_WazzEC6MEd-Jla2o7wkBzQ" assemblyContext_ProvidedDelegationConnector="_X594sC6MEd-Jla2o7wkBzQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_fYvUMC6IEd-Jla2o7wkBzQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WazzEC6MEd-Jla2o7wkBzQ" entityName="Provided_I1">
+    <providedInterface__OperationProvidedRole href="default.repository#_bh5lgC6IEd-Jla2o7wkBzQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

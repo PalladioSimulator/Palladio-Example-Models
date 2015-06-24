@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" xmlns:usagemodel="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0">
+  <usageScenario_UsageModel id="_TyV-MFBwEd6ActLj8Gdl_A" entityName="defaultUsageScenario">
+    <scenarioBehaviour_UsageScenario id="_TyV-MVBwEd6ActLj8Gdl_A" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_TyV-MlBwEd6ActLj8Gdl_A" successor="_cwT-wFBwEd6ActLj8Gdl_A"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_TyV-M1BwEd6ActLj8Gdl_A" predecessor="_cwT-wFBwEd6ActLj8Gdl_A"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Branch" id="_cwT-wFBwEd6ActLj8Gdl_A" successor="_TyV-M1BwEd6ActLj8Gdl_A" predecessor="_TyV-MlBwEd6ActLj8Gdl_A">
+        <branchTransitions_Branch branchProbability="0.2">
+          <branchedBehaviour_BranchTransition id="_deR4AFBwEd6ActLj8Gdl_A">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_deR4AVBwEd6ActLj8Gdl_A" successor="_sZ-RsGF7Ed60Nobv0oIepQ"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_deR4AlBwEd6ActLj8Gdl_A" predecessor="_sZ-RsGF7Ed60Nobv0oIepQ"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_sZ-RsGF7Ed60Nobv0oIepQ" entityName="UploadSCA" successor="_deR4AlBwEd6ActLj8Gdl_A" predecessor="_deR4AVBwEd6ActLj8Gdl_A">
+              <providedRole_EntryLevelSystemCall href="default.system#_TSt4YFBvEd6ActLj8Gdl_A"/>
+              <operationSignature__EntryLevelSystemCall href="mediastore.repository#_B8SE7XebEd-AVaTk8ZPCHQ"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="BYTESIZE">
+                  <specification_VariableCharacterisation specification="IntPMF[ (500000;0.0) (1000000;0.051) (2000000;0.134) (3000000;0.193) (4000000;0.212) (5000000;0.224) (6000000;0.186) ]"/>
+                </variableCharacterisation_VariableUsage>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="IntPMF[ (64;0.1) (128;0.5) (192;0.2) (320;0.2) ]"/>
+                </variableCharacterisation_VariableUsage>
+                <variableCharacterisation_VariableUsage type="TYPE">
+                  <specification_VariableCharacterisation specification="EnumPMF[ (&quot;constant&quot;;0.3) (&quot;variable&quot;;0.7) ]"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="file"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+        <branchTransitions_Branch branchProbability="0.8">
+          <branchedBehaviour_BranchTransition id="_fK4jwFBwEd6ActLj8Gdl_A">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_fK4jwVBwEd6ActLj8Gdl_A" successor="_vMVroGF7Ed60Nobv0oIepQ"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_fK4jwlBwEd6ActLj8Gdl_A" predecessor="_vMVroGF7Ed60Nobv0oIepQ"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_vMVroGF7Ed60Nobv0oIepQ" entityName="DownloadSCA" successor="_fK4jwlBwEd6ActLj8Gdl_A" predecessor="_fK4jwVBwEd6ActLj8Gdl_A">
+              <providedRole_EntryLevelSystemCall href="default.system#_TSt4YFBvEd6ActLj8Gdl_A"/>
+              <operationSignature__EntryLevelSystemCall href="mediastore.repository#_B8SE7HebEd-AVaTk8ZPCHQ"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
+                  <specification_VariableCharacterisation specification="IntPMF[ (2;0.2) (5;0.2) (8;0.3) (11;0.3) ]"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="request">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="requestedFiles"/>
+                </namedReference__VariableUsage>
+              </inputParameterUsages_EntryLevelSystemCall>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;NONE&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="request">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="customerType"/>
+                </namedReference__VariableUsage>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1">
+      <thinkTime_ClosedWorkload specification="0.0"/>
+    </workload_UsageScenario>
+  </usageScenario_UsageModel>
+</usagemodel:UsageModel>

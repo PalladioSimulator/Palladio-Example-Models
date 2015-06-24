@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_nWy_oAnYEd-sJ-cVQCq7bg" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_j_LuwAv1Ed-gn68C3sIQfQ" entityName="C1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_6T0pUB_cEd-CePn_osfrtQ" entityName="Provided_Ieins_aName" providedInterface__OperationProvidedRole="_js2ooAv1Ed-gn68C3sIQfQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_BcGTkB_dEd-CePn_osfrtQ" entityName="Required_Izwei_aName" requiredInterface__OperationRequiredRole="_6kNOsB_cEd-CePn_osfrtQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_CoPWkB_dEd-CePn_osfrtQ" describedService__SEFF="_tgOHUQm1EeCni99i-bbseA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_DGMd4B_dEd-CePn_osfrtQ" successor_AbstractAction="_a8rK0B_dEd-CePn_osfrtQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_DGMd4R_dEd-CePn_osfrtQ" predecessor_AbstractAction="_4GOpAB_fEd-CePn_osfrtQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_a8rK0B_dEd-CePn_osfrtQ" predecessor_AbstractAction="_DGMd4B_dEd-CePn_osfrtQ" successor_AbstractAction="_4GOpAB_fEd-CePn_osfrtQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1000"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_4GOpAB_fEd-CePn_osfrtQ" predecessor_AbstractAction="_a8rK0B_dEd-CePn_osfrtQ" successor_AbstractAction="_DGMd4R_dEd-CePn_osfrtQ" calledService_ExternalService="_tgOHUwm1EeCni99i-bbseA" role_ExternalService="_BcGTkB_dEd-CePn_osfrtQ">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="1000"/>
+          </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
+            <specification_VariableCharacterisation specification="10"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="param"/>
+        </inputVariableUsages__CallAction>
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="333"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="aString"/>
+        </inputVariableUsages__CallAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__-EPUB_cEd-CePn_osfrtQ" entityName="C2">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_AupXsB_dEd-CePn_osfrtQ" entityName="Provided_Izwei_C2" providedInterface__OperationProvidedRole="_6kNOsB_cEd-CePn_osfrtQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_CELnQB_dEd-CePn_osfrtQ" describedService__SEFF="_tgOHUwm1EeCni99i-bbseA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_CXGjQB_dEd-CePn_osfrtQ" successor_AbstractAction="_WRdY4B_dEd-CePn_osfrtQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_CXGjQR_dEd-CePn_osfrtQ" predecessor_AbstractAction="_dEYnMAnaEeCem4OuLpgypA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_WRdY4B_dEd-CePn_osfrtQ" predecessor_AbstractAction="_CXGjQB_dEd-CePn_osfrtQ" successor_AbstractAction="_dEYnMAnaEeCem4OuLpgypA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="500"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_dEYnMAnaEeCem4OuLpgypA" entityName="returnSize" predecessor_AbstractAction="_WRdY4B_dEd-CePn_osfrtQ" successor_AbstractAction="_CXGjQR_dEd-CePn_osfrtQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="500"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_js2ooAv1Ed-gn68C3sIQfQ" entityName="Ieins">
+    <signatures__OperationInterface id="_tgOHUQm1EeCni99i-bbseA" entityName="machwas"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_6kNOsB_cEd-CePn_osfrtQ" entityName="Izwei">
+    <signatures__OperationInterface id="_tgOHUwm1EeCni99i-bbseA" entityName="machMehr">
+      <parameters__OperationSignature dataType__Parameter="_HxFWFiCVEd-TxbS_P_gqEw" parameterName="param"/>
+      <parameters__OperationSignature parameterName="aString">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_HxFWFiCVEd-TxbS_P_gqEw" entityName="event">
+    <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_mz18JyCYEd-TxbS_P_gqEw" entityName="myType">
+    <innerDeclaration_CompositeDataType>
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="c">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+</repository:Repository>

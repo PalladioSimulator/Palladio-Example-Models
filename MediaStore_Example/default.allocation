@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_BuYpgFBwEd6ActLj8Gdl_A" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="mediastore.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_MafcUFBvEd6ActLj8Gdl_A"/>
+  <allocationContexts_Allocation id="_Cdi1kFBwEd6ActLj8Gdl_A" entityName="Allocation_Assembly_WebGUI &lt;WebGUI> &lt;WebGUI>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="default.system#_Yp70sFBvEd6ActLj8Gdl_A"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_DzYnIFBwEd6ActLj8Gdl_A" entityName="Allocation_Assembly_MediaStore &lt;MediaStore> &lt;MediaStore>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="default.system#_a3kJ4FBvEd6ActLj8Gdl_A"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Eh89UFBwEd6ActLj8Gdl_A" entityName="Allocation_Assembly_DigitalWatermarking &lt;DigitalWatermarking> &lt;DigitalWatermarking>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="default.system#_dbNyYFBvEd6ActLj8Gdl_A"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FPL2wFBwEd6ActLj8Gdl_A" entityName="Allocation_Assembly_AudioDB &lt;AudioDB> &lt;AudioDB>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_tVi40Dq_EeCCbpF63PfiyA"/>
+    <assemblyContext_AllocationContext href="default.system#_jeBpYFBvEd6ActLj8Gdl_A"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

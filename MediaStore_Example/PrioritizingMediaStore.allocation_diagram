@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//allocation http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//resourceenvironment" xmi:id="_KuISMJI_EeKq4oi8Ure_zg" type="allocation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_LGUIsJI_EeKq4oi8Ure_zg" type="2003" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGUIspI_EeKq4oi8Ure_zg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGUIs5I_EeKq4oi8Ure_zg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_LGVW0JI_EeKq4oi8Ure_zg" type="3002" fontName="Lucida Grande">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV94JI_EeKq4oi8Ure_zg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV94ZI_EeKq4oi8Ure_zg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="PrioritizingMediaStore.allocation#_nZn1UGajEeCCuI19Qg4dIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGVW0ZI_EeKq4oi8Ure_zg" x="31" y="29"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LGV94pI_EeKq4oi8Ure_zg" type="3002" fontName="Lucida Grande">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV95JI_EeKq4oi8Ure_zg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV95ZI_EeKq4oi8Ure_zg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="PrioritizingMediaStore.allocation#_oT6TUGajEeCCuI19Qg4dIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGV945I_EeKq4oi8Ure_zg" x="339" y="29"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LGV95pI_EeKq4oi8Ure_zg" type="3002" fontName="Lucida Grande">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV96JI_EeKq4oi8Ure_zg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGV96ZI_EeKq4oi8Ure_zg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="PrioritizingMediaStore.allocation#_sL4DYGajEeCCuI19Qg4dIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGV955I_EeKq4oi8Ure_zg" x="831" y="29"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LGWk8JI_EeKq4oi8Ure_zg" type="3002" fontName="Lucida Grande">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGWk8pI_EeKq4oi8Ure_zg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGWk85I_EeKq4oi8Ure_zg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="PrioritizingMediaStore.allocation#__WxTkKL_EeCc0ZtqSku26A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGWk8ZI_EeKq4oi8Ure_zg" x="1171" y="29"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGUIsZI_EeKq4oi8Ure_zg" x="32" y="32"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_LGUItJI_EeKq4oi8Ure_zg" type="2003" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGUItpI_EeKq4oi8Ure_zg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGUIt5I_EeKq4oi8Ure_zg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_LGa2YJI_EeKq4oi8Ure_zg" type="3002" fontName="Lucida Grande">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGa2YpI_EeKq4oi8Ure_zg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LGbdcJI_EeKq4oi8Ure_zg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="PrioritizingMediaStore.allocation#_pGME0GajEeCCuI19Qg4dIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGa2YZI_EeKq4oi8Ure_zg" x="31" y="29"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="mediastore.resourceenvironment#_tVi40Dq_EeCCbpF63PfiyA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGUItZI_EeKq4oi8Ure_zg" x="1688" y="32"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KuISMZI_EeKq4oi8Ure_zg"/>
+  <element xmi:type="allocation:Allocation" href="PrioritizingMediaStore.allocation#_lq630GajEeCCuI19Qg4dIw"/>
+</notation:Diagram>

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding/DBCache.queryDB.seff_diagram=UTF-8
+encoding/DigitalWatermarking.watermark.seff_diagram=UTF-8
+encoding/MediaStore.download.seff_diagram=UTF-8
+encoding/PrioritizingMediaStore.allocation=UTF-8
+encoding/PrioritizingMediaStore.allocation_diagram=UTF-8
+encoding/PrioritizingMediaStore.system=UTF-8
+encoding/PrioritizingMediaStore.system_diagram=UTF-8
+encoding/WebGUI.HTTPDownload.seff_diagram=UTF-8
+encoding/WithCache.allocation=UTF-8
+encoding/WithCache.allocation_diagram=UTF-8
+encoding/WithCache.system=UTF-8
+encoding/WithCache.system_diagram=UTF-8
+encoding/default.allocation_diagram=UTF-8
+encoding/default.usagemodel_diagram=UTF-8
+encoding/mediastore.repository_diagram=UTF-8
+encoding/mediastore.resourceenvironment_diagram=UTF-8

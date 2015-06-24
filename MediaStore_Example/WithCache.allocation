@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_xccnUDrAEeCCbpF63PfiyA" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="mediastore.resourceenvironment#/"/>
+  <system_Allocation href="WithCache.system#_QPFqkDrAEeCCbpF63PfiyA"/>
+  <allocationContexts_Allocation id="_ysJUoDrAEeCCbpF63PfiyA" entityName="Allocation_Assembly_WebGUI &lt;WebGUI> &lt;WebGUI>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="WithCache.system#_Wxhc0DrAEeCCbpF63PfiyA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_0B0uIDrAEeCCbpF63PfiyA" entityName="Allocation_Assembly_MediaStore &lt;MediaStore> &lt;MediaStore>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="WithCache.system#_YV2WUDrAEeCCbpF63PfiyA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_1DrMsDrAEeCCbpF63PfiyA" entityName="Allocation_Assembly_DigitalWatermarking &lt;DigitalWatermarking> &lt;DigitalWatermarking>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="WithCache.system#_ecouYDrAEeCCbpF63PfiyA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_4KHZMDrAEeCCbpF63PfiyA" entityName="Allocation_Assembly_DBCache &lt;DBCache> &lt;DBCache>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="WithCache.system#_hAEUcDrAEeCCbpF63PfiyA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_AECi0DrBEeCCbpF63PfiyA" entityName="Allocation_Assembly_AudioDB &lt;AudioDB> &lt;AudioDB>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_tVi40Dq_EeCCbpF63PfiyA"/>
+    <assemblyContext_AllocationContext href="WithCache.system#_h08G8DrAEeCCbpF63PfiyA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
