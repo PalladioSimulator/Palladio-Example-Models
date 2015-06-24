@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quality:QualityRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:identifier="http://sdq.ipd.uka.de/Identifier/1.0" xmlns:pcmparameters="http://fzi.de/PalladioComponentModel/Quality/Parameters/PCM/0.2" xmlns:quality="http://fzi.de/PalladioComponentModel/Quality/0.2" xmlns:qualityannotation="http://fzi.de/PalladioComponentModel/Quality/QualityAnnotation/0.2" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xsi:schemaLocation="http://fzi.de/PalladioComponentModel/Quality/Parameters/PCM/0.2 http://fzi.de/PalladioComponentModel/Quality/0.2#//parameters/pcm http://fzi.de/PalladioComponentModel/Quality/QualityAnnotation/0.2 http://fzi.de/PalladioComponentModel/Quality/0.2#//qualityannotation http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//repository" identifier:id="_xBeUUGpcEeCCWsYUoW_sjA">
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_x1qKUGpcEeCCWsYUoW_sjA" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_21vIWWwlEeClxq_iSSsJJw" checksumAlg="" resourceDemandingSEFF="default.repository#_Vww28FobEeCigo30slKAcg"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_IoKBE2wmEeClxq_iSSsJJw" category="ResourceDemand">
+      <precision identifier:id="_fFdbs5ITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_KfNCQWwmEeClxq_iSSsJJw" absolute="5.0" relative="0.2"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_RNUOJWwoEeCWZ_07GUQZcw"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_bKs5w2wnEeCWZ_07GUQZcw" category="Infrastructure">
+      <precision identifier:id="_fFdbt5ITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_dqk1gWwnEeCWZ_07GUQZcw" absolute="5.0" relative="0.1"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_ibrNA2wnEeCWZ_07GUQZcw"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_DGgLwnatEeClE4FIJdGNNw" category="Component">
+      <precision identifier:id="_fFdbu5ITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_FTtDIHatEeClE4FIJdGNNw"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_GO1Oo3atEeClE4FIJdGNNw"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_PvhsYGwmEeClxq_iSSsJJw" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_QwyVGWwmEeClxq_iSSsJJw" checksumAlg="" resourceDemandingSEFF="default.repository#_eO5JV1qpEeCqcovW6EZHMQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_UGDAs2wmEeClxq_iSSsJJw" category="ResourceDemand">
+      <precision identifier:id="_fFeCxJITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_WR-FsWwmEeClxq_iSSsJJw" absolute="5.0" relative="0.2"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_R77npWwoEeCWZ_07GUQZcw"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_Yf_ccGwmEeClxq_iSSsJJw" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_Ztl4CWwmEeClxq_iSSsJJw" checksumAlg="" resourceDemandingSEFF="default.repository#_jeirAFoaEeCigo30slKAcg"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_cuT3A2wmEeClxq_iSSsJJw" category="ResourceDemand">
+      <precision identifier:id="_fFeCy5ITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_eNo7wWwmEeClxq_iSSsJJw" absolute="5.0" relative="0.2"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_SezrNWwoEeCWZ_07GUQZcw"/>
+      </precision>
+    </stipulatedREPrecisions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_hyZb8GwmEeClxq_iSSsJJw" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_iC1ruWwmEeClxq_iSSsJJw" checksumAlg="" resourceDemandingSEFF="default.repository#_myY0Z1qpEeCqcovW6EZHMQ"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_kHGCc2wmEeClxq_iSSsJJw" category="ResourceDemand">
+      <precision identifier:id="_fFeC1ZITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:LimitedDeviationPrecision" identifier:id="_l9duMWwmEeClxq_iSSsJJw" absolute="5.0" relative="0.2"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_S6pSpWwoEeCWZ_07GUQZcw"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <validForParameterPartitions xsi:type="qualityannotation:PCMParameterPartition" identifier:id="_VD1yQHTEEeCuTo1EeLftXg">
+      <parameterReference xsi:type="pcmparameters:PCMOperationParameterReference" identifier:id="_VcaDQXTEEeCuTo1EeLftXg" parameter="default.repository#//@interfaces__Repository.0/@infrastructureSignatures__InfrastructureInterface.2/@parameters__InfrastructureSignature.0"/>
+      <characerisedParameterPartitions xsi:type="qualityannotation:CharacterisedPCMParameterPartitionInterval" identifier:id="_Z0zm4HTEEeCuTo1EeLftXg" forCharacterisation="VALUE" qualifiedElementName="">
+        <from specification="-1"/>
+        <to specification="1000"/>
+      </characerisedParameterPartitions>
+    </validForParameterPartitions>
+  </qualityStatements>
+  <qualityStatements xsi:type="qualityannotation:QualityAnnotation" identifier:id="_fSgsUHaeEeC1WLl_v3vmgg" isValid="true">
+    <forServiceSpecification xsi:type="qualityannotation:PCMServiceSpecification" identifier:id="_nEureXaeEeC1WLl_v3vmgg" checksumAlg="" resourceDemandingSEFF="default.repository#_j80UwHadEeC1WLl_v3vmgg"/>
+    <stipulatedREPrecisions xsi:type="qualityannotation:PCMRECategory" identifier:id="_lMCrg3aeEeC1WLl_v3vmgg" category="ResourceDemand">
+      <precision identifier:id="_fFep2pITEeKq4oi8Ure_zg">
+        <defaultPrecisionNumberOfCalls xsi:type="qualityannotation:ExactlyAsSpecifiedPrecision" identifier:id="_yJwCoHafEeC1WLl_v3vmgg"/>
+        <defaultPrecisionCallParameter xsi:type="qualityannotation:NoPrecision" identifier:id="_AjquhXagEeC1WLl_v3vmgg"/>
+      </precision>
+    </stipulatedREPrecisions>
+    <validForParameterPartitions xsi:type="qualityannotation:PCMParameterPartition" identifier:id="_TP64oHaoEeC37Jg-qZtNcQ">
+      <parameterReference xsi:type="pcmparameters:PCMComponentParameterReference" identifier:id="_UFl8YnaoEeC37Jg-qZtNcQ" implementationComponentType="repository:BasicComponent default.repository#_zWgRAHacEeC1WLl_v3vmgg" variableUsage="default.repository#//@components__Repository.2/@componentParameterUsage_ImplementationComponentType.0"/>
+      <characerisedParameterPartitions xsi:type="qualityannotation:CharacterisedPCMParameterPartitionRange" identifier:id="_aozKsXaoEeC37Jg-qZtNcQ" forCharacterisation="VALUE" qualifiedElementName="">
+        <values specification="11"/>
+      </characerisedParameterPartitions>
+    </validForParameterPartitions>
+  </qualityStatements>
+</quality:QualityRepository>

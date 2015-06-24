@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//resourceenvironment" xmi:id="_QGL48AMZEeKkGv40lSkX_A" type="ResourceEnvironmentModel" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_QGL48QMZEeKkGv40lSkX_A"/>
+  <element xmi:type="resourceenvironment:ResourceEnvironment" href="mediastore.resourceenvironment#/"/>
+</notation:Diagram>

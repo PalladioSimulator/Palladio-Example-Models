@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" id="_oZYAgB_dEd-CePn_osfrtQ" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_rDQM0B_dEd-CePn_osfrtQ" entityName="Assembly_C1 &lt;C1>">
+    <encapsulatedComponent__AssemblyContext xsi:type="_1:BasicComponent" href="default.repository#_j_LuwAv1Ed-gn68C3sIQfQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_rqvDkB_dEd-CePn_osfrtQ" entityName="Assembly_C2 &lt;C2>">
+    <encapsulatedComponent__AssemblyContext xsi:type="_1:BasicComponent" href="default.repository#__-EPUB_cEd-CePn_osfrtQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_si6owB_dEd-CePn_osfrtQ" entityName="ProvDelegation Provided_Ieins -> Provided_Ieins_aName" outerProvidedRole_ProvidedDelegationConnector="_pUFVQB_dEd-CePn_osfrtQ" assemblyContext_ProvidedDelegationConnector="_rDQM0B_dEd-CePn_osfrtQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_6T0pUB_cEd-CePn_osfrtQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_tI6RwB_dEd-CePn_osfrtQ" entityName="Connector Assembly_C1 &lt;C1> -> Assembly_C2 &lt;C2>" requiringAssemblyContext_AssemblyConnector="_rDQM0B_dEd-CePn_osfrtQ" providingAssemblyContext_AssemblyConnector="_rqvDkB_dEd-CePn_osfrtQ">
+    <providedRole_AssemblyConnector href="default.repository#_AupXsB_dEd-CePn_osfrtQ"/>
+    <requiredRole_AssemblyConnector href="default.repository#_BcGTkB_dEd-CePn_osfrtQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="_1:OperationProvidedRole" id="_pUFVQB_dEd-CePn_osfrtQ" entityName="Provided_Ieins">
+    <providedInterface__OperationProvidedRole href="default.repository#_js2ooAv1Ed-gn68C3sIQfQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</System>

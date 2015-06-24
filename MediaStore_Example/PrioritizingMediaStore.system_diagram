@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="CompositeModel" name="PrioritizingMediaStore.system_diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2002" fontName="Lucida Grande">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <children xsi:type="notation:DecorationNode" type="7002">
+      <children xsi:type="notation:Shape" type="3006" fontName="Lucida Grande">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_-BBGoBpZEdyxqpPYxT_m3w"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_-uB9oBpZEdyxqpPYxT_m3w"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="96" y="79"/>
+        </children>
+        <element href="PrioritizingMediaStore.system#_zwL-0GaiEeCCuI19Qg4dIw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="63" y="27" width="181"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Lucida Grande">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_9fy_EGafEeCCuI19Qg4dIw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="96" y="-29"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#__6HscGafEeCCuI19Qg4dIw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="100" y="79"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3016" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5018">
+            <layoutConstraint xsi:type="notation:Location" x="50" y="39"/>
+          </children>
+          <element href="mediastore.repository#_jNukAGagEeCCuI19Qg4dIw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="228" y="9"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_xx5yYHyJEeCdJZ0qbkxynw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="PrioritizingMediaStore.system#_4ETfYGaiEeCCuI19Qg4dIw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="63" y="174" width="229"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Lucida Grande">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_cPQgoCAdEdyCN4c4qwaGfQ"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="88" y="-29"/>
+        </children>
+        <element href="PrioritizingMediaStore.system#_7PBH4GaiEeCCuI19Qg4dIw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="75" y="332" width="217"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Lucida Grande">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3015" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5017">
+            <layoutConstraint xsi:type="notation:Location" x="-50" y="17"/>
+          </children>
+          <element href="mediastore.repository#_ooOd0GagEeCCuI19Qg4dIw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="PrioritizingMediaStore.system#_AyCEgGajEeCCuI19Qg4dIw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="503" y="143" width="158"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName="Lucida Grande">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Lucida Grande">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="mediastore.repository#_A1yUUBpaEdyxqpPYxT_m3w"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="6" y="-29"/>
+        </children>
+        <element href="PrioritizingMediaStore.system#_kMgmgJI-EeKq4oi8Ure_zg"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="377" y="332" width="267"/>
+      </children>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Lucida Grande">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" y="5"/>
+      </children>
+      <element href="PrioritizingMediaStore.system#_RIQsEGajEeCCuI19Qg4dIw"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="92"/>
+    </children>
+    <element href="PrioritizingMediaStore.system#_yy4CAGaiEeCCuI19Qg4dIw"/>
+    <layoutConstraint xsi:type="notation:Bounds" width="681"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="PrioritizingMediaStore.system#_yy4CAGaiEeCCuI19Qg4dIw"/>
+  <edges xsi:type="notation:Connector" type="4008" source="//@children.0/@children.1/@children.1/@children.3" target="//@children.0/@children.1/@children.3/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Lucida Grande"/>
+    <element href="PrioritizingMediaStore.system#_Lck7oGajEeCCuI19Qg4dIw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[3, 11, -46, -178]$[51, 197, 2, 8]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.8333333333333334,0.5)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.0/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Lucida Grande"/>
+    <element href="PrioritizingMediaStore.system#_OPhkYGajEeCCuI19Qg4dIw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 7, 1, -21]$[-2, 24, -1, -4]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4666666666666667,0.13333333333333333)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.1/@children.2" target="//@children.0/@children.1/@children.2/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Lucida Grande"/>
+    <element href="PrioritizingMediaStore.system#_Opu0IGajEeCCuI19Qg4dIw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 7, 0, -43]$[-5, 47, -5, -3]"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Lucida Grande"/>
+    <element href="PrioritizingMediaStore.system#_SmasIGajEeCCuI19Qg4dIw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -44, 1]$[68, -3, -6, -2]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.43333333333333335)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.1/@children.4" target="//@children.0/@children.1/@children.4/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName="Lucida Grande"/>
+    <element href="PrioritizingMediaStore.system#_nkyw8JI-EeKq4oi8Ure_zg"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -93, -87]$[107, 85, 7, -2]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.7666666666666667,0.5333333333333333)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.7666666666666667,0.43333333333333335)"/>
+  </edges>
+</notation:Diagram>

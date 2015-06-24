@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.uka.ipd.sdq.simucontroller.SimuLaunching">
+<stringAttribute key="allocationFile" value="D:\code\Palladio.Examples_trunk\SubsystemTest\subsystemInstantiatedTwiceContentsAllocated.allocation"/>
+<booleanAttribute key="clear" value="true"/>
+<listAttribute key="completion.config"/>
+<booleanAttribute key="completion.qvt.verbose.logging" value="false"/>
+<stringAttribute key="confidenceHalfWidth" value="10"/>
+<stringAttribute key="confidenceLevel" value="95"/>
+<stringAttribute key="confidenceModelElementName" value=""/>
+<stringAttribute key="confidenceModelElementURI" value=""/>
+<intAttribute key="datasourceID" value="0"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<stringAttribute key="eventMiddlewareRepositoryFile" value="pathmap://PCM_MODELS/default_event_middleware.repository"/>
+<stringAttribute key="experimentRun" value="Subsystem Test 4 subsystem instantiated twice and directly allocated"/>
+<stringAttribute key="featureConfig" value="pathmap://PCM_MODELS/ConnectorConfig.featureconfig"/>
+<stringAttribute key="fixedSeed0" value="0"/>
+<stringAttribute key="fixedSeed1" value="1"/>
+<stringAttribute key="fixedSeed2" value="2"/>
+<stringAttribute key="fixedSeed3" value="3"/>
+<stringAttribute key="fixedSeed4" value="4"/>
+<stringAttribute key="fixedSeed5" value="5"/>
+<stringAttribute key="maximum" value=""/>
+<stringAttribute key="maximumMeasurementCount" value="10"/>
+<stringAttribute key="minimum" value=""/>
+<stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
+<stringAttribute key="outpath" value="de.uka.ipd.sdq.codegen.simucominstance"/>
+<stringAttribute key="persistenceFramework" value="SensorFramework"/>
+<stringAttribute key="simTime" value="1500"/>
+<booleanAttribute key="simulateFailures" value="false"/>
+<booleanAttribute key="simulateLinkingResources" value="false"/>
+<stringAttribute key="stepwidth" value=""/>
+<stringAttribute key="usageFile" value="D:\code\Palladio.Examples_trunk\SubsystemTest\subsystemInstantiatedTwice.usagemodel"/>
+<booleanAttribute key="useConfidenceStopCondition" value="false"/>
+<booleanAttribute key="useFixedSeed" value="false"/>
+<stringAttribute key="variable" value=""/>
+<booleanAttribute key="verboseLogging" value="false"/>
+</launchConfiguration>

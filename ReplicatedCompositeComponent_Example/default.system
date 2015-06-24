@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0"   xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" id="_6RVx0CigEeCxO_9MozM6LA" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_9wR94CigEeCxO_9MozM6LA" entityName="Assembly_LoadBalancer_2 &lt;LoadBalancer_2>">
+    <encapsulatedComponent__AssemblyContext xsi:type="_1:BasicComponent" href="default.repository#_Fp_hkCigEeCxO_9MozM6LA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="__l7Q4CigEeCxO_9MozM6LA" entityName="Assembly_CompComp_1 &lt;CompComp>">
+    <encapsulatedComponent__AssemblyContext xsi:type="_1:CompositeComponent" href="default.repository#_x2uLYCifEeCxO_9MozM6LA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Af_FYCihEeCxO_9MozM6LA" entityName="Assembly_CompComp_2 &lt;CompComp>">
+    <encapsulatedComponent__AssemblyContext xsi:type="_1:CompositeComponent" href="default.repository#_x2uLYCifEeCxO_9MozM6LA"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_DqAxYCihEeCxO_9MozM6LA" entityName="Connector Assembly_LoadBalancer_2_1 &lt;LoadBalancer_2> -> Assembly_CompComp &lt;CompComp>" requiringAssemblyContext_AssemblyConnector="_9wR94CigEeCxO_9MozM6LA" providingAssemblyContext_AssemblyConnector="__l7Q4CigEeCxO_9MozM6LA">
+    <providedRole_AssemblyConnector href="default.repository#_z3NccCifEeCxO_9MozM6LA"/>
+    <requiredRole_AssemblyConnector href="default.repository#_NfA9ECigEeCxO_9MozM6LA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_EVfXUCihEeCxO_9MozM6LA" entityName="Connector Assembly_LoadBalancer_2_2 &lt;LoadBalancer_2> -> Assembly_CompComp &lt;CompComp>" requiringAssemblyContext_AssemblyConnector="_9wR94CigEeCxO_9MozM6LA" providingAssemblyContext_AssemblyConnector="_Af_FYCihEeCxO_9MozM6LA">
+    <providedRole_AssemblyConnector href="default.repository#_z3NccCifEeCxO_9MozM6LA"/>
+    <requiredRole_AssemblyConnector href="default.repository#_MhchkCigEeCxO_9MozM6LA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_FD8_0CihEeCxO_9MozM6LA" entityName="ProvDelegation Provided_Worker -> Provided_Worker_LoadBalancer_2" outerProvidedRole_ProvidedDelegationConnector="_Buya0CihEeCxO_9MozM6LA" assemblyContext_ProvidedDelegationConnector="_9wR94CigEeCxO_9MozM6LA">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_HjARoCigEeCxO_9MozM6LA"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="_1:OperationProvidedRole" id="_Buya0CihEeCxO_9MozM6LA" entityName="Provided_Worker">
+    <providedInterface__OperationProvidedRole href="default.repository#_uuTB4CifEeCxO_9MozM6LA"/>
+  </providedRoles_InterfaceProvidingEntity>
+</System>

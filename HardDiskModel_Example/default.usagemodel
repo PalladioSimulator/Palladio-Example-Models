@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2">
+  <usageScenario_UsageModel id="_1dCWYHJ1Ed2efr_U4e1c6Q" entityName="defaultUsageScenario">
+    <workload_UsageScenario xsi:type="ClosedWorkload" population="4">
+      <thinkTime_ClosedWorkload specification="0.0"/>
+    </workload_UsageScenario>
+    <scenarioBehaviour_UsageScenario id="_1dLgUHJ1Ed2efr_U4e1c6Q" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="Start" id="_1dLgUXJ1Ed2efr_U4e1c6Q" successor="_5GYboHJ1Ed2efr_U4e1c6Q"/>
+      <actions_ScenarioBehaviour xsi:type="Stop" id="_1dLgUnJ1Ed2efr_U4e1c6Q" predecessor="_5GYboHJ1Ed2efr_U4e1c6Q"/>
+      <actions_ScenarioBehaviour xsi:type="EntryLevelSystemCall" id="_5GYboHJ1Ed2efr_U4e1c6Q" successor="_1dLgUnJ1Ed2efr_U4e1c6Q" predecessor="_1dLgUXJ1Ed2efr_U4e1c6Q">
+        <inputParameterUsages_EntryLevelSystemCall>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="1 * 1024 * 1024"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="data"/>
+        </inputParameterUsages_EntryLevelSystemCall>
+        <inputParameterUsages_EntryLevelSystemCall>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="4"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="numberOfThreads"/>
+        </inputParameterUsages_EntryLevelSystemCall>
+        <providedRole_EntryLevelSystemCall href="default.system#_eVfzEHJ1Ed2efr_U4e1c6Q"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#//@interfaces__Repository.0/@signatures__OperationInterface.0"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
+</UsageModel>

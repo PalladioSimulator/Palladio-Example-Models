@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_o7VY8FocEeCigo30slKAcg" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_KykrEFobEeCigo30slKAcg"/>
+  <allocationContexts_Allocation id="_rYR8gFocEeCigo30slKAcg" entityName="Allocation_Assembly_InfrastructureTest &lt;InfrastructureTest> &lt;InfrastructureTest>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_9vAHEFoaEeCigo30slKAcg"/>
+    <assemblyContext_AllocationContext href="default.system#_cum9YFocEeCigo30slKAcg"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_fxOPUHajEeCemvzKP2fF3Q" entityName="Allocation_Assembly_HelperComponent &lt;HelperComponent> &lt;HelperComponent>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_9vAHEFoaEeCigo30slKAcg"/>
+    <assemblyContext_AllocationContext href="default.system#_Ol8PEHajEeCemvzKP2fF3Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_nzHpMHajEeCemvzKP2fF3Q" entityName="Allocation_Assembly_BusinessComponent &lt;BusinessComponent> &lt;BusinessComponent>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_9vAHEFoaEeCigo30slKAcg"/>
+    <assemblyContext_AllocationContext href="default.system#_V9iHsHajEeCemvzKP2fF3Q"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" id="_Ue7JUHtPEd6J8YwisObTKw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_U6MwEHtPEd6J8YwisObTKw" entityName="Forking">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XjnpYHtPEd6J8YwisObTKw" entityName="Provided_IFork_Forking" providedInterface__OperationProvidedRole="_VtJ3AHtPEd6J8YwisObTKw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_XkOGUHtPEd6J8YwisObTKw" describedService__SEFF="_B-1qwKfFEd-L5vB0MCctNg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_XkOGUXtPEd6J8YwisObTKw" successor_AbstractAction="_Y0YtsHtPEd6J8YwisObTKw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_XkOGUntPEd6J8YwisObTKw" predecessor_AbstractAction="_Y0YtsHtPEd6J8YwisObTKw"/>
+      <steps_Behaviour xsi:type="seff:ForkAction" id="_Y0YtsHtPEd6J8YwisObTKw" entityName="fork" predecessor_AbstractAction="_XkOGUXtPEd6J8YwisObTKw" successor_AbstractAction="_XkOGUntPEd6J8YwisObTKw">
+        <asynchronousForkedBehaviours_ForkAction id="_Lc4IlOUqEeGlYLCsyAY-rw">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_a-OIAHtPEd6J8YwisObTKw" successor_AbstractAction="_cdSuEHtPEd6J8YwisObTKw"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_a-OIAXtPEd6J8YwisObTKw" predecessor_AbstractAction="_cdSuEHtPEd6J8YwisObTKw"/>
+          <steps_Behaviour xsi:type="seff:InternalAction" id="_cdSuEHtPEd6J8YwisObTKw" entityName="calc1" predecessor_AbstractAction="_a-OIAHtPEd6J8YwisObTKw" successor_AbstractAction="_a-OIAXtPEd6J8YwisObTKw">
+            <resourceDemand_Action>
+              <specification_ParametericResourceDemand specification="1"/>
+              <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+            </resourceDemand_Action>
+          </steps_Behaviour>
+        </asynchronousForkedBehaviours_ForkAction>
+        <asynchronousForkedBehaviours_ForkAction id="_Lc4ImeUqEeGlYLCsyAY-rw">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_bzaqoHtPEd6J8YwisObTKw" successor_AbstractAction="_ep9Z8HtPEd6J8YwisObTKw"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_bzaqoXtPEd6J8YwisObTKw" predecessor_AbstractAction="_ep9Z8HtPEd6J8YwisObTKw"/>
+          <steps_Behaviour xsi:type="seff:InternalAction" id="_ep9Z8HtPEd6J8YwisObTKw" entityName="hdd" predecessor_AbstractAction="_bzaqoHtPEd6J8YwisObTKw" successor_AbstractAction="_bzaqoXtPEd6J8YwisObTKw">
+            <resourceDemand_Action>
+              <specification_ParametericResourceDemand specification="1"/>
+              <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+            </resourceDemand_Action>
+          </steps_Behaviour>
+        </asynchronousForkedBehaviours_ForkAction>
+        <synchronisingBehaviours_ForkAction>
+          <synchronousForkedBehaviours_SynchronisationPoint id="_Lc4voOUqEeGlYLCsyAY-rw">
+            <steps_Behaviour xsi:type="seff:StopAction" id="_pmKo0HtPEd6J8YwisObTKw" predecessor_AbstractAction="_rhshZHtPEd6J8YwisObTKw"/>
+            <steps_Behaviour xsi:type="seff:StartAction" id="_q8SuQXtPEd6J8YwisObTKw" successor_AbstractAction="_rhshZHtPEd6J8YwisObTKw"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_rhshZHtPEd6J8YwisObTKw" entityName="wait" predecessor_AbstractAction="_q8SuQXtPEd6J8YwisObTKw" successor_AbstractAction="_pmKo0HtPEd6J8YwisObTKw">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="DoublePMF[(1.2;0.5)(0.95;0.5)]"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_nvHX4KkREdyEA_b89s7q9w"/>
+              </resourceDemand_Action>
+            </steps_Behaviour>
+          </synchronousForkedBehaviours_SynchronisationPoint>
+          <synchronousForkedBehaviours_SynchronisationPoint id="_NMOkMBecEeKPEYCkJN99mA">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_NMTcsBecEeKPEYCkJN99mA" successor_AbstractAction="_O374EBecEeKPEYCkJN99mA"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_NMUDwBecEeKPEYCkJN99mA" predecessor_AbstractAction="_O374EBecEeKPEYCkJN99mA"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_O374EBecEeKPEYCkJN99mA" entityName="waitToo" predecessor_AbstractAction="_NMTcsBecEeKPEYCkJN99mA" successor_AbstractAction="_NMUDwBecEeKPEYCkJN99mA">
+              <resourceDemand_Action>
+                <specification_ParametericResourceDemand specification="DoublePMF[(1.2;0.5)(0.95;0.5)]"/>
+                <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_nvHX4KkREdyEA_b89s7q9w"/>
+              </resourceDemand_Action>
+            </steps_Behaviour>
+          </synchronousForkedBehaviours_SynchronisationPoint>
+        </synchronisingBehaviours_ForkAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_VtJ3AHtPEd6J8YwisObTKw" entityName="IFork">
+    <signatures__OperationInterface id="_B-1qwKfFEd-L5vB0MCctNg" entityName="fork"/>
+  </interfaces__Repository>
+</repository:Repository>

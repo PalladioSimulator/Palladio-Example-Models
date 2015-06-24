@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:DecisionSpace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_2="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" xmlns:_3="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/1.0">
+  <degreesOfFreedom xsi:type="designdecision:AssembledComponentDegree">
+    <primaryChanged xsi:type="AssemblyContext" href="default.system#_WOQb4JuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_1:BasicComponent" href="default.repository#_8RyvUJutEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_1:BasicComponent" href="default.repository#_lSuOsJuxEd6drucJ1qoe4Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="designdecision:AssembledComponentDegree">
+    <primaryChanged xsi:type="AssemblyContext" href="default.system#_ZC3RgJuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_1:BasicComponent" href="default.repository#_9mR2AJutEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_1:BasicComponent" href="default.repository#_UQf8cJu0Ed6drucJ1qoe4Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="designdecision:AllocationDegree">
+    <primaryChanged xsi:type="_2:AllocationContext" href="default.allocation#_zReTcJuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kBAaEZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kbYB4ZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kyUiQZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_wi3isZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4h09UZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_9HYMIZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kuhw8Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_qLg-EZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_0FQqYZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4zwZ0Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_8peHIZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_BG1DQZu8Ed6M2K7L8Y47dA"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="designdecision:AllocationDegree">
+    <primaryChanged xsi:type="_2:AllocationContext" href="default.allocation#_0Jp4oJuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kBAaEZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kbYB4ZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kyUiQZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_wi3isZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4h09UZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_9HYMIZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kuhw8Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_qLg-EZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_0FQqYZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4zwZ0Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_8peHIZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_BG1DQZu8Ed6M2K7L8Y47dA"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="designdecision:AllocationDegree">
+    <primaryChanged xsi:type="_2:AllocationContext" href="default.allocation#_1Aoj8JuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kBAaEZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kbYB4ZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kyUiQZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_wi3isZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4h09UZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_9HYMIZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kuhw8Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_qLg-EZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_0FQqYZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4zwZ0Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_8peHIZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_BG1DQZu8Ed6M2K7L8Y47dA"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="designdecision:AllocationDegree">
+    <primaryChanged xsi:type="_2:AllocationContext" href="default.allocation#_2FCAMJuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kBAaEZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kbYB4ZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kyUiQZuvEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_wi3isZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4h09UZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_9HYMIZuwEd6drucJ1qoe4Q"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_kuhw8Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_qLg-EZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_0FQqYZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_4zwZ0Zu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_8peHIZu7Ed6M2K7L8Y47dA"/>
+    <classDesignOptions xsi:type="_3:ResourceContainer" href="My.resourceenvironment#_BG1DQZu8Ed6M2K7L8Y47dA"/>
+  </degreesOfFreedom>
+</designdecision:DecisionSpace>

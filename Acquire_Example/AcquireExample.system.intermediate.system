@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_YdwOsP1oEdyHRtyNpj5nfQ" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_dFi5MP1oEdyHRtyNpj5nfQ" entityName="Assembly_Impl &lt;Impl>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="file:/C:/Users/Snowball/workspace_pcm/AcquireExample/AcquireExample.repository#_k8LTsP1nEdyHRtyNpj5nfQ"/>
+    <configParameterUsages__AssemblyContext>
+      <variableCharacterisation_VariableUsage type="VALUE">
+        <specification_VariableCharacterisation specification="1"/>
+      </variableCharacterisation_VariableUsage>
+      <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="lockCount"/>
+    </configParameterUsages__AssemblyContext>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_pB2wcP-oEdy2edEEJlmdug" entityName="AssCtx Middleware aMaschine">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="pathmap://PCM_MODELS/Glassfish.repository#_26-3Q4X1EdyWta7nHuXiHQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hmacUP1oEdyHRtyNpj5nfQ" entityName="ProvDelegation Provided_ILock -> Provided_ILock_Impl" outerProvidedRole_ProvidedDelegationConnector="_Z1xxkP1oEdyHRtyNpj5nfQ" assemblyContext_ProvidedDelegationConnector="_dFi5MP1oEdyHRtyNpj5nfQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="file:/C:/Users/Snowball/workspace_pcm/AcquireExample/AcquireExample.repository#_u33gwP1nEdyHRtyNpj5nfQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Z1xxkP1oEdyHRtyNpj5nfQ" entityName="Provided_ILock">
+    <providedInterface__OperationProvidedRole href="file:/C:/Users/Snowball/workspace_pcm/AcquireExample/AcquireExample.repository#_nFHWIP1nEdyHRtyNpj5nfQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</System>

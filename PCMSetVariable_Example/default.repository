@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_u_u7gP_8Edu5_5tCZjPAAA" entityName="SetVariableRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_V3B8QP_9Edu5_5tCZjPAAA" entityName="Client">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XfHUYP_9Edu5_5tCZjPAAA" entityName="Provided_IProvided_Client" providedInterface__OperationProvidedRole="_3YdhAP_8Edu5_5tCZjPAAA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_X8oW0P_9Edu5_5tCZjPAAA" entityName="Required_IProvidedServer_Client" requiredInterface__OperationRequiredRole="_Gy09QP_9Edu5_5tCZjPAAA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_XfJwoP_9Edu5_5tCZjPAAA" describedService__SEFF="_au8vBuUrEeGlYLCsyAY-rw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Xfz38P_9Edu5_5tCZjPAAA" successor_AbstractAction="_tjfKgP_9Edu5_5tCZjPAAA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Xf27QP_9Edu5_5tCZjPAAA" predecessor_AbstractAction="_5jeKkP_9Edu5_5tCZjPAAA"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_tjfKgP_9Edu5_5tCZjPAAA" predecessor_AbstractAction="_Xfz38P_9Edu5_5tCZjPAAA" successor_AbstractAction="_5jeKkP_9Edu5_5tCZjPAAA" calledService_ExternalService="_au8vCOUrEeGlYLCsyAY-rw" role_ExternalService="_X8oW0P_9Edu5_5tCZjPAAA">
+        <returnVariableUsage__CallReturnAction>
+          <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
+            <specification_VariableCharacterisation specification="RETURN.NUMBER_OF_ELEMENTS"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="localVar"/>
+        </returnVariableUsage__CallReturnAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_5jeKkP_9Edu5_5tCZjPAAA" entityName="demand" predecessor_AbstractAction="_tjfKgP_9Edu5_5tCZjPAAA" successor_AbstractAction="_Xf27QP_9Edu5_5tCZjPAAA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="localVar.NUMBER_OF_ELEMENTS*1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_YSvJsP_9Edu5_5tCZjPAAA" entityName="Server">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZJr_0P_9Edu5_5tCZjPAAA" entityName="Provided_IProvidedServer_Server" providedInterface__OperationProvidedRole="_Gy09QP_9Edu5_5tCZjPAAA"/>
+    <componentParameterUsage_ImplementationComponentType>
+      <variableCharacterisation_VariableUsage type="VALUE">
+        <specification_VariableCharacterisation specification="3"/>
+      </variableCharacterisation_VariableUsage>
+      <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="param"/>
+    </componentParameterUsage_ImplementationComponentType>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_ZJsm4P_9Edu5_5tCZjPAAA" describedService__SEFF="_au8vCOUrEeGlYLCsyAY-rw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_ZJtN8P_9Edu5_5tCZjPAAA" successor_AbstractAction="_bwktEP_-Edu5_5tCZjPAAA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_ZJt1AP_9Edu5_5tCZjPAAA" predecessor_AbstractAction="_bwktEP_-Edu5_5tCZjPAAA"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_bwktEP_-Edu5_5tCZjPAAA" predecessor_AbstractAction="_ZJtN8P_9Edu5_5tCZjPAAA" successor_AbstractAction="_ZJt1AP_9Edu5_5tCZjPAAA">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
+            <specification_VariableCharacterisation specification="param.VALUE"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3YdhAP_8Edu5_5tCZjPAAA" entityName="IProvided">
+    <signatures__OperationInterface id="_au8vBuUrEeGlYLCsyAY-rw" entityName="setVariableClient">
+      <parameters__OperationSignature parameterName="aParam">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_uui3luWtEd6cudwjDV3IIw" parameterName="aCollection"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Gy09QP_9Edu5_5tCZjPAAA" entityName="IProvidedServer">
+    <signatures__OperationInterface id="_au8vCOUrEeGlYLCsyAY-rw" entityName="serverService" returnType__OperationSignature="_uui3luWtEd6cudwjDV3IIw"/>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_uui3luWtEd6cudwjDV3IIw" entityName="aCollectionType">
+    <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+  </dataTypes__Repository>
+</repository:Repository>

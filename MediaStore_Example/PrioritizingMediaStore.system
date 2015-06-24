@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:system="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" id="_yy4CAGaiEeCCuI19Qg4dIw" entityName="defaultSystem">
+  <assemblyContexts__ComposedStructure id="_zwL-0GaiEeCCuI19Qg4dIw" entityName="Assembly_WebGUI &lt;WebGUI>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mediastore.repository#_q5WkIBpXEdyxqpPYxT_m3w"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_4ETfYGaiEeCCuI19Qg4dIw" entityName="Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mediastore.repository#_2ODPwGafEeCCuI19Qg4dIw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_7PBH4GaiEeCCuI19Qg4dIw" entityName="Assembly_AudioDB &lt;AudioDB>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mediastore.repository#_tJKDkBpXEdyxqpPYxT_m3w"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_AyCEgGajEeCCuI19Qg4dIw" entityName="Assembly_JVM_0815 &lt;JVM_0815>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mediastore.repository#_ln1O8GagEeCCuI19Qg4dIw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_kMgmgJI-EeKq4oi8Ure_zg" entityName="Assembly_DigitalWatermarking &lt;DigitalWatermarking>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mediastore.repository#_t663sBpXEdyxqpPYxT_m3w"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyInfrastructureConnector" id="_Lck7oGajEeCCuI19Qg4dIw" entityName="InfrastructureConnector Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore> -> Assembly_JVM_0815 &lt;JVM_0815>" providingAssemblyContext__AssemblyInfrastructureConnector="_AyCEgGajEeCCuI19Qg4dIw" requiringAssemblyContext__AssemblyInfrastructureConnector="_4ETfYGaiEeCCuI19Qg4dIw">
+    <providedRole__AssemblyInfrastructureConnector href="mediastore.repository#_ooOd0GagEeCCuI19Qg4dIw"/>
+    <requiredRole__AssemblyInfrastructureConnector href="mediastore.repository#_jNukAGagEeCCuI19Qg4dIw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_OPhkYGajEeCCuI19Qg4dIw" entityName="Connector Assembly_WebGUI &lt;WebGUI> -> Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore>" requiringAssemblyContext_AssemblyConnector="_zwL-0GaiEeCCuI19Qg4dIw" providingAssemblyContext_AssemblyConnector="_4ETfYGaiEeCCuI19Qg4dIw">
+    <providedRole_AssemblyConnector href="mediastore.repository#_9fy_EGafEeCCuI19Qg4dIw"/>
+    <requiredRole_AssemblyConnector href="mediastore.repository#_-uB9oBpZEdyxqpPYxT_m3w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Opu0IGajEeCCuI19Qg4dIw" entityName="Connector Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore> -> Assembly_AudioDB &lt;AudioDB>" requiringAssemblyContext_AssemblyConnector="_4ETfYGaiEeCCuI19Qg4dIw" providingAssemblyContext_AssemblyConnector="_7PBH4GaiEeCCuI19Qg4dIw">
+    <providedRole_AssemblyConnector href="mediastore.repository#_cPQgoCAdEdyCN4c4qwaGfQ"/>
+    <requiredRole_AssemblyConnector href="mediastore.repository#__6HscGafEeCCuI19Qg4dIw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_SmasIGajEeCCuI19Qg4dIw" entityName="ProvDelegation Provided_IHTTP -> Provided_IHTTP_WebGUI" outerProvidedRole_ProvidedDelegationConnector="_RIQsEGajEeCCuI19Qg4dIw" assemblyContext_ProvidedDelegationConnector="_zwL-0GaiEeCCuI19Qg4dIw">
+    <innerProvidedRole_ProvidedDelegationConnector href="mediastore.repository#_-BBGoBpZEdyxqpPYxT_m3w"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_nkyw8JI-EeKq4oi8Ure_zg" entityName="Connector Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore> -> Assembly_DigitalWatermarking &lt;DigitalWatermarking>" requiringAssemblyContext_AssemblyConnector="_4ETfYGaiEeCCuI19Qg4dIw" providingAssemblyContext_AssemblyConnector="_kMgmgJI-EeKq4oi8Ure_zg">
+    <providedRole_AssemblyConnector href="mediastore.repository#_A1yUUBpaEdyxqpPYxT_m3w"/>
+    <requiredRole_AssemblyConnector href="mediastore.repository#_xx5yYHyJEeCdJZ0qbkxynw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RIQsEGajEeCCuI19Qg4dIw" entityName="Provided_IHTTP">
+    <providedInterface__OperationProvidedRole href="mediastore.repository#_wflM0BpXEdyxqpPYxT_m3w"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

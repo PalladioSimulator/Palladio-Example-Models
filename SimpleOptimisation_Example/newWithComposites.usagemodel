@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0">
+  <usageScenario_UsageModel id="_kqnOUJyMEd6Gn-xRPLZ8iw" entityName="defaultUsageScenario">
+    <workload_UsageScenario xsi:type="OpenWorkload">
+      <interArrivalTime_OpenWorkload specification="Exp(1.0)"/>
+    </workload_UsageScenario>
+    <scenarioBehaviour_UsageScenario id="_kqnOUZyMEd6Gn-xRPLZ8iw" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="Start" id="_kqnOUpyMEd6Gn-xRPLZ8iw" successor="_lNCl8JyMEd6Gn-xRPLZ8iw"/>
+      <actions_ScenarioBehaviour xsi:type="Stop" id="_kqnOU5yMEd6Gn-xRPLZ8iw" predecessor="_lNCl8JyMEd6Gn-xRPLZ8iw"/>
+      <actions_ScenarioBehaviour xsi:type="EntryLevelSystemCall" id="_lNCl8JyMEd6Gn-xRPLZ8iw" successor="_kqnOU5yMEd6Gn-xRPLZ8iw" predecessor="_kqnOUpyMEd6Gn-xRPLZ8iw">
+        <providedRole_EntryLevelSystemCall href="newWithComposites.system#_UOSl0JyMEd6Gn-xRPLZ8iw"/>
+        <signature_EntryLevelSystemCall href="default.repository#//@interfaces__Repository.0/@signatures__Interface.0"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
+</UsageModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_gfWJUOtpEd-dK48mtzySgA" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="quickbooking.system#_VreA0C6MEd-Jla2o7wkBzQ"/>
+  <allocationContexts_Allocation id="_hAVWgOtpEd-dK48mtzySgA" entityName="Allocation_Assembly_BusinessTripMgmt &lt;BusinessTripMgmt>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_g7HJEC6MEd-Jla2o7wkBzQ"/>
+    <assemblyContext_AllocationContext href="quickbooking.system#_X594sC6MEd-Jla2o7wkBzQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_htuoAOtpEd-dK48mtzySgA" entityName="Allocation_Assembly_BookingSystem &lt;QuickBooking>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_h3wXgC6MEd-Jla2o7wkBzQ"/>
+    <assemblyContext_AllocationContext href="quickbooking.system#_YXdtAC6MEd-Jla2o7wkBzQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_i_XPAOtpEd-dK48mtzySgA" entityName="Allocation_Assembly_PaymentSystem &lt;Payment System>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_vxqJwS6QEd-pNfzbJsur0g"/>
+    <assemblyContext_AllocationContext href="quickbooking.system#_Y4vOEC6MEd-Jla2o7wkBzQ"/>
+  </allocationContexts_Allocation>
+</Allocation>

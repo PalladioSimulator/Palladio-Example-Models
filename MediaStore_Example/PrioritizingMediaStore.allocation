@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_lq630GajEeCCuI19Qg4dIw" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="mediastore.resourceenvironment#/"/>
+  <system_Allocation href="PrioritizingMediaStore.system#_yy4CAGaiEeCCuI19Qg4dIw"/>
+  <allocationContexts_Allocation id="_nZn1UGajEeCCuI19Qg4dIw" entityName="Allocation_Assembly_WebGUI &lt;WebGUI> &lt;WebGUI>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="PrioritizingMediaStore.system#_zwL-0GaiEeCCuI19Qg4dIw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_oT6TUGajEeCCuI19Qg4dIw" entityName="Allocation_Assembly_PrioritizingMediaStore &lt;PrioritizingMediaStore> &lt;PrioritizingMediaStore>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="PrioritizingMediaStore.system#_4ETfYGaiEeCCuI19Qg4dIw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_pGME0GajEeCCuI19Qg4dIw" entityName="Allocation_Assembly_AudioDB &lt;AudioDB> &lt;AudioDB>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_tVi40Dq_EeCCbpF63PfiyA"/>
+    <assemblyContext_AllocationContext href="PrioritizingMediaStore.system#_7PBH4GaiEeCCuI19Qg4dIw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_sL4DYGajEeCCuI19Qg4dIw" entityName="Allocation_Assembly_JVM_0815 &lt;JVM_0815> &lt;JVM_0815>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="PrioritizingMediaStore.system#_AyCEgGajEeCCuI19Qg4dIw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="__WxTkKL_EeCc0ZtqSku26A" entityName="Allocation_Assembly_DigitalWatermarking &lt;DigitalWatermarking> &lt;DigitalWatermarking>">
+    <resourceContainer_AllocationContext href="mediastore.resourceenvironment#_5uTBUBpmEdyxqpPYxT_m3w"/>
+    <assemblyContext_AllocationContext href="PrioritizingMediaStore.system#_kMgmgJI-EeKq4oi8Ure_zg"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0"   xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:_1="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:pcm.subsystem="http://sdq.ipd.uka.de/PalladioComponentModel/SubSystem/5.0" id="_xJbYQCqnEeCY1crWOpT1yA" entityName="subsystemInstantiatedTwiceSystem">
+  <assemblyContexts__ComposedStructure id="_ygnNoCqnEeCY1crWOpT1yA" entityName="Assembly_ASubsystem 1&lt;ASubsystem>">
+    <encapsulatedComponent__AssemblyContext xsi:type="pcm.subsystem:SubSystem" href="default.repository#_kKuccHgxEd6MsN0sq6tbVQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_0QVe0CqnEeCY1crWOpT1yA" entityName="Assembly_ASubsystem 2 &lt;ASubsystem>">
+    <encapsulatedComponent__AssemblyContext xsi:type="pcm.subsystem:SubSystem" href="default.repository#_kKuccHgxEd6MsN0sq6tbVQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_3yU-4CqnEeCY1crWOpT1yA" entityName="ProvDelegation Provided_AnInterface1 -> Provided_AnInterface_ASubsystem1" outerProvidedRole_ProvidedDelegationConnector="_1Q6LACqnEeCY1crWOpT1yA" assemblyContext_ProvidedDelegationConnector="_ygnNoCqnEeCY1crWOpT1yA">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_lthE4HgxEd6MsN0sq6tbVQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_4KkfwCqnEeCY1crWOpT1yA" entityName="ProvDelegation Provided_AnInterface2 -> Provided_AnInterface_ASubsystem2" outerProvidedRole_ProvidedDelegationConnector="_2AXSACqnEeCY1crWOpT1yA" assemblyContext_ProvidedDelegationConnector="_0QVe0CqnEeCY1crWOpT1yA">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_lthE4HgxEd6MsN0sq6tbVQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="_1:OperationProvidedRole" id="_1Q6LACqnEeCY1crWOpT1yA" entityName="Provided_AnInterface1">
+    <providedInterface__OperationProvidedRole href="default.repository#_n7g-oCHbEd62GabW1zGSBw"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="_1:OperationProvidedRole" id="_2AXSACqnEeCY1crWOpT1yA" entityName="Provided_AnInterface2">
+    <providedInterface__OperationProvidedRole href="default.repository#_n7g-oCHbEd62GabW1zGSBw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</System>

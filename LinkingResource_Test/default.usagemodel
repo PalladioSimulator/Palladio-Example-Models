@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0">
+  <usageScenario_UsageModel id="_N1WSwB_eEd-CePn_osfrtQ" entityName="defaultUsageScenario">
+    <workload_UsageScenario xsi:type="ClosedWorkload" population="1">
+      <thinkTime_ClosedWorkload specification="0.0"/>
+    </workload_UsageScenario>
+    <scenarioBehaviour_UsageScenario id="_N1WSwR_eEd-CePn_osfrtQ" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="Start" id="_N1WSwh_eEd-CePn_osfrtQ" successor="_Qt-FsB_eEd-CePn_osfrtQ"/>
+      <actions_ScenarioBehaviour xsi:type="Stop" id="_N1WSwx_eEd-CePn_osfrtQ" predecessor="_Qt-FsB_eEd-CePn_osfrtQ"/>
+      <actions_ScenarioBehaviour xsi:type="EntryLevelSystemCall" id="_Qt-FsB_eEd-CePn_osfrtQ" successor="_N1WSwx_eEd-CePn_osfrtQ" predecessor="_N1WSwh_eEd-CePn_osfrtQ">
+        <providedRole_EntryLevelSystemCall href="default.system#_pUFVQB_dEd-CePn_osfrtQ"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#//@interfaces__Repository.0/@signatures__OperationInterface.0"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+  </usageScenario_UsageModel>
+</UsageModel>
