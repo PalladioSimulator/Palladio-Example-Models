@@ -71,6 +71,10 @@ for /f "delims=" %%a IN ('dir /b *.designdecision') do (
 
 )
 
+for /f %%a IN ('dir /b *.nqr') do (
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
+)
+
 @echo ********
 @echo Try whether your models are valid now. If not, you may have to change more things manually. Check out https://sdqweb.ipd.kit.edu/wiki/PCM_Model_Migration and https://sdqweb.ipd.kit.edu/wiki/PCM_Changelog
 

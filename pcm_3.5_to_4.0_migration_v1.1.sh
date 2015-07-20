@@ -76,4 +76,9 @@ do
   sed -i .bk 's/designdecision:MonitoringDegree/specific:MonitoringDegree/g' "$file"
 done
 
+for file in *.nqr
+do
+  sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
+done
+
 rm *.bk
