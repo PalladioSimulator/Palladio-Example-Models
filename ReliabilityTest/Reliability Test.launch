@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.uka.ipd.sdq.dsolver_plugin.PCMSolverLaunchConfigurationType.Reliability">
+<stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+<stringAttribute key="allocationFile" value="platform:/resource/ReliabilityTest/default.allocation"/>
+<booleanAttribute key="clear" value="false"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<booleanAttribute key="doSensitivityAnalysis" value="false"/>
+<stringAttribute key="eventMiddlewareRepositoryFile" value="pathmap://PCM_MODELS/default_event_middleware.repository"/>
+<booleanAttribute key="iterationOverPhysicalSystemStatesEnabled" value="true"/>
+<stringAttribute key="logFile" value="platform:/resource/ReliabilityTest/log.txt"/>
+<stringAttribute key="markovEvaluationMode" value="POINTSOFFAILURE"/>
+<stringAttribute key="markovModelFile" value=""/>
+<booleanAttribute key="markovModelReduction" value="false"/>
+<booleanAttribute key="markovModelStorageEnabled" value="false"/>
+<booleanAttribute key="markovModelTracesEnabled" value="false"/>
+<booleanAttribute key="markovStatistics" value="true"/>
+<intAttribute key="numberOfEvaluatedSystemStates" value="1"/>
+<booleanAttribute key="numberOfEvaluatedSystemStatesEnabled" value="false"/>
+<intAttribute key="numberOfExactDecimalPlaces" value="1"/>
+<booleanAttribute key="numberOfExactDecimalPlacesEnabled" value="false"/>
+<stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
+<stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
+<stringAttribute key="saveFileDefault" value="platform:/resource/ReliabilityTest/markov-chain.markovresult"/>
+<booleanAttribute key="saveResultsToFileEnabled" value="true"/>
+<stringAttribute key="sensitivityLogFile" value=""/>
+<stringAttribute key="sensitivityModelFile" value=""/>
+<booleanAttribute key="simulateAccuracy" value="false"/>
+<booleanAttribute key="singleResults" value="true"/>
+<intAttribute key="solvingTimeLimit" value="1"/>
+<booleanAttribute key="solvingTimeLimitEnabled" value="false"/>
+<stringAttribute key="usageFile" value="platform:/resource/ReliabilityTest/default.usagemodel"/>
+</launchConfiguration>
