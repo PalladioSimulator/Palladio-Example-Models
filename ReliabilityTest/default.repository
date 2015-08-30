@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reliability="http://palladiosimulator.org/PalladioComponentModel/Reliability/5.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" xmlns:seff_reliability="http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Reliability/5.1" id="_CR5rMCjgEeKEJ8UeV7BBTw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_FmEKoCjgEeKEJ8UeV7BBTw">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G57mQCjgEeKEJ8UeV7BBTw" entityName="Provided_start_aName" providedInterface__OperationProvidedRole="_DQDVgCjgEeKEJ8UeV7BBTw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_G57mQSjgEeKEJ8UeV7BBTw" describedService__SEFF="_EQjwQCjgEeKEJ8UeV7BBTw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_G58NUCjgEeKEJ8UeV7BBTw" entityName="start" successor_AbstractAction="_jm3EwCjgEeKEJ8UeV7BBTw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_G58NUSjgEeKEJ8UeV7BBTw" entityName="stop" predecessor_AbstractAction="_Kfgl0CjgEeKEJ8UeV7BBTw"/>
+      <steps_Behaviour xsi:type="seff_reliability:RecoveryAction" id="_Kfgl0CjgEeKEJ8UeV7BBTw" entityName="recovery block" predecessor_AbstractAction="_jm3EwCjgEeKEJ8UeV7BBTw" successor_AbstractAction="_G58NUSjgEeKEJ8UeV7BBTw" primaryBehaviour__RecoveryAction="_TiQ_wCjgEeKEJ8UeV7BBTw">
+        <recoveryActionBehaviours__RecoveryAction id="_TiQ_wCjgEeKEJ8UeV7BBTw" entityName="first recovery" failureHandlingAlternatives__RecoveryActionBehaviour="_rZSp0CjhEeKEJ8UeV7BBTw">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_TiRm0CjgEeKEJ8UeV7BBTw" successor_AbstractAction="_WyHm8CjgEeKEJ8UeV7BBTw"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_TiSN4CjgEeKEJ8UeV7BBTw" predecessor_AbstractAction="_WyHm8CjgEeKEJ8UeV7BBTw"/>
+          <steps_Behaviour xsi:type="seff:InternalAction" id="_WyHm8CjgEeKEJ8UeV7BBTw" entityName="first recovery internal action" predecessor_AbstractAction="_TiRm0CjgEeKEJ8UeV7BBTw" successor_AbstractAction="_TiSN4CjgEeKEJ8UeV7BBTw">
+            <internalFailureOccurrenceDescriptions__InternalAction failureProbability="0.5" softwareInducedFailureType__InternalFailureOccurrenceDescription="_mT-LSSjgEeKEJ8UeV7BBTw"/>
+          </steps_Behaviour>
+        </recoveryActionBehaviours__RecoveryAction>
+        <recoveryActionBehaviours__RecoveryAction id="_rZSp0CjhEeKEJ8UeV7BBTw" entityName="second recovery" failureTypes_FailureHandlingEntity="_mT-LSSjgEeKEJ8UeV7BBTw _uMwdWU5GEeWIbcTMZ0hneQ">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_rZTQ4CjhEeKEJ8UeV7BBTw" successor_AbstractAction="_s_VakCjhEeKEJ8UeV7BBTw"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_rZTQ4SjhEeKEJ8UeV7BBTw" predecessor_AbstractAction="_s_VakCjhEeKEJ8UeV7BBTw"/>
+          <steps_Behaviour xsi:type="seff:InternalAction" id="_s_VakCjhEeKEJ8UeV7BBTw" predecessor_AbstractAction="_rZTQ4CjhEeKEJ8UeV7BBTw" successor_AbstractAction="_rZTQ4SjhEeKEJ8UeV7BBTw">
+            <internalFailureOccurrenceDescriptions__InternalAction failureProbability="0.5" softwareInducedFailureType__InternalFailureOccurrenceDescription="_mT-LSSjgEeKEJ8UeV7BBTw"/>
+          </steps_Behaviour>
+        </recoveryActionBehaviours__RecoveryAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_jm3EwCjgEeKEJ8UeV7BBTw" predecessor_AbstractAction="_G58NUCjgEeKEJ8UeV7BBTw" successor_AbstractAction="_Kfgl0CjgEeKEJ8UeV7BBTw">
+        <internalFailureOccurrenceDescriptions__InternalAction failureProbability="0.5" softwareInducedFailureType__InternalFailureOccurrenceDescription="_mT-LSSjgEeKEJ8UeV7BBTw"/>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_DQDVgCjgEeKEJ8UeV7BBTw" entityName="start">
+    <signatures__OperationInterface id="_EQjwQCjgEeKEJ8UeV7BBTw" entityName="execute"/>
+  </interfaces__Repository>
+  <failureTypes__Repository xsi:type="reliability:SoftwareInducedFailureType" id="_mT-LSSjgEeKEJ8UeV7BBTw" entityName="SWFailure" internalFailureOccurrenceDescriptions__SoftwareInducedFailureType="//@components__Repository.0/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.3/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.0/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@recoveryActionBehaviours__RecoveryAction.0/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0 //@components__Repository.0/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@recoveryActionBehaviours__RecoveryAction.1/@steps_Behaviour.2/@internalFailureOccurrenceDescriptions__InternalAction.0"/>
+  <failureTypes__Repository xsi:type="reliability:SoftwareInducedFailureType" id="_uMwdWU5GEeWIbcTMZ0hneQ" entityName="RecoveryFailure"/>
+  <failureTypes__Repository xsi:type="reliability:SoftwareInducedFailureType" id="_wA1DCU5GEeWIbcTMZ0hneQ" entityName="AnotherRecoveryFailure"/>
+</repository:Repository>
