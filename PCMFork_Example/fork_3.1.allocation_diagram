@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1 http://palladiosimulator.org/PalladioComponentModel/5.1#//resourceenvironment" xmi:id="_zYgxYE_DEeWF5LDxE4JiAg" type="allocation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zaw0IE_DEeWF5LDxE4JiAg" type="2003" fontName=".Helvetica Neue DeskInterface">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zaxbME_DEeWF5LDxE4JiAg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zaxbMU_DEeWF5LDxE4JiAg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_NLMFQE_EEeWF5LDxE4JiAg" type="3002" fontName=".Helvetica Neue DeskInterface">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NLMFQk_EEeWF5LDxE4JiAg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NLMFQ0_EEeWF5LDxE4JiAg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="fork_3.1.allocation#_Mu7AAE_EEeWF5LDxE4JiAg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NLMFQU_EEeWF5LDxE4JiAg" x="18" y="23"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="fork_3.1.resourceenvironment#_ATCCUXtQEd6J8YwisObTKw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaw0IU_DEeWF5LDxE4JiAg" width="469" height="253"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zYgxYU_DEeWF5LDxE4JiAg"/>
+  <element xmi:type="allocation:Allocation" href="fork_3.1.allocation#_goDo4HtQEd6J8YwisObTKw"/>
+</notation:Diagram>

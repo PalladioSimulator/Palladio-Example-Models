@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.uka.ipd.sdq.simucontroller.SimuLaunching">
+<stringAttribute key="EDP2RepositoryID" value="file:/Users/igor/Documents/work/palladio_testing/simulation_datasource"/>
 <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
 <stringAttribute key="allocationFile" value="platform:/resource/PCMForkExample/fork_3.1.allocation"/>
 <booleanAttribute key="clear" value="true"/>
@@ -26,7 +27,9 @@
 <stringAttribute key="minimum" value=""/>
 <stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="outpath" value="de.uka.ipd.sdq.temporary"/>
-<stringAttribute key="persistenceFramework" value="SensorFramework"/>
+<stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
+<booleanAttribute key="reliability.simulateFailures" value="true"/>
+<stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="simTime" value="150000"/>
 <booleanAttribute key="simulateAccuracy" value="false"/>
 <booleanAttribute key="simulateFailures" value="false"/>
@@ -37,5 +40,6 @@
 <booleanAttribute key="useConfidenceStopCondition" value="false"/>
 <booleanAttribute key="useFixedSeed" value="false"/>
 <stringAttribute key="variable" value=""/>
+<stringAttribute key="variationId" value="Default Variation"/>
 <booleanAttribute key="verboseLogging" value="false"/>
 </launchConfiguration>

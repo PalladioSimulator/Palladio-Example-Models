@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.palladiosimulator.edp2.models:ExperimentGroup xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metricspec="http://palladiosimulator.org/MetricSpec/1.0" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/ExperimentData/1.0" xmlns:org.palladiosimulator.edp2.models_1="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" id="_GLDoYE_aEeW-TeGAeE2v0g" purpose="Fork Test">
+  <experimentSettings id="_GLGrsE_aEeW-TeGAeE2v0g" description="Default Variation" measuringTypes="_HCYR8E_aEeW-TeGAeE2v0g _HCfmsE_aEeW-TeGAeE2v0g _HCltUE_aEeW-TeGAeE2v0g _HCnigE_aEeW-TeGAeE2v0g _HCp-xE_aEeW-TeGAeE2v0g _HCql0E_aEeW-TeGAeE2v0g _HC3aIU_aEeW-TeGAeE2v0g _HC-u4E_aEeW-TeGAeE2v0g">
+    <experimentRuns id="_GLGrsU_aEeW-TeGAeE2v0g" duration="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAAAAAAkOHNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="2015-08-31T14:16:24.043+0200">
+      <measurement id="_HCY5AE_aEeW-TeGAeE2v0g" measuringType="_HCYR8E_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+GXNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCZgEE_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCauME_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCbVQE_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HCfmsU_aEeW-TeGAeE2v0g" measuringType="_HCfmsE_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+H3NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCfmsk_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCfms0_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:LongBinaryMeasurements" valuesUuid="_HCfmtE_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787000000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000000"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HCltUU_aEeW-TeGAeE2v0g" measuringType="_HCltUE_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+HXNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCltUk_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCltU0_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCltVE_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HCnigU_aEeW-TeGAeE2v0g" measuringType="_HCnigE_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+IXNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCoJkE_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCoJkU_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:LongBinaryMeasurements" valuesUuid="_HCoJkk_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787000000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000000"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HCp-xU_aEeW-TeGAeE2v0g" measuringType="_HCp-xE_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+HnNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCp-xk_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCp-x0_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCp-yE_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HCql0U_aEeW-TeGAeE2v0g" measuringType="_HCql0E_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+IXNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HCql0k_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HCql00_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:LongBinaryMeasurements" valuesUuid="_HCql1E_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001E6A617661782E6D6561737572652E756E69742E50726F64756374556E697400000000000000010200024900095F68617368436F64655B00095F656C656D656E74737400295B4C6A617661782F6D6561737572652F756E69742F50726F64756374556E697424456C656D656E743B7872001E6A617661782E6D6561737572652E756E69742E44657269766564556E69749F6578D133D91866020000787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787000000000757200295B4C6A617661782E6D6561737572652E756E69742E50726F64756374556E697424456C656D656E743B1C0C2BE72EF16818020000787000000000"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HC3aIk_aEeW-TeGAeE2v0g" measuringType="_HC3aIU_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+InNyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HC4BME_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HC4BMU_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HC4BMk_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+      <measurement id="_HC-u4U_aEeW-TeGAeE2v0g" measuringType="_HC-u4E_aEeW-TeGAeE2v0g">
+        <measurementRanges endTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/+I3NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==" startTime="rO0ABXNyABpqYXZheC5tZWFzdXJlLk1lYXN1cmUkTG9uZwAAAAAAAAABAgACSgAGX3ZhbHVlTAAFX3VuaXR0ABlMamF2YXgvbWVhc3VyZS91bml0L1VuaXQ7eHIAFWphdmF4Lm1lYXN1cmUuTWVhc3VyZRLhH5KGpamaAgAAeHAAAAFPg6/Z63NyABtqYXZheC5tZWFzdXJlLnVuaXQuQmFzZVVuaXQAAAAAAAAAAQIAAUwAB19zeW1ib2x0ABJMamF2YS9sYW5nL1N0cmluZzt4cgAXamF2YXgubWVhc3VyZS51bml0LlVuaXTNyN4WeM1SZwIAAHhwdAABcw==">
+          <rawMeasurements id="_HC-u4k_aEeW-TeGAeE2v0g">
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HC-u40_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+            <dataSeries xsi:type="org.palladiosimulator.edp2.models:DoubleBinaryMeasurements" valuesUuid="_HC-u5E_aEeW-TeGAeE2v0g" storageUnit="ACED00057372001B6A617661782E6D6561737572652E756E69742E42617365556E697400000000000000010200014C00075F73796D626F6C7400124C6A6176612F6C616E672F537472696E673B787200176A617661782E6D6561737572652E756E69742E556E6974CDC8DE1678CD5267020000787074000173"/>
+          </rawMeasurements>
+        </measurementRanges>
+      </measurement>
+    </experimentRuns>
+  </experimentSettings>
+  <measuringTypes id="_HCYR8E_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.0">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_sefjUeJCEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HCfmsE_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.1">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_-buIceJDEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HCltUE_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.2">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_sefjUeJCEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HCnigE_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.3">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_-buIceJDEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HCp-xE_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.4">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_sefjUeJCEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HCql0E_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.0/@measuringPoints.5">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_-buIceJDEeO6l86uYUhhyw"/>
+  </measuringTypes>
+  <measuringTypes id="_HC3aIU_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.1/@measuringPoints.1">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_mZb3MdoLEeO-WvSDaR6unQ"/>
+  </measuringTypes>
+  <measuringTypes id="_HC-u4E_aEeW-TeGAeE2v0g" experimentSettings="_GLGrsE_aEeW-TeGAeE2v0g" measuringPoint="//@measuringPointRepositories.2/@measuringPoints.0">
+    <metric xsi:type="metricspec:MetricSetDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_mZb3MdoLEeO-WvSDaR6unQ"/>
+  </measuringTypes>
+  <measuringPointRepositories id="_HASnQE_aEeW-TeGAeE2v0g">
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="DELAY [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1gRefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1gRefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="DELAY [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1gRefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1gRefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hBefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hBefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hBefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hBefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hxefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hxefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in aName" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hxefEeKPEYCkJN99mA">
+      <activeResource href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.resourceenvironment#_Giw1hxefEeKPEYCkJN99mA"/>
+    </measuringPoints>
+  </measuringPointRepositories>
+  <measuringPointRepositories id="_HC3aIE_aEeW-TeGAeE2v0g">
+    <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: defaultUsageScenario" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.usagemodel#_8rfecHtQEd6J8YwisObTKw">
+      <usageScenario href="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.usagemodel#_8rfecHtQEd6J8YwisObTKw"/>
+    </measuringPoints>
+    <measuringPoints xsi:type="org.palladiosimulator.edp2.models_1:ResourceURIMeasuringPoint" stringRepresentation="Usage Scenario: defaultUsageScenario" resourceURIRepresentation="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.usagemodel#_8rfecHtQEd6J8YwisObTKw" measuringPoint="Usage Scenario: defaultUsageScenario" resourceURI="file:/Users/igor/Documents/work/palladio_testing/workspace/de.uka.ipd.sdq.temporary/model/platform/resource/ForkExample/fork_3.1.usagemodel#_8rfecHtQEd6J8YwisObTKw"/>
+  </measuringPointRepositories>
+  <measuringPointRepositories id="_HC-H0E_aEeW-TeGAeE2v0g">
+    <measuringPoints xsi:type="org.palladiosimulator.edp2.models_1:StringMeasuringPoint" stringRepresentation="Call_fork0 &lt;EntryLevelSystemCall id: _xiRrsE_HEeWF5LDxE4JiAg >" resourceURIRepresentation="Unkown Resource URI -- String Measuring Point only!" measuringPoint="Call_fork0 &lt;EntryLevelSystemCall id: _xiRrsE_HEeWF5LDxE4JiAg >"/>
+  </measuringPointRepositories>
+</org.palladiosimulator.edp2.models:ExperimentGroup>
