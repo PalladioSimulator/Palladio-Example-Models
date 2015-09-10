@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.uka.ipd.sdq.simucontroller.SimuLaunching">
-<stringAttribute key="EDP2RepositoryID" value=""/>
+<stringAttribute key="EDP2RepositoryID" value="_LghGkFfwEeWRYpkG_xsNxQ"/>
 <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
 <stringAttribute key="allocationFile" value="platform:/resource/LinkingResourceTest/default.allocation"/>
 <booleanAttribute key="clear" value="false"/>
@@ -29,7 +29,7 @@
 <stringAttribute key="minimum" value=""/>
 <stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="outpath" value="de.uka.ipd.sdq.temporary"/>
-<stringAttribute key="persistenceFramework" value="SensorFramework"/>
+<stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
 <booleanAttribute key="reliability.simulateFailures" value="false"/>
 <stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="simTime" value="15000"/>
