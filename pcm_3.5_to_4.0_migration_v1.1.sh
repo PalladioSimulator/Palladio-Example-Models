@@ -4,6 +4,7 @@ for file in *.repository
 do
   sed -i .bk 's/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
+  sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Reliability\/.../palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g' "$file"
@@ -30,6 +31,7 @@ do
   sed -i .bk 's/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/System\/.../palladiosimulator.org\/PalladioComponentModel\/System\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
+  sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g' "$file"
 done
 
@@ -52,6 +54,7 @@ do
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/ResourceEnvironment\/.../palladiosimulator.org\/PalladioComponentModel\/ResourceEnvironment\/5.1/g' "$file"
+  sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Allocation\/.../palladiosimulator.org\/PalladioComponentModel\/Allocation\/5.1/g' "$file"
   sed -i .bk 's/sdq.ipd.uka.de\/DesignDecision\/..0\">/sdq.ipd.uka.de\/DesignDecision\/3.0\" xmlns:specific=\"http:\/\/sdq.ipd.uka.de\/DesignDecision\/Specific\/3.0\">/g' "$file"
   sed -i .bk 's/designdecision:AssembledComponentDegree/specific:AssembledComponentDegree/g' "$file"
   sed -i .bk 's/designdecision:AllocationDegree/specific:AllocationDegree/g' "$file"
@@ -90,6 +93,7 @@ for file in *.repository_diagram
 do
 sed -i .bk 's/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
+sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/SEFF_Performance\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/SEFF_Performance\/5.1/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.1/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Reliability\/.../palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.1/g' "$file"
@@ -121,6 +125,7 @@ do
 sed -i .bk 's/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/System\/.../palladiosimulator.org\/PalladioComponentModel\/System\/5.1/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g' "$file"
+sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g' "$file"
 sed -i .bk 's/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g' "$file"
 done
 

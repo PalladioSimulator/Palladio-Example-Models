@@ -4,6 +4,7 @@ rem Possibly not all metamodel changes have been accounted for, so some may have
 for /f %%a IN ('dir /b *.repository') do (
   sed -i "s/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Reliability\/.../palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g" "%%a"
@@ -27,6 +28,7 @@ for /f %%a IN ('dir /b *.system') do (
   sed -i "s/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/System\/.../palladiosimulator.org\/PalladioComponentModel\/System\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g" "%%a"
 )
 
@@ -46,6 +48,7 @@ for /f "delims=" %%a IN ('dir /b *.designdecision') do (
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/ResourceEnvironment\/.../palladiosimulator.org\/PalladioComponentModel\/ResourceEnvironment\/5.1/g" "%%a"
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Allocation\/.../palladiosimulator.org\/PalladioComponentModel\/Allocation\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/DesignDecision\/..0\">/sdq.ipd.uka.de\/DesignDecision\/3.0\" xmlns:specific=\"http:\/\/sdq.ipd.uka.de\/DesignDecision\/Specific\/3.0\">/g" "%%a"
   sed -i "s/designdecision:AssembledComponentDegree/specific:AssembledComponentDegree/g" "%%a"
   sed -i "s/designdecision:AllocationDegree/specific:AllocationDegree/g" "%%a"
@@ -82,6 +85,7 @@ for /f %%a IN ('dir /b *.nqr') do (
 for /f %%a IN ('dir /b *.repository_diagram') do (
   sed -i "s/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/SEFF_Performance\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/SEFF_Performance\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SEFF\/.../palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Reliability\/.../palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.1/g" "%%a"
@@ -110,6 +114,7 @@ for /f %%a IN ('dir /b *.system_diagram') do (
   sed -i "s/sdq.ipd.uka.de\/StochasticExpressions\/.../sdq.ipd.uka.de\/StochasticExpressions\/2.2/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/System\/.../palladiosimulator.org\/PalladioComponentModel\/System\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Repository\/.../palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/g" "%%a"
+  sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/SubSystem\/.../palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/g" "%%a"
   sed -i "s/sdq.ipd.uka.de\/PalladioComponentModel\/Core\/Composition\/.../palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/g" "%%a"
 )
 
