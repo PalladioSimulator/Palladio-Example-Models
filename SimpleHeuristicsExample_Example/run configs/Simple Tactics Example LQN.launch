@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.uka.ipd.sdq.dsolver_plugin.PCMSolverLaunchConfigurationType">
+<booleanAttribute key="LINEDebug" value="true"/>
+<stringAttribute key="LINEOutputDir" value="/Volumes/Daten/PalladioTests/Eclipse.app/Contents/MacOS"/>
+<stringAttribute key="LINEPropFile" value="/Volumes/Daten/PalladioTests/Eclipse.app/Contents/MacOSLINE.properties"/>
 <booleanAttribute key="LQNS Stop On Message Loss" value="true"/>
 <booleanAttribute key="LQSIM Stop On Message Loss" value="true"/>
 <stringAttribute key="SREOutputDir" value="D:\Programme\eclipse\eclipse-dsl-luna-RC3-win32"/>
@@ -14,7 +17,7 @@
 <booleanAttribute key="infiniteTaskMultiplicity" value="true"/>
 <stringAttribute key="itLimit" value="50"/>
 <stringAttribute key="lqnPragmas" value=""/>
-<stringAttribute key="lqnsOutputDir" value="C:\lqn\SimpleHeuristicsExample_Example"/>
+<stringAttribute key="lqnsOutputDir" value="/Volumes/Daten/PalladioTests/workspace/Output"/>
 <stringAttribute key="lqsimOutputDir" value="D:\Programme\eclipse\eclipse-dsl-luna-RC3-win32"/>
 <stringAttribute key="lqsimoutput" value="Human Readable Output"/>
 <intAttribute key="maxDomain" value="256"/>
@@ -23,6 +26,7 @@
 <stringAttribute key="output" value="Human Readable Output"/>
 <stringAttribute key="printInt" value="10"/>
 <stringAttribute key="psQuantum" value="0.001"/>
+<stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="runTime" value=""/>
 <stringAttribute key="samplingDist" value="1.0"/>
 <booleanAttribute key="simulateAccuracy" value="false"/>
