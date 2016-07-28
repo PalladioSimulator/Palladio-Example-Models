@@ -15,7 +15,7 @@
 <intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="3"/>
 <stringAttribute key="eventMiddlewareRepositoryFile" value="pathmap://PCM_MODELS/default_event_middleware.repository"/>
 <stringAttribute key="experimentRun" value="Mini Network Example"/>
-<stringAttribute key="featureConfig" value="pathmap://PCM_MODELS/ConnectorConfig.featureconfig"/>
+<stringAttribute key="featureConfig" value="platform:/resource/Network Demo/CompletionConfigs/ConnectorConfigRMIEncAuth.featureconfig"/>
 <stringAttribute key="fixedSeed0" value="0"/>
 <stringAttribute key="fixedSeed1" value="1"/>
 <stringAttribute key="fixedSeed2" value="2"/>
@@ -29,7 +29,7 @@
 <stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
 <stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
 <booleanAttribute key="reliability.simulateFailures" value="false"/>
-<stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
+<stringAttribute key="rmiRepositoryFile" value="platform:/resource/Network Demo/CompletionConfigs/Glassfish.repository"/>
 <stringAttribute key="simTime" value="-1"/>
 <booleanAttribute key="simulateAccuracy" value="false"/>
 <booleanAttribute key="simulateFailures" value="false"/>
@@ -41,6 +41,6 @@
 <booleanAttribute key="useConfidenceStopCondition" value="false"/>
 <booleanAttribute key="useFixedSeed" value="false"/>
 <stringAttribute key="variable" value=""/>
-<stringAttribute key="variationId" value="With Completions"/>
+<stringAttribute key="variationId" value="With Completions and RMI, Encrypted and Authenticated"/>
 <booleanAttribute key="verboseLogging" value="false"/>
 </launchConfiguration>

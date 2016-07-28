@@ -7,14 +7,14 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_qZUd0SHbEd62GabW1zGSBw" predecessor_AbstractAction="_GhZEMFSmEeanHbKuWlKDRQ"/>
       <steps_Behaviour xsi:type="seff:InternalAction" id="_11lyEFShEeae4Nk8kZBAPw" predecessor_AbstractAction="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_GhZEMFSmEeanHbKuWlKDRQ">
         <resourceDemand_Action>
-          <specification_ParametericResourceDemand specification="1000"/>
+          <specification_ParametericResourceDemand specification="0"/>
           <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:SetVariableAction" id="_GhZEMFSmEeanHbKuWlKDRQ" entityName="RESULT" predecessor_AbstractAction="_11lyEFShEeae4Nk8kZBAPw" successor_AbstractAction="_qZUd0SHbEd62GabW1zGSBw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
-            <specification_VariableCharacterisation specification="5000"/>
+            <specification_VariableCharacterisation specification="75"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
         </localVariableUsages_SetVariableAction>

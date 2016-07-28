@@ -9,7 +9,7 @@
         <operationSignature__EntryLevelSystemCall href="default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
         <inputParameterUsages_EntryLevelSystemCall>
           <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
-            <specification_VariableCharacterisation specification="1000"/>
+            <specification_VariableCharacterisation specification="100"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="inputArray"/>
         </inputParameterUsages_EntryLevelSystemCall>
