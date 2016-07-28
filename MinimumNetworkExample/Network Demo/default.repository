@@ -16,6 +16,9 @@
           <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
             <specification_VariableCharacterisation specification="75"/>
           </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="30"/>
+          </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
@@ -33,7 +36,7 @@
             <specification_VariableCharacterisation specification="inputArray.NUMBER_OF_ELEMENTS"/>
           </variableCharacterisation_VariableUsage>
           <variableCharacterisation_VariableUsage type="BYTESIZE">
-            <specification_VariableCharacterisation specification="0"/>
+            <specification_VariableCharacterisation specification="50"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="inputArray"/>
         </inputVariableUsages__CallAction>
