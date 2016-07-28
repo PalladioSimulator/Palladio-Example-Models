@@ -26,6 +26,20 @@
   <children xmi:type="notation:Shape" xmi:id="_XK8psFShEeae4Nk8kZBAPw" type="2004" fontName=".SF NS Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_XK9QwFShEeae4Nk8kZBAPw" type="5019"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_XK9QwVShEeae4Nk8kZBAPw" type="7004">
+      <children xmi:type="notation:Shape" xmi:id="_R3QeUFSoEeanHbKuWlKDRQ" type="3003" fontName=".SF NS Text">
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeUlSoEeanHbKuWlKDRQ" type="5013"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeU1SoEeanHbKuWlKDRQ" type="5014"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeVFSoEeanHbKuWlKDRQ" type="5015"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeVVSoEeanHbKuWlKDRQ" type="5016"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeVlSoEeanHbKuWlKDRQ" type="5017"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3QeV1SoEeanHbKuWlKDRQ" type="5018"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_R3RFYFSoEeanHbKuWlKDRQ" type="7005">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_R3RFYVSoEeanHbKuWlKDRQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_R3RFYlSoEeanHbKuWlKDRQ"/>
+        </children>
+        <element xmi:type="resourceenvironment:ProcessingResourceSpecification" href="My.resourceenvironment#_PypiQFSoEeanHbKuWlKDRQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3QeUVSoEeanHbKuWlKDRQ"/>
+      </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_XK9QwlShEeae4Nk8kZBAPw"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_XK9Qw1ShEeae4Nk8kZBAPw"/>
     </children>

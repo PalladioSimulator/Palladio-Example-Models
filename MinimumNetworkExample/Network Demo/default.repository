@@ -32,6 +32,9 @@
           <variableCharacterisation_VariableUsage type="NUMBER_OF_ELEMENTS">
             <specification_VariableCharacterisation specification="inputArray.NUMBER_OF_ELEMENTS"/>
           </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage type="BYTESIZE">
+            <specification_VariableCharacterisation specification="0"/>
+          </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="inputArray"/>
         </inputVariableUsages__CallAction>
         <returnVariableUsage__CallReturnAction>

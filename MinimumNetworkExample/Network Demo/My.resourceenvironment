@@ -4,7 +4,7 @@
     <communicationLinkResourceSpecifications_LinkingResource id="_aO6J8FShEeae4Nk8kZBAPw">
       <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
       <latency_CommunicationLinkResourceSpecification specification="10"/>
-      <throughput_CommunicationLinkResourceSpecification specification="1000"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1"/>
     </communicationLinkResourceSpecifications_LinkingResource>
   </linkingResources__ResourceEnvironment>
   <resourceContainer_ResourceEnvironment id="_GAeeUCpXEeKNWc2UWjbmuw" entityName="AppServer">
@@ -14,5 +14,11 @@
       <processingRate_ProcessingResourceSpecification specification="1"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment id="_XK4YQFShEeae4Nk8kZBAPw" entityName="LoadProxy"/>
+  <resourceContainer_ResourceEnvironment id="_XK4YQFShEeae4Nk8kZBAPw" entityName="LoadProxy">
+    <activeResourceSpecifications_ResourceContainer id="_PypiQFSoEeanHbKuWlKDRQ">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
 </resourceenvironment:ResourceEnvironment>

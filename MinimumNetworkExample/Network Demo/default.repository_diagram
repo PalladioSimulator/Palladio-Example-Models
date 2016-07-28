@@ -197,6 +197,10 @@
               <element xmi:type="parameter:VariableCharacterisation" href="default.repository#//@components__Repository.1/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@inputVariableUsages__CallAction.0/@variableCharacterisation_VariableUsage.0"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_HK67oVShEeae4Nk8kZBAPw"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_rWDpYFSnEeanHbKuWlKDRQ" type="3033">
+              <element xmi:type="parameter:VariableCharacterisation" href="default.repository#//@components__Repository.1/@serviceEffectSpecifications__BasicComponent.0/@steps_Behaviour.2/@inputVariableUsages__CallAction.0/@variableCharacterisation_VariableUsage.1"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rWDpYVSnEeanHbKuWlKDRQ"/>
+            </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_FXpnN1ShEeae4Nk8kZBAPw" showTitle="true"/>
             <styles xmi:type="notation:SortingStyle" xmi:id="_FXpnOFShEeae4Nk8kZBAPw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FXpnOVShEeae4Nk8kZBAPw"/>
