@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="CompositeModel" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2002" fontName="Segoe UI">
+    <children xsi:type="notation:DecorationNode" type="5012"/>
+    <children xsi:type="notation:DecorationNode" type="7002">
+      <children xsi:type="notation:Shape" type="3006" fontName="Segoe UI">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName="Segoe UI">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" x="56" y="-38"/>
+          </children>
+          <element href="default.repository#_qZKs0CHbEd62GabW1zGSBw"/>
+          <layoutConstraint xsi:type="notation:Bounds" x="-29" y="20"/>
+        </children>
+        <element href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="436" y="87" width="191" height="76"/>
+      </children>
+      <children xsi:type="notation:Shape" type="3006" fontName=".SF NS Text">
+        <children xsi:type="notation:DecorationNode" type="5009"/>
+        <children xsi:type="notation:Shape" type="3007" fontName=".SF NS Text">
+          <children xsi:type="notation:DecorationNode" type="5007">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_2DoqkFSgEeae4Nk8kZBAPw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <children xsi:type="notation:Shape" type="3008" fontName=".SF NS Text">
+          <children xsi:type="notation:DecorationNode" type="5008">
+            <layoutConstraint xsi:type="notation:Location" y="5"/>
+          </children>
+          <element href="default.repository#_33SZgFSgEeae4Nk8kZBAPw"/>
+          <layoutConstraint xsi:type="notation:Bounds"/>
+        </children>
+        <element href="default.system#_5tK9EFSgEeae4Nk8kZBAPw"/>
+        <layoutConstraint xsi:type="notation:Bounds" x="152" y="95"/>
+      </children>
+    </children>
+    <children xsi:type="notation:Shape" type="3011" fontName="Segoe UI">
+      <children xsi:type="notation:DecorationNode" type="5013">
+        <layoutConstraint xsi:type="notation:Location" x="135" y="58"/>
+      </children>
+      <element href="default.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+      <layoutConstraint xsi:type="notation:Bounds" x="-59" y="235"/>
+    </children>
+    <element href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="95" y="60" width="914" height="445"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.1/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName=".SF NS Text"/>
+    <element href="default.system#_-SeUQFSgEeae4Nk8kZBAPw"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, 323, 179]$[-319, -175, -3, 4]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.8,0.6)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
+    <styles xsi:type="notation:FontStyle" fontName=".SF NS Text"/>
+    <element href="default.system#_d1Sd8FSlEeaAX6DXDw8LSA"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[30, 0, -220, 74]$[249, -72, -1, 2]"/>
+  </edges>
+</notation:Diagram>
