@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_os1t4CHbEd62GabW1zGSBw" entityName="EspressoAccountingComponent">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qZKs0CHbEd62GabW1zGSBw" entityName="Provided_Accounting_EspressoAccountingComponent" providedInterface__OperationProvidedRole="_n7g-oCHbEd62GabW1zGSBw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:InfrastructureRequiredRole" id="_xoN7YGRHEea4WvG_xgnItw" entityName="Required_HDD_EspressoAccountingComponent" requiredInterface__InfrastructureRequiredRole="_vU-tcGRHEea4WvG_xgnItw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="12345" describedService__SEFF="_KjhikgzkEeCFg86gxKwVPw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_7_VgMGRHEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_qZUd0SHbEd62GabW1zGSBw" predecessor_AbstractAction="_7_VgMGRHEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7_VgMGRHEea4WvG_xgnItw" entityName="DoDiskIO" predecessor_AbstractAction="_qZUd0CHbEd62GabW1zGSBw" successor_AbstractAction="_qZUd0SHbEd62GabW1zGSBw">
+        <infrastructureCall__Action id="_9M44cGRHEea4WvG_xgnItw" signature__InfrastructureCall="_v4wI4GRHEea4WvG_xgnItw" requiredRole__InfrastructureCall="_xoN7YGRHEea4WvG_xgnItw">
+          <numberOfCalls__InfrastructureCall specification="1"/>
+        </infrastructureCall__Action>
+        <infrastructureCall__Action id="__p3RMGRHEea4WvG_xgnItw" signature__InfrastructureCall="_wUY8AGRHEea4WvG_xgnItw" requiredRole__InfrastructureCall="_xoN7YGRHEea4WvG_xgnItw">
+          <numberOfCalls__InfrastructureCall specification="1"/>
+        </infrastructureCall__Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_zUU34GRHEea4WvG_xgnItw" entityName="Storage Device">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:InfrastructureProvidedRole" id="_0F3pkGRHEea4WvG_xgnItw" entityName="Provided_HDD_aName" providedInterface__InfrastructureProvidedRole="_vU-tcGRHEea4WvG_xgnItw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_0F6s4GRHEea4WvG_xgnItw" describedService__SEFF="_v4wI4GRHEea4WvG_xgnItw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_0F7T8GRHEea4WvG_xgnItw" entityName="start" successor_AbstractAction="_F9t04GRIEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_0F7T8WRHEea4WvG_xgnItw" entityName="stop" predecessor_AbstractAction="_F9t04GRIEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_F9t04GRIEea4WvG_xgnItw" entityName="read" predecessor_AbstractAction="_0F7T8GRHEea4WvG_xgnItw" successor_AbstractAction="_0F7T8WRHEea4WvG_xgnItw">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="1"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_0F77AGRHEea4WvG_xgnItw" describedService__SEFF="_wUY8AGRHEea4WvG_xgnItw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_0F8iEGRHEea4WvG_xgnItw" entityName="start" successor_AbstractAction="_KwxUMGRIEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_0F8iEWRHEea4WvG_xgnItw" entityName="stop" predecessor_AbstractAction="_KwxUMGRIEea4WvG_xgnItw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KwxUMGRIEea4WvG_xgnItw" entityName="write" predecessor_AbstractAction="_0F8iEGRHEea4WvG_xgnItw" successor_AbstractAction="_0F8iEWRHEea4WvG_xgnItw">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_BIjHoQ3KEdyouMqirZIhzQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_n7g-oCHbEd62GabW1zGSBw" entityName="AccountingInterface">
+    <signatures__OperationInterface id="_KjhikgzkEeCFg86gxKwVPw" entityName="chargeForEspresso"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:InfrastructureInterface" id="_vU-tcGRHEea4WvG_xgnItw" entityName="Storage">
+    <infrastructureSignatures__InfrastructureInterface id="_v4wI4GRHEea4WvG_xgnItw" entityName="read"/>
+    <infrastructureSignatures__InfrastructureInterface id="_wUY8AGRHEea4WvG_xgnItw" entityName="write"/>
+  </interfaces__Repository>
+</repository:Repository>
