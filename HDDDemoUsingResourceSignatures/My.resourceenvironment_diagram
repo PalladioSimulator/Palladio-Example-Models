@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_E1WH8CpXEeKNWc2UWjbmuw" type="ResourceEnvironmentModel" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_GAeeUSpXEeKNWc2UWjbmuw" type="2004" fontName="Segoe UI">
+    <children xsi:type="notation:DecorationNode" xmi:id="_GAeeUypXEeKNWc2UWjbmuw" type="5019"/>
+    <children xsi:type="notation:DecorationNode" xmi:id="_GAeeVCpXEeKNWc2UWjbmuw" type="7004">
+      <children xsi:type="notation:Shape" xmi:id="_K-tS4CpXEeKNWc2UWjbmuw" type="3003" fontName="Segoe UI">
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS4ipXEeKNWc2UWjbmuw" type="5013"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS4ypXEeKNWc2UWjbmuw" type="5014"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS5CpXEeKNWc2UWjbmuw" type="5015"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS5SpXEeKNWc2UWjbmuw" type="5016"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS5ipXEeKNWc2UWjbmuw" type="5017"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS5ypXEeKNWc2UWjbmuw" type="5018"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_K-tS6CpXEeKNWc2UWjbmuw" type="7005">
+          <styles xsi:type="notation:SortingStyle" xmi:id="_K-tS6SpXEeKNWc2UWjbmuw"/>
+          <styles xsi:type="notation:FilteringStyle" xmi:id="_K-tS6ipXEeKNWc2UWjbmuw"/>
+        </children>
+        <element href="My.resourceenvironment#_KFRwgCpXEeKNWc2UWjbmuw"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_K-tS4SpXEeKNWc2UWjbmuw"/>
+      </children>
+      <styles xsi:type="notation:SortingStyle" xmi:id="_GAeeVSpXEeKNWc2UWjbmuw"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_GAeeVipXEeKNWc2UWjbmuw"/>
+    </children>
+    <element href="My.resourceenvironment#_GAeeUCpXEeKNWc2UWjbmuw"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_GAeeUipXEeKNWc2UWjbmuw" x="30" y="30"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_E1WH8SpXEeKNWc2UWjbmuw"/>
+  <element href="My.resourceenvironment#/"/>
+</notation:Diagram>

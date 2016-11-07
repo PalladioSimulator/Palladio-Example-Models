@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.upb.pcm.interpreter.SimuLizarLaunching">
+<stringAttribute key="EDP2RepositoryID" value="_u21dAJq6EeaqDubw1r6xEg"/>
+<stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+<stringAttribute key="allocationFile" value="platform:/resource/HDD Patch Demo/default.allocation"/>
+<booleanAttribute key="clear" value="true"/>
+<stringAttribute key="confidenceBatchSize" value="200"/>
+<stringAttribute key="confidenceHalfWidth" value="10"/>
+<stringAttribute key="confidenceLevel" value="95"/>
+<stringAttribute key="confidenceMinNumberOfBatches" value="60"/>
+<stringAttribute key="confidenceModelElementName" value=""/>
+<stringAttribute key="confidenceModelElementURI" value=""/>
+<booleanAttribute key="confidenceUseAutomaticBatches" value="true"/>
+<stringAttribute key="consolePrefix" value=""/>
+<intAttribute key="datasourceID" value="-1"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<setAttribute key="enabledModules">
+<setEntry value="edu.kit.ipd.sdq.eventsim.extensionexample"/>
+<setEntry value="edu.kit.ipd.sdq.eventsim.resources.module"/>
+<setEntry value="edu.kit.ipd.sdq.eventsim.system.module"/>
+<setEntry value="edu.kit.ipd.sdq.eventsim.workload.module"/>
+</setAttribute>
+<stringAttribute key="experimentRun" value="MyRun"/>
+<stringAttribute key="featureConfig" value="pathmap://PCM_MODELS/ConnectorConfig.featureconfig"/>
+<stringAttribute key="fixedSeed0" value="0"/>
+<stringAttribute key="fixedSeed1" value="1"/>
+<stringAttribute key="fixedSeed2" value="2"/>
+<stringAttribute key="fixedSeed3" value="3"/>
+<stringAttribute key="fixedSeed4" value="4"/>
+<stringAttribute key="fixedSeed5" value="5"/>
+<stringAttribute key="instrumentationFile" value="platform:/plugin/edu.kit.ipd.sdq.eventsim.core/defaultModels/default.eventsim_instrumentation"/>
+<stringAttribute key="maximum" value=""/>
+<stringAttribute key="maximumMeasurementCount" value="10000"/>
+<stringAttribute key="minimum" value=""/>
+<stringAttribute key="monitorRepositoryFile" value="platform:/resource/HDD Patch Demo/monitoring.monitorrepository"/>
+<stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
+<stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
+<stringAttribute key="reconfigurationRulesFolder" value=""/>
+<booleanAttribute key="reliability.simulateFailures" value="false"/>
+<booleanAttribute key="rserve.createrdsfile" value="false"/>
+<stringAttribute key="rserve.rdsfilepath" value="/var/folders/p0/60xttc7s4g1dfw15f771_2y40000gn/T/eventsim-results2874251534297569889.rds"/>
+<stringAttribute key="serviceLevelObjectiveRepositoryFile" value=""/>
+<stringAttribute key="simTime" value="15000"/>
+<booleanAttribute key="simulateAccuracy" value="false"/>
+<booleanAttribute key="simulateFailures" value="false"/>
+<booleanAttribute key="simulateLinkingResources" value="false"/>
+<booleanAttribute key="simulateThroughputOfLinkingResources" value="true"/>
+<stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simulizar"/>
+<stringAttribute key="stepwidth" value=""/>
+<stringAttribute key="usageEvolutionFile" value=""/>
+<stringAttribute key="usageFile" value="platform:/resource/HDD Patch Demo/default.usagemodel"/>
+<booleanAttribute key="useConfidenceStopCondition" value="false"/>
+<booleanAttribute key="useFixedSeed" value="false"/>
+<stringAttribute key="variable" value=""/>
+<stringAttribute key="variationId" value="Default Variation"/>
+<booleanAttribute key="verboseLogging" value="false"/>
+</launchConfiguration>
