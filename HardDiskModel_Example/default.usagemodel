@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2">
+<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.1" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2">
   <usageScenario_UsageModel id="_1dCWYHJ1Ed2efr_U4e1c6Q" entityName="defaultUsageScenario">
     <workload_UsageScenario xsi:type="ClosedWorkload" population="4">
       <thinkTime_ClosedWorkload specification="0.0"/>
