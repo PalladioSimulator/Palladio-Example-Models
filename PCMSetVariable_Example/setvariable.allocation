@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_zzjIcP__Edu5_5tCZjPAAA">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_zzjIcP__Edu5_5tCZjPAAA">
   <targetResourceEnvironment_Allocation href="setvariable.resourceenvironment#/"/>
   <system_Allocation href="setvariable.system#_VgMesP__Edu5_5tCZjPAAA"/>
   <allocationContexts_Allocation id="_1JGmIP__Edu5_5tCZjPAAA">
