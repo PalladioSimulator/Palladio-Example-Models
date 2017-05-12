@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" id="_Ue7JUHtPEd6J8YwisObTKw" entityName="defaultRepository">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_Ue7JUHtPEd6J8YwisObTKw" entityName="defaultRepository">
   <components__Repository xsi:type="repository:BasicComponent" id="_U6MwEHtPEd6J8YwisObTKw" entityName="Forking">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XjnpYHtPEd6J8YwisObTKw" entityName="Provided_IFork_Forking" providedInterface__OperationProvidedRole="_VtJ3AHtPEd6J8YwisObTKw"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_XkOGUHtPEd6J8YwisObTKw" describedService__SEFF="_B-1qwKfFEd-L5vB0MCctNg">

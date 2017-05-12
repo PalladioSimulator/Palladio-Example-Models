@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_goDo4HtQEd6J8YwisObTKw" entityName="defaultAllocation">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_goDo4HtQEd6J8YwisObTKw" entityName="defaultAllocation">
   <targetResourceEnvironment_Allocation href="fork_3.1.resourceenvironment#/"/>
   <system_Allocation href="fork_3.1.system#_2PmOgHtPEd6J8YwisObTKw"/>
   <allocationContexts_Allocation id="_Mu7AAE_EEeWF5LDxE4JiAg" entityName="Allocation_Assembly_Forking &lt;Forking> &lt;Forking>">
