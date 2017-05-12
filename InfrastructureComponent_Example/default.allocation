@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_o7VY8FocEeCigo30slKAcg" entityName="defaultAllocation">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.1" id="_o7VY8FocEeCigo30slKAcg" entityName="defaultAllocation">
   <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
   <system_Allocation href="default.system#_KykrEFobEeCigo30slKAcg"/>
   <allocationContexts_Allocation id="_rYR8gFocEeCigo30slKAcg" entityName="Allocation_Assembly_InfrastructureTest &lt;InfrastructureTest> &lt;InfrastructureTest>">
