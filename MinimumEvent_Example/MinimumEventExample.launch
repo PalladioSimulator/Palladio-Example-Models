@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.uka.ipd.sdq.simucontroller.SimuLaunching">
+<stringAttribute key="EDP2RepositoryID" value="_kA2IsDbrEeeiL9NVtlhrig"/>
 <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
 <stringAttribute key="allocationFile" value="platform:/resource/MinimumEventExample/default.allocation"/>
 <booleanAttribute key="clear" value="true"/>
@@ -27,17 +28,21 @@
 <stringAttribute key="maximumMeasurementCount" value="10000"/>
 <stringAttribute key="minimum" value=""/>
 <stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
-<stringAttribute key="outpath" value="de.uka.ipd.sdq.temporary"/>
-<stringAttribute key="persistenceFramework" value="SensorFramework"/>
+<stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
+<stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
+<booleanAttribute key="reliability.simulateFailures" value="true"/>
+<stringAttribute key="rmiRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
 <stringAttribute key="simTime" value="15000"/>
 <booleanAttribute key="simulateAccuracy" value="false"/>
 <booleanAttribute key="simulateFailures" value="false"/>
 <booleanAttribute key="simulateLinkingResources" value="false"/>
+<booleanAttribute key="simulateThroughputOfLinkingResources" value="true"/>
 <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
 <stringAttribute key="stepwidth" value=""/>
 <stringAttribute key="usageFile" value="platform:/resource/MinimumEventExample/default.usagemodel"/>
 <booleanAttribute key="useConfidenceStopCondition" value="false"/>
 <booleanAttribute key="useFixedSeed" value="false"/>
 <stringAttribute key="variable" value=""/>
+<stringAttribute key="variationId" value=""/>
 <booleanAttribute key="verboseLogging" value="false"/>
 </launchConfiguration>
