@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_u_u7gP_8Edu5_5tCZjPAAA" entityName="SetVariableRepository">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_u_u7gP_8Edu5_5tCZjPAAA" entityName="SetVariableRepository">
   <components__Repository xsi:type="repository:BasicComponent" id="_V3B8QP_9Edu5_5tCZjPAAA" entityName="Client">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XfHUYP_9Edu5_5tCZjPAAA" entityName="Provided_IProvided_Client" providedInterface__OperationProvidedRole="_3YdhAP_8Edu5_5tCZjPAAA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_X8oW0P_9Edu5_5tCZjPAAA" entityName="Required_IProvidedServer_Client" requiredInterface__OperationRequiredRole="_Gy09QP_9Edu5_5tCZjPAAA"/>
@@ -26,7 +26,7 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZJr_0P_9Edu5_5tCZjPAAA" entityName="Provided_IProvidedServer_Server" providedInterface__OperationProvidedRole="_Gy09QP_9Edu5_5tCZjPAAA"/>
     <componentParameterUsage_ImplementationComponentType>
       <variableCharacterisation_VariableUsage type="VALUE">
-        <specification_VariableCharacterisation specification="3"/>
+        <specification_VariableCharacterisation specification="50"/>
       </variableCharacterisation_VariableUsage>
       <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="param"/>
     </componentParameterUsage_ImplementationComponentType>

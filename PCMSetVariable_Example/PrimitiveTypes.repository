@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" id="_Ls3VgHv_Edub45jJKtm_Dg" entityName="PrimitiveTypes" repositoryDescription="">
+<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_Ls3VgHv_Edub45jJKtm_Dg" entityName="PrimitiveTypes" repositoryDescription="">
   <dataTypes__Repository xsi:type="PrimitiveDataType"/>
   <dataTypes__Repository xsi:type="PrimitiveDataType" type="STRING"/>
   <dataTypes__Repository xsi:type="PrimitiveDataType" type="BOOL"/>
