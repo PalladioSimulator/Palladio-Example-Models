@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:_1="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_rzzAsHJ0Ed2efr_U4e1c6Q" entityName="defaultRepository">
+<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:_1="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_rzzAsHJ0Ed2efr_U4e1c6Q" entityName="defaultRepository">
   <components__Repository xsi:type="BasicComponent" id="_us3fkHJ0Ed2efr_U4e1c6Q" entityName="HardDiskModel">
     <providedRoles_InterfaceProvidingEntity xsi:type="OperationProvidedRole" id="_A9RU0HJ1Ed2efr_U4e1c6Q" entityName="Provided_IHardDiskAccess_aName" providedInterface__OperationProvidedRole="_vfrckHJ0Ed2efr_U4e1c6Q"/>
     <componentParameterUsage_ImplementationComponentType>
