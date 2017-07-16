@@ -5,6 +5,7 @@ do
   sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/Repository\/5.1/palladiosimulator.org\/PalladioComponentModel\/Repository\/5.2/g' "$file"
   sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.1/palladiosimulator.org\/PalladioComponentModel\/SubSystem\/5.2/g' "$file"
   sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.1/palladiosimulator.org\/PalladioComponentModel\/SEFF\/5.2/g' "$file"
+  sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/SEFF\/SEFF_Reliability\/5.1/palladiosimulator.org\/PalladioComponentModel\/SEFF\/SEFF_Reliability\/5.2/g' "$file"
   sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.1/palladiosimulator.org\/PalladioComponentModel\/Reliability\/5.2/g' "$file"
   sed -i .bk 's/palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.1/palladiosimulator.org\/PalladioComponentModel\/Core\/Composition\/5.2/g' "$file"
 done
