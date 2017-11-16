@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1">
+<ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
   <resourceContainer_ResourceEnvironment id="_B0aZ0CHdEd6lJo4DCALHMw" entityName="appserver">
     <activeResourceSpecifications_ResourceContainer> <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>

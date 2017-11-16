@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.1">
+<UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
   <usageScenario_UsageModel id="_LPnI8CHdEd6lJo4DCALHMw" entityName="defaultUsageScenario">
     <workload_UsageScenario xsi:type="ClosedWorkload" population="1">
       <thinkTime_ClosedWorkload specification="0.0"/>
