@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_bE6MsL3NEeSvHZ5kF_aE4g" entityName="MediaStore-InstantDownloadCache">
+  <targetResourceEnvironment_Allocation href="MediaStore.resourceenvironment#/"/>
+  <system_Allocation href="MediaStore-InstantDownloadCache.system#_oPwBYHDhEeSqnN80MQ2uGw"/>
+  <allocationContexts_Allocation id="_h3M_4L3NEeSvHZ5kF_aE4g" entityName="FileStorage">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_dH4W0Lg3EeSNPorBlo7x9g"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_1ek7QLg_EeSNPorBlo7x9h"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_eKs48L3NEeSvHZ5kF_aE4g" entityName="Packaging">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_IPnY0HD5EeSA4fySuX9I2S"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_dXxnML3NEeSvHZ5kF_aE4g" entityName="MediaAccess">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_4LdYsHD4EeSA4fySuX9I2S"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_dx0e4L3NEeSvHZ5kF_aE4g" entityName="MediaManagement">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_C1kK8HD5EeSA4fySuX9I2S"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_dx0e4L3NEeSvHZ5kF_aE4z" entityName="InstantDownloadCache">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_IulGALW1EeapTpBxO5_ZIS"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

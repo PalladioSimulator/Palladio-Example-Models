@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_bE6MsL3NEeSvHZ5kF_aE4g" entityName="MediaStore-Cacheless-Allocation">
+  <targetResourceEnvironment_Allocation href="MediaStore.resourceenvironment#/"/>
+  <system_Allocation href="MediaStore-Cacheless.system#_oPwBYHDhEeSqnN80MQ2uGk"/>
+  <allocationContexts_Allocation id="_sj2LoLYiEeaM_9DBke4xEw" entityName="MediaManagement">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-Cacheless.system#_C1kK8HD5EeSA4fySuX9I2Z"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_w9XwoLYiEeaM_9DBke4xEw" entityName="MediaAccess">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-Cacheless.system#_4LdYsHD4EeSA4fySuX9I2Z"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_zXozoLYiEeaM_9DBke4xEw" entityName="Packaging">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-Cacheless.system#_IPnY0HD5EeSA4fySuX9I2Z"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_0nXWILYiEeaM_9DBke4xEw" entityName="FileStorage">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_dH4W0Lg3EeSNPorBlo7x9g"/>
+    <assemblyContext_AllocationContext href="MediaStore-Cacheless.system#_1ek7QLg_EeSNPorBlo7x9z"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

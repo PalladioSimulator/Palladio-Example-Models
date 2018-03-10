@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_bE6MsL3NEeSvHZ5kF_aE4g" entityName="MediaStore-EnqueueDownloadCache">
+  <targetResourceEnvironment_Allocation href="MediaStore.resourceenvironment#/"/>
+  <system_Allocation href="MediaStore-EnqueueDownloadCache.system#_oPwBYHDhEeSqnN80MQ2uGp"/>
+  <allocationContexts_Allocation id="_Dg1r0LYjEeaM_9DBke4xEw" entityName="MediaManagement">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-EnqueueDownloadCache.system#_C1kK8HD5EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Eb2ikLYjEeaM_9DBke4xEw" entityName="MediaAccess">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-EnqueueDownloadCache.system#_4LdYsHD4EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKtMoLYjEeaM_9DBke4xEw" entityName="Packaging">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-EnqueueDownloadCache.system#_IPnY0HD5EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_F2CooLYjEeaM_9DBke4xEw" entityName="EnqueueDownloadCache">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="MediaStore-EnqueueDownloadCache.system#_IulGALW1EeapTpBxO5_ZIQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_HJueELYjEeaM_9DBke4xEw" entityName="FileStorage">
+    <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_dH4W0Lg3EeSNPorBlo7x9g"/>
+    <assemblyContext_AllocationContext href="MediaStore-EnqueueDownloadCache.system#_1ek7QLg_EeSNPorBlo7x9g"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
