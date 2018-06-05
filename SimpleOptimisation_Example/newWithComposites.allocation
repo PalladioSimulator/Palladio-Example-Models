@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_f5u5QJyMEd6Gn-xRPLZ8iw" entityName="defaultAllocation">
+<Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_f5u5QJyMEd6Gn-xRPLZ8iw" entityName="defaultAllocation">
   <allocationContexts_Allocation id="_gu8C8JyMEd6Gn-xRPLZ8iw" entityName="Allocation_Assembly_C1 &lt;C1> &lt;C1>">
     <resourceContainer_AllocationContext href="My.resourceenvironment#_kBAaEZuvEd6drucJ1qoe4Q"/>
     <assemblyContext_AllocationContext href="newWithComposites.system#_VpVngJyMEd6Gn-xRPLZ8iw"/>
