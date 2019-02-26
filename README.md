@@ -1,5 +1,5 @@
 # Palladio-Example-Models
-Example Models that demonstrate various Palladio features or serve as test cases.
+Example Models that demonstrate various Palladio features or serve as test cases. The examples are ready to be downloaded as zip files from our [webserver](https://sdqweb.ipd.kit.edu/eclipse/palladio/examples/).
 
 More information:
 * https://sdqweb.ipd.kit.edu/wiki/Palladio_Examples
