@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_Q76OUGBREemrIvPmN-PCZA" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_KV8VAGBTEemrIvPmN-PCZA" entityName="MessageTransformation">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Yx0L4GBXEemrIvPmN-PCZA" entityName="MessageTransformation.MessageTransformation.OperationProvidedRole1" providedInterface__OperationProvidedRole="_oZ0DMGBREemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_A4AzQGBZEemrIvPmN-PCZA" entityName="MessageTransformation.MessageBroker.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_qEhRgGBREemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_VlBckGBTEemrIvPmN-PCZA" describedService__SEFF="_zIw5MGBREemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_VlBckWBTEemrIvPmN-PCZA" successor_AbstractAction="_g6KI0GBTEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_VlBckmBTEemrIvPmN-PCZA" predecessor_AbstractAction="_ojVwwG_2EemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_g6KI0GBTEemrIvPmN-PCZA" entityName="transformationOverhead" predecessor_AbstractAction="_VlBckWBTEemrIvPmN-PCZA" successor_AbstractAction="_ojVwwG_2EemrIvPmN-PCZA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="3400000000.0 * 0.01"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_ojVwwG_2EemrIvPmN-PCZA" entityName="ExternalCallAction2" predecessor_AbstractAction="_g6KI0GBTEemrIvPmN-PCZA" successor_AbstractAction="_VlBckmBTEemrIvPmN-PCZA" calledService_ExternalService="_Qw6CwGBSEemrIvPmN-PCZA" role_ExternalService="_A4AzQGBZEemrIvPmN-PCZA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_MwE1IGBTEemrIvPmN-PCZA" entityName="MessageBroker">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xpKDcGBYEemrIvPmN-PCZA" entityName="MessageBroker.MessageBroker.OperationProvidedRole1" providedInterface__OperationProvidedRole="_qEhRgGBREemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_hKMhMGBZEemrIvPmN-PCZA" entityName="MessageBroker.Notification.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_s5eFYGBREemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_norLAGEeEemrIvPmN-PCZA" entityName="MessageBroker.DefaultExchange.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_MuNakGEcEemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VZVDsG_aEemrIvPmN-PCZA" entityName="MessageBroker.DefaultExchange.OperationRequiredRole3" requiredInterface__OperationRequiredRole="_MuNakGEcEemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YhFlEGBTEemrIvPmN-PCZA" describedService__SEFF="_Qw6CwGBSEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_YhFlEWBTEemrIvPmN-PCZA" successor_AbstractAction="_u2IfIG_jEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_YhFlEmBTEemrIvPmN-PCZA" predecessor_AbstractAction="_u2IfIG_jEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_u2IfIG_jEemrIvPmN-PCZA" entityName="BranchAction1" predecessor_AbstractAction="_YhFlEWBTEemrIvPmN-PCZA" successor_AbstractAction="_YhFlEmBTEemrIvPmN-PCZA">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_wDnl8G_jEemrIvPmN-PCZA" entityName="ProbabilisticBranchTransition1" branchProbability="0.7">
+          <branchBehaviour_BranchTransition id="_wDnl8W_jEemrIvPmN-PCZA">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_wDoNAG_jEemrIvPmN-PCZA" successor_AbstractAction="_1MBDIG_jEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_wDoNAW_jEemrIvPmN-PCZA" predecessor_AbstractAction="_K3WRsG_lEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_1MBDIG_jEemrIvPmN-PCZA" entityName="ExternalCallAction1" predecessor_AbstractAction="_wDoNAG_jEemrIvPmN-PCZA" successor_AbstractAction="_IhRLIG_lEemrIvPmN-PCZA" calledService_ExternalService="_NXlPsGWmEemrIvPmN-PCZA" role_ExternalService="_norLAGEeEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_IhRLIG_lEemrIvPmN-PCZA" entityName="ExternalCallAction2" predecessor_AbstractAction="_1MBDIG_jEemrIvPmN-PCZA" successor_AbstractAction="_K3WRsG_lEemrIvPmN-PCZA" calledService_ExternalService="_dgXX8GBSEemrIvPmN-PCZA" role_ExternalService="_hKMhMGBZEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_K3WRsG_lEemrIvPmN-PCZA" entityName="ExternalCallAction3" predecessor_AbstractAction="_IhRLIG_lEemrIvPmN-PCZA" successor_AbstractAction="_wDoNAW_jEemrIvPmN-PCZA" calledService_ExternalService="_OodBsGWmEemrIvPmN-PCZA" role_ExternalService="_norLAGEeEemrIvPmN-PCZA"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_81cSoG_jEemrIvPmN-PCZA" entityName="ProbabilisticBranchTransition2" branchProbability="0.3">
+          <branchBehaviour_BranchTransition id="_81cSoW_jEemrIvPmN-PCZA">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_81cSom_jEemrIvPmN-PCZA" successor_AbstractAction="_CSDsUG_kEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_81cSo2_jEemrIvPmN-PCZA" predecessor_AbstractAction="_X9N7wG_lEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_CSDsUG_kEemrIvPmN-PCZA" entityName="ExternalCallAction1" predecessor_AbstractAction="_81cSom_jEemrIvPmN-PCZA" successor_AbstractAction="_TKqywG_lEemrIvPmN-PCZA" calledService_ExternalService="_NXlPsGWmEemrIvPmN-PCZA" role_ExternalService="_VZVDsG_aEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_TKqywG_lEemrIvPmN-PCZA" entityName="ExternalCallAction2" predecessor_AbstractAction="_CSDsUG_kEemrIvPmN-PCZA" successor_AbstractAction="_X9N7wG_lEemrIvPmN-PCZA" calledService_ExternalService="_dgXX8GBSEemrIvPmN-PCZA" role_ExternalService="_hKMhMGBZEemrIvPmN-PCZA"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_X9N7wG_lEemrIvPmN-PCZA" entityName="ExternalCallAction3" predecessor_AbstractAction="_TKqywG_lEemrIvPmN-PCZA" successor_AbstractAction="_81cSo2_jEemrIvPmN-PCZA" calledService_ExternalService="_OodBsGWmEemrIvPmN-PCZA" role_ExternalService="_VZVDsG_aEemrIvPmN-PCZA"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Pks44GBTEemrIvPmN-PCZA" entityName="Notification">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_f2wjYGBZEemrIvPmN-PCZA" entityName="Notification.Notification.OperationProvidedRole1" providedInterface__OperationProvidedRole="_s5eFYGBREemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Jj56cGBbEemrIvPmN-PCZA" entityName="Notification.AsynchronousConsumer.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_n8yPUGBZEemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_c2k-oGBTEemrIvPmN-PCZA" describedService__SEFF="_dgXX8GBSEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_c2k-oWBTEemrIvPmN-PCZA" successor_AbstractAction="_6aenwGBbEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_c2k-omBTEemrIvPmN-PCZA" predecessor_AbstractAction="_7uyvUGBbEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_6aenwGBbEemrIvPmN-PCZA" entityName="ExternalCallAction1" predecessor_AbstractAction="_c2k-oWBTEemrIvPmN-PCZA" successor_AbstractAction="_JzxtAGBcEemrIvPmN-PCZA" calledService_ExternalService="_wTci0GBaEemrIvPmN-PCZA" role_ExternalService="_Jj56cGBbEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7uyvUGBbEemrIvPmN-PCZA" entityName="ExternalCallAction2" predecessor_AbstractAction="_JzxtAGBcEemrIvPmN-PCZA" successor_AbstractAction="_c2k-omBTEemrIvPmN-PCZA" calledService_ExternalService="_6eKDUGBaEemrIvPmN-PCZA" role_ExternalService="_Jj56cGBbEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_JzxtAGBcEemrIvPmN-PCZA" entityName="process" predecessor_AbstractAction="_6aenwGBbEemrIvPmN-PCZA" successor_AbstractAction="_7uyvUGBbEemrIvPmN-PCZA">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="3400000000.0 * 0.5"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_jA9gcGBXEemrIvPmN-PCZA" entityName="QueueResources">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:InfrastructureProvidedRole" id="_IG6NYGEeEemrIvPmN-PCZA" entityName="QueueResources.MessageQueue.InfrastructureProvidedRole1" providedInterface__InfrastructureProvidedRole="_ajdTIGEcEemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_GKNzMG_wEemrIvPmN-PCZA" describedService__SEFF="_7tKlgG_vEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_G0amwG_wEemrIvPmN-PCZA" successor_AbstractAction="_JppHcG_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_G0amwW_wEemrIvPmN-PCZA" predecessor_AbstractAction="_O0LSoG_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:AcquireAction" id="_JppHcG_wEemrIvPmN-PCZA" entityName="AcquireAction1" predecessor_AbstractAction="_G0amwG_wEemrIvPmN-PCZA" successor_AbstractAction="_O0LSoG_wEemrIvPmN-PCZA" passiveresource_AcquireAction="_pTUZ4GBYEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:AcquireAction" id="_O0LSoG_wEemrIvPmN-PCZA" entityName="AcquireAction2" predecessor_AbstractAction="_JppHcG_wEemrIvPmN-PCZA" successor_AbstractAction="_G0amwW_wEemrIvPmN-PCZA" passiveresource_AcquireAction="_rpBF8GBYEemrIvPmN-PCZA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_TpNu8G_wEemrIvPmN-PCZA" describedService__SEFF="_9wIi0G_vEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_UNs8EG_wEemrIvPmN-PCZA" successor_AbstractAction="_Wxj_8G_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_UNs8EW_wEemrIvPmN-PCZA" predecessor_AbstractAction="_X_w4cG_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:ReleaseAction" id="_Wxj_8G_wEemrIvPmN-PCZA" entityName="ReleaseAction1" predecessor_AbstractAction="_UNs8EG_wEemrIvPmN-PCZA" successor_AbstractAction="_X_w4cG_wEemrIvPmN-PCZA" passiveResource_ReleaseAction="_pTUZ4GBYEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:ReleaseAction" id="_X_w4cG_wEemrIvPmN-PCZA" entityName="ReleaseAction2" predecessor_AbstractAction="_Wxj_8G_wEemrIvPmN-PCZA" successor_AbstractAction="_UNs8EW_wEemrIvPmN-PCZA" passiveResource_ReleaseAction="_rpBF8GBYEemrIvPmN-PCZA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <passiveResource_BasicComponent id="_pTUZ4GBYEemrIvPmN-PCZA" entityName="memory">
+      <capacity_PassiveResource specification="100"/>
+    </passiveResource_BasicComponent>
+    <passiveResource_BasicComponent id="_rpBF8GBYEemrIvPmN-PCZA" entityName="queue">
+      <capacity_PassiveResource specification="100"/>
+    </passiveResource_BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_sYu2MGBZEemrIvPmN-PCZA" entityName="PollingConsumerGroup">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-dzIsGBaEemrIvPmN-PCZA" entityName="BasicComponent5.AsynchronousConsumer.OperationProvidedRole1" providedInterface__OperationProvidedRole="_n8yPUGBZEemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-dzvwGBaEemrIvPmN-PCZA" describedService__SEFF="_wTci0GBaEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-dzvwWBaEemrIvPmN-PCZA" successor_AbstractAction="_usOM0G_xEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-dzvwmBaEemrIvPmN-PCZA" predecessor_AbstractAction="_usOM0G_xEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:AcquireAction" id="_usOM0G_xEemrIvPmN-PCZA" entityName="AcquireAction1" predecessor_AbstractAction="_-dzvwWBaEemrIvPmN-PCZA" successor_AbstractAction="_-dzvwmBaEemrIvPmN-PCZA" passiveresource_AcquireAction="_ADTt8GBbEemrIvPmN-PCZA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-eByMGBaEemrIvPmN-PCZA" describedService__SEFF="_6eKDUGBaEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-eByMWBaEemrIvPmN-PCZA" successor_AbstractAction="_WAPwYG_zEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-eByMmBaEemrIvPmN-PCZA" predecessor_AbstractAction="_WAPwYG_zEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:ReleaseAction" id="_WAPwYG_zEemrIvPmN-PCZA" entityName="ReleaseAction1" predecessor_AbstractAction="_-eByMWBaEemrIvPmN-PCZA" successor_AbstractAction="_-eByMmBaEemrIvPmN-PCZA" passiveResource_ReleaseAction="_ADTt8GBbEemrIvPmN-PCZA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <passiveResource_BasicComponent id="_ADTt8GBbEemrIvPmN-PCZA" entityName="PassiveResource1">
+      <capacity_PassiveResource specification="5"/>
+    </passiveResource_BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_V4RrgGEeEemrIvPmN-PCZA" entityName="DefaultExchange">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_cSEfIGEeEemrIvPmN-PCZA" entityName="BasicComponent6.DefaultExchange.OperationProvidedRole1" providedInterface__OperationProvidedRole="_MuNakGEcEemrIvPmN-PCZA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:InfrastructureRequiredRole" id="_zzxx8G_wEemrIvPmN-PCZA" entityName="DefaultExchange.MessageQueue.InfrastructureRequiredRole1" requiredInterface__InfrastructureRequiredRole="_ajdTIGEcEemrIvPmN-PCZA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_psq_EG_wEemrIvPmN-PCZA" describedService__SEFF="_NXlPsGWmEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_qbVb4G_wEemrIvPmN-PCZA" successor_AbstractAction="_3Ppb4G_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_qbVb4W_wEemrIvPmN-PCZA" predecessor_AbstractAction="_3Ppb4G_wEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_3Ppb4G_wEemrIvPmN-PCZA" entityName="InternalAction1" predecessor_AbstractAction="_qbVb4G_wEemrIvPmN-PCZA" successor_AbstractAction="_qbVb4W_wEemrIvPmN-PCZA">
+        <infrastructureCall__Action id="_8Tz5UG_wEemrIvPmN-PCZA" entityName="InfrastructureCall1" signature__InfrastructureCall="_7tKlgG_vEemrIvPmN-PCZA" requiredRole__InfrastructureCall="_zzxx8G_wEemrIvPmN-PCZA">
+          <numberOfCalls__InfrastructureCall specification="1"/>
+        </infrastructureCall__Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_GJ9fEG_xEemrIvPmN-PCZA" describedService__SEFF="_OodBsGWmEemrIvPmN-PCZA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_GqVoQG_xEemrIvPmN-PCZA" successor_AbstractAction="_JLcTEG_xEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_GqVoQW_xEemrIvPmN-PCZA" predecessor_AbstractAction="_JLcTEG_xEemrIvPmN-PCZA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_JLcTEG_xEemrIvPmN-PCZA" entityName="InternalAction1" predecessor_AbstractAction="_GqVoQG_xEemrIvPmN-PCZA" successor_AbstractAction="_GqVoQW_xEemrIvPmN-PCZA">
+        <infrastructureCall__Action id="_J2mv8G_xEemrIvPmN-PCZA" entityName="InfrastructureCall1" signature__InfrastructureCall="_9wIi0G_vEemrIvPmN-PCZA" requiredRole__InfrastructureCall="_zzxx8G_wEemrIvPmN-PCZA">
+          <numberOfCalls__InfrastructureCall specification="1"/>
+        </infrastructureCall__Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_oZ0DMGBREemrIvPmN-PCZA" entityName="MessageTransformation">
+    <signatures__OperationInterface id="_zIw5MGBREemrIvPmN-PCZA" entityName="getMessage(String messageBody)"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_qEhRgGBREemrIvPmN-PCZA" entityName="MessageBroker">
+    <signatures__OperationInterface id="_Qw6CwGBSEemrIvPmN-PCZA" entityName="publish(String exchange, String routingKey, String messageBody)"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_s5eFYGBREemrIvPmN-PCZA" entityName="Notification">
+    <signatures__OperationInterface id="_dgXX8GBSEemrIvPmN-PCZA" entityName="consume(String messageBody)"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:InfrastructureInterface" id="_ajdTIGEcEemrIvPmN-PCZA" entityName="MessageQueue">
+    <infrastructureSignatures__InfrastructureInterface id="_7tKlgG_vEemrIvPmN-PCZA" entityName="addToQueue"/>
+    <infrastructureSignatures__InfrastructureInterface id="_9wIi0G_vEemrIvPmN-PCZA" entityName="removeFromQueue"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_n8yPUGBZEemrIvPmN-PCZA" entityName="PollingConsumer">
+    <signatures__OperationInterface id="_wTci0GBaEemrIvPmN-PCZA" entityName="startConsumption"/>
+    <signatures__OperationInterface id="_6eKDUGBaEemrIvPmN-PCZA" entityName="endConsumption"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_MuNakGEcEemrIvPmN-PCZA" entityName="DefaultExchange">
+    <signatures__OperationInterface id="_NXlPsGWmEemrIvPmN-PCZA" entityName="addToExchange"/>
+    <signatures__OperationInterface id="_OodBsGWmEemrIvPmN-PCZA" entityName="removeFromExchange"/>
+  </interfaces__Repository>
+</repository:Repository>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_OBIfYG_gEemrIvPmN-PCZA" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="mosaic-ch.resourceenvironment#/"/>
+  <system_Allocation href="mosaic-ch.system#_nm4R4G_dEemrIvPmN-PCZA"/>
+  <allocationContexts_Allocation id="_a-EP4G_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_DefaultExchange">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_5Cf0MG_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_eKMNoG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_DefaultExchange">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_19JM0G_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_fCUIcG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_PollingConsumerGroup">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_AmdU4G_eEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_gk3gUG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_QueueResources">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_9Wy68G_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_h3XC8G_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_QueueResources">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_7PRNwG_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_nm_fQG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_MessageTransformation">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_C8rI4G_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_swG1gG_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_qU9hYG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_Notification">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_-ccUYG_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rP_mQG_gEemrIvPmN-PCZA" entityName="Allocation_Assembly_MessageBroker">
+    <resourceContainer_AllocationContext href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+    <assemblyContext_AllocationContext href="mosaic-ch.system#_y5sC4G_dEemrIvPmN-PCZA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
