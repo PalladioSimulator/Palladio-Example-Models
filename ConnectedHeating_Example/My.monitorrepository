@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitorrepository:MonitorRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metricspec="http://palladiosimulator.org/MetricSpec/1.0" xmlns:monitorrepository="http://palladiosimulator.org/MonitorRepository/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" id="_wEomoHC0EemrIvPmN-PCZA">
+  <monitors id="_hvqGgIIKEemQxviTNT8WDg" entityName="prPollingConsumer">
+    <measurementSpecifications id="_lMFKEIIKEemQxviTNT8WDg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/models/commonMetrics.metricspec#_QWjAYs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_-RDaRId3Eemx4fL-firVNg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" href="My.measuringpoint#//@measuringPoints.1"/>
+  </monitors>
+</monitorrepository:MonitorRepository>

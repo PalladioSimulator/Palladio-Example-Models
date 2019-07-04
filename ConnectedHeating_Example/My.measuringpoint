@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.palladiosimulator.edp2.models:MeasuringPointRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" id="_36OY8HCrEemrIvPmN-PCZA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" stringRepresentation="Passive Resource: AlarmQueue.queue" resourceURIRepresentation="platform:/resource/connected-heating-pcm/mosaic-ch.repository#_rpBF8GBYEemrIvPmN-PCZA">
+    <assembly href="mosaic-ch.system#_9Wy68G_dEemrIvPmN-PCZA"/>
+    <passiveResource href="mosaic-ch.repository#_rpBF8GBYEemrIvPmN-PCZA"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" stringRepresentation="Passive Resource: Assembly_PollingConsumerGroup.PassiveResource1" resourceURIRepresentation="platform:/resource/connected-heating-pcm/mosaic-ch.repository#_ADTt8GBbEemrIvPmN-PCZA">
+    <assembly href="mosaic-ch.system#_AmdU4G_eEemrIvPmN-PCZA"/>
+    <passiveResource href="mosaic-ch.repository#_ADTt8GBbEemrIvPmN-PCZA"/>
+  </measuringPoints>
+</org.palladiosimulator.edp2.models:MeasuringPointRepository>

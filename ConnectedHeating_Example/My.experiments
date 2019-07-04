@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentAutomation.Experiments:ExperimentRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ExperimentAutomation.Experiments="http://palladiosimulator.org/ExperimentAutomation/Experiments/1.0" xmlns:ExperimentAutomation.Experiments.AbstractSimulation="http://palladiosimulator.org/ExperimentAutomation/AbstractSimulation/1.0" xmlns:simulizartooladapter="http://palladiosimulator.org/ExperimentAutomation/ToolAdapter/SimuLizar/1.0">
+  <experiments id="EXP_AUTOM_EXAMPLE" name="Dynamic Horizontal Scaling Container: Elasticity" description="Executes a simple SimuLizar run using EDP2 and a 100 measurements stop condition" repetitions="1">
+    <toolConfiguration xsi:type="simulizartooladapter:SimuLizarConfiguration" name="EDP2 SimuLizar Configuration">
+      <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MeasurementCountStopCondition" measurementCount="-1"/>
+      <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:SimTimeStopCondition" simulationTime="20"/>
+      <datasource xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MemoryDatasource"/>
+    </toolConfiguration>
+    <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MeasurementCountStopCondition" measurementCount="-1"/>
+    <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:SimTimeStopCondition" simulationTime="20"/>
+    <experimentDesign xsi:type="ExperimentAutomation.Experiments:FullFactorialDesign"/>
+    <responseMeasurement xsi:type="ExperimentAutomation.Experiments:SimulationDurationMeasurement"/>
+    <initialModel>
+      <usageModel href="default.usagemodel#/"/>
+      <allocation href="mosaic-ch.allocation#_OBIfYG_gEemrIvPmN-PCZA"/>
+      <monitorRepository href="My.monitorrepository#_wEomoHC0EemrIvPmN-PCZA"/>
+      <repository href="mosaic-ch.repository#_Q76OUGBREemrIvPmN-PCZA"/>
+      <system href="mosaic-ch.system#_nm4R4G_dEemrIvPmN-PCZA"/>
+      <resourceEnvironment href="mosaic-ch.resourceenvironment#/"/>
+    </initialModel>
+  </experiments>
+</ExperimentAutomation.Experiments:ExperimentRepository>

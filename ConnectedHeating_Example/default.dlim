@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tools.descartes.dlim:Sequence xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tools.descartes.dlim="http://descartes.tools/dlim/0.1" name="default" terminateAfterLoops="1" firstIterationEnd="1000.0" loopDuration="1000.0" finalDuration="1000.0">
+  <sequenceFunctionContainers name="constantSeasonal" duration="500.0" firstIterationEnd="500.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="1.0" functionOutputAtEnd="10.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="seasonal2" duration="500.0" firstIterationStart="500.0" firstIterationEnd="1000.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="10.0"/>
+  </sequenceFunctionContainers>
+</tools.descartes.dlim:Sequence>
