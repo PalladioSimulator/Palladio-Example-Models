@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.palladiosimulator.edp2.models:MeasuringPointRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_6l3KoBAeEeq3k918OaSdew">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceEnvironmentMeasuringPoint" stringRepresentation="Resource Environment: aName" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.resourceenvironment#/">
+    <resourceEnvironment href="AcquireExample.resourceenvironment#/"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:SystemOperationMeasuringPoint" stringRepresentation="defaultSystem.Provided_ILock.acquire" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_nrg55RexEeKPEYCkJN99mA">
+    <role xsi:type="repository:OperationProvidedRole" href="AcquireExample.system#_Z1xxkP1oEdyHRtyNpj5nfQ"/>
+    <operationSignature href="AcquireExample.repository#_nrg55RexEeKPEYCkJN99mA"/>
+    <system href="AcquireExample.system#_YdwOsP1oEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:SystemOperationMeasuringPoint" stringRepresentation="defaultSystem.Provided_ILock.release" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_nrg55hexEeKPEYCkJN99mA">
+    <role xsi:type="repository:OperationProvidedRole" href="AcquireExample.system#_Z1xxkP1oEdyHRtyNpj5nfQ"/>
+    <operationSignature href="AcquireExample.repository#_nrg55hexEeKPEYCkJN99mA"/>
+    <system href="AcquireExample.system#_YdwOsP1oEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:SystemOperationMeasuringPoint" stringRepresentation="defaultSystem.Provided_ILock.acquire" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_nrg55RexEeKPEYCkJN99mA">
+    <role xsi:type="repository:OperationProvidedRole" href="AcquireExample.system.intermediate.system#_Z1xxkP1oEdyHRtyNpj5nfQ"/>
+    <operationSignature href="AcquireExample.repository#_nrg55RexEeKPEYCkJN99mA"/>
+    <system href="AcquireExample.system.intermediate.system#_YdwOsP1oEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:SystemOperationMeasuringPoint" stringRepresentation="defaultSystem.Provided_ILock.release" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_nrg55hexEeKPEYCkJN99mA">
+    <role xsi:type="repository:OperationProvidedRole" href="AcquireExample.system.intermediate.system#_Z1xxkP1oEdyHRtyNpj5nfQ"/>
+    <operationSignature href="AcquireExample.repository#_nrg55hexEeKPEYCkJN99mA"/>
+    <system href="AcquireExample.system.intermediate.system#_YdwOsP1oEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" stringRepresentation="Passive Resource: Assembly_Impl &lt;Impl>.lock" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_wS-M0P1nEdyHRtyNpj5nfQ">
+    <assembly href="AcquireExample.system#_dFi5MP1oEdyHRtyNpj5nfQ"/>
+    <passiveResource href="AcquireExample.repository#_wS-M0P1nEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyPassiveResourceMeasuringPoint" stringRepresentation="Passive Resource: Assembly_Impl &lt;Impl>.lock" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.repository#_wS-M0P1nEdyHRtyNpj5nfQ">
+    <assembly href="AcquireExample.system.intermediate.system#_dFi5MP1oEdyHRtyNpj5nfQ"/>
+    <passiveResource href="AcquireExample.repository#_wS-M0P1nEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in aMaschine" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.resourceenvironment#_f_OjoRexEeKPEYCkJN99mA">
+    <activeResource href="AcquireExample.resourceenvironment#_f_OjoRexEeKPEYCkJN99mA"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="HDD [0] in aMaschine" resourceURIRepresentation="platform:/resource/AcquireExample/AcquireExample.resourceenvironment#_glDNgBexEeKPEYCkJN99mA">
+    <activeResource href="AcquireExample.resourceenvironment#_glDNgBexEeKPEYCkJN99mA"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: defaultUsageScenario" resourceURIRepresentation="platform:/resource/AcquireExample/AquireExample.usagemodel#_cf4x8P1pEdyHRtyNpj5nfQ">
+    <usageScenario href="AquireExample.usagemodel#_cf4x8P1pEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:EntryLevelSystemCallMeasuringPoint" stringRepresentation="SystemCall release to defaultSystem->Provided_ILock->release [_f1FMIP1pEdyHRtyNpj5nfQ]" resourceURIRepresentation="platform:/resource/AcquireExample/AquireExample.usagemodel#_f1FMIP1pEdyHRtyNpj5nfQ">
+    <entryLevelSystemCall href="AquireExample.usagemodel#_f1FMIP1pEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:EntryLevelSystemCallMeasuringPoint" stringRepresentation="SystemCall acquire to defaultSystem->Provided_ILock->acquire [_kbIxQP1pEdyHRtyNpj5nfQ]" resourceURIRepresentation="platform:/resource/AcquireExample/AquireExample.usagemodel#_kbIxQP1pEdyHRtyNpj5nfQ">
+    <entryLevelSystemCall href="AquireExample.usagemodel#_kbIxQP1pEdyHRtyNpj5nfQ"/>
+  </measuringPoints>
+</org.palladiosimulator.edp2.models:MeasuringPointRepository>
