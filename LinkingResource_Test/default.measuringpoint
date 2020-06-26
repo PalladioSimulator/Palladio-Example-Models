@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.palladiosimulator.edp2.models:MeasuringPointRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_fMJVcLesEeqCx9D3JGHCDw">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceEnvironmentMeasuringPoint" stringRepresentation="Resource Environment: aName" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#/">
+    <resourceEnvironment href="default.resourceenvironment#/"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:SystemOperationMeasuringPoint" stringRepresentation="defaultSystem.Provided_Ieins.machwas" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.repository#_tgOHUQm1EeCni99i-bbseA">
+    <role xsi:type="repository:OperationProvidedRole" href="default.system#_pUFVQB_dEd-CePn_osfrtQ"/>
+    <operationSignature href="default.repository#_tgOHUQm1EeCni99i-bbseA"/>
+    <system href="default.system#_oZYAgB_dEd-CePn_osfrtQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc1" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_UC1UJLerEeqCx9D3JGHCDw">
+    <activeResource href="default.resourceenvironment#_UC1UJLerEeqCx9D3JGHCDw"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc2" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_UC1UKLerEeqCx9D3JGHCDw">
+    <activeResource href="default.resourceenvironment#_UC1UKLerEeqCx9D3JGHCDw"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: defaultUsageScenario" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.usagemodel#_N1WSwB_eEd-CePn_osfrtQ">
+    <usageScenario href="default.usagemodel#_N1WSwB_eEd-CePn_osfrtQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ExternalCallActionMeasuringPoint" stringRepresentation="ExternalCall aName from C1 to Required_Izwei_aName->machMehr [_4GOpAB_fEd-CePn_osfrtQ]" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.repository#_4GOpAB_fEd-CePn_osfrtQ">
+    <externalCall href="default.repository#_4GOpAB_fEd-CePn_osfrtQ"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:EntryLevelSystemCallMeasuringPoint" stringRepresentation="SystemCall aName to defaultSystem->Provided_Ieins->machwas [_Qt-FsB_eEd-CePn_osfrtQ]" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.usagemodel#_Qt-FsB_eEd-CePn_osfrtQ">
+    <entryLevelSystemCall href="default.usagemodel#_Qt-FsB_eEd-CePn_osfrtQ"/>
+  </measuringPoints>
+</org.palladiosimulator.edp2.models:MeasuringPointRepository>
