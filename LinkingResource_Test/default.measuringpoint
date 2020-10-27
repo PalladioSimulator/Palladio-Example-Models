@@ -8,11 +8,11 @@
     <operationSignature href="default.repository#_tgOHUQm1EeCni99i-bbseA"/>
     <system href="default.system#_oZYAgB_dEd-CePn_osfrtQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc1" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_UC1UJLerEeqCx9D3JGHCDw">
-    <activeResource href="default.resourceenvironment#_UC1UJLerEeqCx9D3JGHCDw"/>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc1" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_G1w5wxg-EeuyYLZl5_e8mw">
+    <activeResource href="default.resourceenvironment#_G1w5wxg-EeuyYLZl5_e8mw"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc2" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_UC1UKLerEeqCx9D3JGHCDw">
-    <activeResource href="default.resourceenvironment#_UC1UKLerEeqCx9D3JGHCDw"/>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in pc2" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.resourceenvironment#_G1w5xxg-EeuyYLZl5_e8mw">
+    <activeResource href="default.resourceenvironment#_G1w5xxg-EeuyYLZl5_e8mw"/>
   </measuringPoints>
   <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: defaultUsageScenario" resourceURIRepresentation="platform:/resource/LinkingResourceTest/default.usagemodel#_N1WSwB_eEd-CePn_osfrtQ">
     <usageScenario href="default.usagemodel#_N1WSwB_eEd-CePn_osfrtQ"/>
