@@ -1,2 +1,2 @@
-<?xml version="1.0" encoding="ASCII"?>
-<Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_-pr8QnKJEd2GH-U5vyeARQ" entityName="CompletionsRepository"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_-pr8QnKJEd2GH-U5vyeARQ" entityName="CompletionsRepository"/>
