@@ -27,7 +27,7 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_i2zH4HadEeC1WLl_v3vmgg" entityName="Required_HelperInterface_BusinessComponent" requiredInterface__OperationRequiredRole="_aclUoHadEeC1WLl_v3vmgg"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_Vww28FobEeCigo30slKAcg" describedService__SEFF="_TbqAwFobEeCigo30slKAcg">
       <steps_Behaviour xsi:type="seff:StartAction" id="_Vww28VobEeCigo30slKAcg" successor_AbstractAction="_AdLW4HaeEeC1WLl_v3vmgg">
-        <infrastructureCall__Action signature__InfrastructureCall="_NuQjwFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
+        <infrastructureCall__Action id="_SGz7cDlUEeuNm-AP5RieIg" signature__InfrastructureCall="_NuQjwFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
           <inputVariableUsages__CallAction>
             <variableCharacterisation_VariableUsage type="VALUE">
               <specification_VariableCharacterisation specification="IntPMF[(1;0.3)(2;0.3)(4;0.4)]"/>
@@ -43,10 +43,10 @@
           <specification_ParametericResourceDemand specification="5 * callReturnInput.VALUE"/>
           <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
-        <infrastructureCall__Action signature__InfrastructureCall="_J6FukFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
+        <infrastructureCall__Action id="_SGz7dDlUEeuNm-AP5RieIg" signature__InfrastructureCall="_J6FukFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
           <numberOfCalls__InfrastructureCall specification="12"/>
         </infrastructureCall__Action>
-        <infrastructureCall__Action signature__InfrastructureCall="_NuQjwFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
+        <infrastructureCall__Action id="_SG0igDlUEeuNm-AP5RieIg" signature__InfrastructureCall="_NuQjwFYjEeCWoer6fLa-6Q" requiredRole__InfrastructureCall="_-aeQhFobEeCigo30slKAcg">
           <inputVariableUsages__CallAction>
             <variableCharacterisation_VariableUsage type="VALUE">
               <specification_VariableCharacterisation specification="-1"/>

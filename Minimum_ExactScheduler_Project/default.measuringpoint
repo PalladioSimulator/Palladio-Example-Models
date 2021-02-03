@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.palladiosimulator.edp2.models:MeasuringPointRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" id="_w3KqwOqqEeWKoZDqgiiJcg">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in appserver" resourceURIRepresentation="platform:/resource/Minimum_ExactScheduler_Project/default.resourceenvironment#_ssJ0QYr-EeG0c6Q1F-wA1Q">
+    <activeResource href="default.resourceenvironment#_ssJ0QYr-EeG0c6Q1F-wA1Q"/>
+  </measuringPoints>
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [1] in appserver" resourceURIRepresentation="platform:/resource/Minimum_ExactScheduler_Project/default.resourceenvironment#_ssJ0QYr-EeG0c6Q1F-wA1Q" replicaID="1">
+    <activeResource href="default.resourceenvironment#_ssJ0QYr-EeG0c6Q1F-wA1Q"/>
+  </measuringPoints>
+</org.palladiosimulator.edp2.models:MeasuringPointRepository>
