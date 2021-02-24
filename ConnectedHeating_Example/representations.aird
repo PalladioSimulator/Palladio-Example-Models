@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.palladiosimulator.architecturaltemplates.catalog.profiles="org.palladiosimulator.architecturaltemplates.catalog.profiles.dynamichorizontalscalingassemblycontext" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:seff_performance="http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Performance/5.2" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//core/composition http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description org.palladiosimulator.architecturaltemplates.catalog.profiles.dynamichorizontalscalingassemblycontext platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_0q3P0JQjEeSq-7Z_6FnzsQ http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//seff http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Performance/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/seff_performance http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://palladiosimulator.org/PalladioComponentModel/System/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//system http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//usagemodel">
-  <viewpoint:DAnalysis uid="_p8RmYGBPEemrIvPmN-PCZA" selectedViews="_W19K4GBREemrIvPmN-PCZA _zBG8kGBSEemrIvPmN-PCZA _VlR7QGBTEemrIvPmN-PCZA __4pXMG_eEemrIvPmN-PCZA _UnP3wG_gEemrIvPmN-PCZA _zW6qYCC2EeqfDZoo5DmFaA" version="14.1.0.201810161215">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.palladiosimulator.architecturaltemplates.catalog.profiles="org.palladiosimulator.architecturaltemplates.catalog.profiles.dynamichorizontalscalingassemblycontext" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:seff_performance="http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Performance/5.2" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//core/composition http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description org.palladiosimulator.architecturaltemplates.catalog.profiles.dynamichorizontalscalingassemblycontext platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_0q3P0JQjEeSq-7Z_6FnzsQ http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//seff http://palladiosimulator.org/PalladioComponentModel/SEFF/SEFF_Performance/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/seff_performance http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://palladiosimulator.org/PalladioComponentModel/System/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//system http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//usagemodel">
+  <viewpoint:DAnalysis uid="_p8RmYGBPEemrIvPmN-PCZA" selectedViews="_W19K4GBREemrIvPmN-PCZA _zBG8kGBSEemrIvPmN-PCZA _VlR7QGBTEemrIvPmN-PCZA __4pXMG_eEemrIvPmN-PCZA _UnP3wG_gEemrIvPmN-PCZA _zW6qYCC2EeqfDZoo5DmFaA" version="14.3.1.202003261200">
     <semanticResources>mosaic-ch.repository</semanticResources>
     <semanticResources>pathmap://PCM_MODELS/Palladio.resourcetype</semanticResources>
     <semanticResources>pathmap://PCM_MODELS/PrimitiveTypes.repository</semanticResources>
@@ -21,14 +21,14 @@
     <semanticResources>platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_W19K4GBREemrIvPmN-PCZA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_W3xIxWBREemrIvPmN-PCZA" name="new Repository Diagram" repPath="#_W3xIwGBREemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_W3xIxWBREemrIvPmN-PCZA" name="new Repository Diagram" repPath="#_W3xIwGBREemrIvPmN-PCZA" changeId="05265e1e-f2c1-4f92-9241-8cabc553fede">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']"/>
         <target xmi:type="repository:Repository" href="mosaic-ch.repository#_Q76OUGBREemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_zBG8kGBSEemrIvPmN-PCZA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oVH38G_dEemrIvPmN-PCZA" name="new Assembly Diagram" repPath="#_oVHQ4G_dEemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oVH38G_dEemrIvPmN-PCZA" name="new Assembly Diagram" repPath="#_oVHQ4G_dEemrIvPmN-PCZA" changeId="156b83f6-edf1-4191-9515-498392408266">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']"/>
         <target xmi:type="system:System" href="mosaic-ch.system#_nm4R4G_dEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
@@ -39,7 +39,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_VlBckGBTEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YhJ2jGBTEemrIvPmN-PCZA" name="&lt;Broker>&lt;publish(String exchange, String routingKey, String messageBody)> SEFF Diagram" repPath="#_YhJ2gGBTEemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YhJ2jGBTEemrIvPmN-PCZA" name="&lt;Broker>&lt;publish(String exchange, String routingKey, String messageBody)> SEFF Diagram" repPath="#_YhJ2gGBTEemrIvPmN-PCZA" changeId="92026532-e989-4004-80f5-8028384dfd6f">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_YhFlEGBTEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
@@ -59,11 +59,11 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_GKNzMG_wEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UNoDlW_wEemrIvPmN-PCZA" name="&lt;QueueResources>&lt;removeFromQueue> SEFF Diagram" repPath="#_UNoDkG_wEemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UNoDlW_wEemrIvPmN-PCZA" name="&lt;QueueResources>&lt;removeFromQueue> SEFF Diagram" repPath="#_UNoDkG_wEemrIvPmN-PCZA" changeId="3bbbaa5e-2a2f-4c77-9a39-28c51d4d3e79">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_TpNu8G_wEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qbRxhW_wEemrIvPmN-PCZA" name="&lt;DefaultExchange>&lt;addToExchange> SEFF Diagram" repPath="#_qbRxgG_wEemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qbRxhW_wEemrIvPmN-PCZA" name="&lt;DefaultExchange>&lt;addToExchange> SEFF Diagram" repPath="#_qbRxgG_wEemrIvPmN-PCZA" changeId="742f8e48-5c6f-413b-bd11-8e6d7c59e5ed">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']"/>
         <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_psq_EG_wEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
@@ -81,20 +81,24 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_UnP3wG_gEemrIvPmN-PCZA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UpGR5W_gEemrIvPmN-PCZA" name="new Allocation Diagram" repPath="#_UpGR4G_gEemrIvPmN-PCZA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UpGR5W_gEemrIvPmN-PCZA" name="new Allocation Diagram" repPath="#_UpGR4G_gEemrIvPmN-PCZA" changeId="50451722-cdaf-4916-96f4-a29aac9fff46">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
+        <target xmi:type="allocation:Allocation" href="mosaic-ch.allocation#_OBIfYG_gEemrIvPmN-PCZA"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hlIGAHXNEeu39twClqqmPw" name="new Allocation Diagram" repPath="#_hlB_YHXNEeu39twClqqmPw" changeId="35ff44e7-e7e8-4acd-8dde-7b42c10ac6e4">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
         <target xmi:type="allocation:Allocation" href="mosaic-ch.allocation#_OBIfYG_gEemrIvPmN-PCZA"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_zW6qYCC2EeqfDZoo5DmFaA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zX9zTyC2EeqfDZoo5DmFaA" name="UsageModel Diagram" repPath="#_zW6qYSC2EeqfDZoo5DmFaA">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zX9zTyC2EeqfDZoo5DmFaA" name="UsageModel Diagram" repPath="#_zW6qYSC2EeqfDZoo5DmFaA" changeId="e6874b16-7c79-40bc-887f-7e64fb30fea1">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']"/>
         <target xmi:type="usagemodel:UsageModel" href="default.usagemodel#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram uid="_W3xIwGBREemrIvPmN-PCZA" name="new Repository Diagram">
+  <diagram:DSemanticDiagram uid="_W3xIwGBREemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_W3xIwWBREemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_W3xIwmBREemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -111,7 +115,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_oZ2fdmBREemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_oZ2fcWBREemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oZ2fcmBREemrIvPmN-PCZA" x="45" y="24" width="131" height="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oZ2fcmBREemrIvPmN-PCZA" x="45" width="183" height="100"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_qEjtwGBREemrIvPmN-PCZA" type="2003" element="_qEh4kGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_qEjtw2BREemrIvPmN-PCZA" type="5007"/>
@@ -137,7 +141,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_s5hIs2BREemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_s5ghoWBREemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s5ghomBREemrIvPmN-PCZA" x="530" y="24" width="107" height="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s5ghomBREemrIvPmN-PCZA" x="510" y="15" width="168" height="123"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_KWMzsGBTEemrIvPmN-PCZA" type="2002" element="_KV88EGBTEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_KWMzs2BTEemrIvPmN-PCZA" type="5006"/>
@@ -154,7 +158,7 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_KWNaymBTEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_KWNaxGBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWNaxWBTEemrIvPmN-PCZA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWNaxWBTEemrIvPmN-PCZA" width="404" height="66"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_KWNay2BTEemrIvPmN-PCZA" type="3009" element="_KWK-gGBTEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_KWNazmBTEemrIvPmN-PCZA" type="5004"/>
@@ -164,7 +168,7 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_KWOB02BTEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_KWNazGBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWNazWBTEemrIvPmN-PCZA" y="40"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWNazWBTEemrIvPmN-PCZA" y="66" width="404"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_KWOB1GBTEemrIvPmN-PCZA" type="3008" element="_KWK-gmBTEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_KWOB12BTEemrIvPmN-PCZA" type="5005"/>
@@ -174,7 +178,7 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_KWOB22BTEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_KWOB1WBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWOB1mBTEemrIvPmN-PCZA" y="80"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWOB1mBTEemrIvPmN-PCZA" y="106" width="404"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_KWOB3GBTEemrIvPmN-PCZA" type="3009" element="_KWK-hGBTEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_KWOB32BTEemrIvPmN-PCZA" type="5004"/>
@@ -184,13 +188,13 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_KWOB42BTEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_KWOB3WBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWOB3mBTEemrIvPmN-PCZA" y="120"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWOB3mBTEemrIvPmN-PCZA" y="146" width="404" height="36"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_KWNawWBTEemrIvPmN-PCZA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_KWNawmBTEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_KWMzsWBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWMzsmBTEemrIvPmN-PCZA" y="252"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KWMzsmBTEemrIvPmN-PCZA" y="300"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_MwKUsGBTEemrIvPmN-PCZA" type="2002" element="_MwE1IWBTEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_MwKUs2BTEemrIvPmN-PCZA" type="5006"/>
@@ -243,7 +247,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_MwKUtmBTEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_MwKUsWBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MwKUsmBTEemrIvPmN-PCZA" x="291" y="460"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MwKUsmBTEemrIvPmN-PCZA" x="313" y="615"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_PkyYcGBTEemrIvPmN-PCZA" type="2002" element="_Pktf8GBTEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_Pky_gGBTEemrIvPmN-PCZA" type="5006"/>
@@ -361,7 +365,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_jBXwJmBXEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_jBXwIWBXEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jBXwImBXEemrIvPmN-PCZA" x="997" y="482"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jBXwImBXEemrIvPmN-PCZA" x="1067" y="585"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_n9MfAGBZEemrIvPmN-PCZA" type="2003" element="_n8y2YGBZEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_n9MfA2BZEemrIvPmN-PCZA" type="5007"/>
@@ -439,7 +443,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_sZHQtmBZEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_sZHQsWBZEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZHQsmBZEemrIvPmN-PCZA" x="1220" y="121"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZHQsmBZEemrIvPmN-PCZA" x="1455" y="45"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_MurUoGEcEemrIvPmN-PCZA" type="2003" element="_MuOBoGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_MurUo2EcEemrIvPmN-PCZA" type="5007"/>
@@ -456,7 +460,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_Mur7smEcEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_MurUoWEcEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MurUomEcEemrIvPmN-PCZA" x="655" y="260" width="127" height="91"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MurUomEcEemrIvPmN-PCZA" x="615" y="240" width="183" height="156"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_aj7NMGEcEemrIvPmN-PCZA" type="2003" element="_ajd6MGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_aj7NM2EcEemrIvPmN-PCZA" type="5007"/>
@@ -473,7 +477,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_aj70QmEcEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_aj7NMWEcEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aj7NMmEcEemrIvPmN-PCZA" x="995" y="310" width="200" height="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aj7NMmEcEemrIvPmN-PCZA" x="1080" y="300" width="353" height="183"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_V5ArUGEeEemrIvPmN-PCZA" type="2002" element="_V4RrgWEeEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_V5BSYGEeEemrIvPmN-PCZA" type="5006"/>
@@ -530,28 +534,28 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_V5BSY2EeEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_V5ArUWEeEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V5ArUmEeEemrIvPmN-PCZA" x="625" y="497"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V5ArUmEeEemrIvPmN-PCZA" x="634" y="540"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_W3yW4mBREemrIvPmN-PCZA"/>
         <edges xmi:type="notation:Edge" xmi:id="_YyZasGBXEemrIvPmN-PCZA" type="4001" element="_YyAZIGBXEemrIvPmN-PCZA" source="_KWMzsGBTEemrIvPmN-PCZA" target="_oZ2fcGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_YyZatGBXEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZatWBXEemrIvPmN-PCZA" x="-5" y="-63" width="116" height="65"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZatWBXEemrIvPmN-PCZA" x="19" y="-30" width="116" height="65"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YyZatmBXEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZat2BXEemrIvPmN-PCZA" x="27" y="5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZat2BXEemrIvPmN-PCZA" x="64" y="-14"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YyZauGBXEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZauWBXEemrIvPmN-PCZA" x="1" y="6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YyZauWBXEemrIvPmN-PCZA" x="-8" y="6"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_YyZasWBXEemrIvPmN-PCZA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_YyZasmBXEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YyZas2BXEemrIvPmN-PCZA" points="[-68, 0, 11, 130]$[-68, -130, 11, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YyZaumBXEemrIvPmN-PCZA" id="(0.6412213740458015,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YyZau2BXEemrIvPmN-PCZA" id="(0.5503875968992248,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YyZas2BXEemrIvPmN-PCZA" points="[0, -23, 133, 202]$[0, -136, 133, 89]$[-133, -136, 0, 89]$[-133, -225, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YyZaumBXEemrIvPmN-PCZA" id="(0.6143722032113714,0.10176991150442478)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YyZau2BXEemrIvPmN-PCZA" id="(0.39226519337016574,1.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_xpxugGBYEemrIvPmN-PCZA" type="4001" element="_xpVCkGBYEemrIvPmN-PCZA" source="_MwKUsGBTEemrIvPmN-PCZA" target="_qEjtwGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_xpxuhGBYEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpxuhWBYEemrIvPmN-PCZA" x="-43" y="-51" width="106" height="70"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpxuhWBYEemrIvPmN-PCZA" x="91" y="-9" width="106" height="70"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_xpxuhmBYEemrIvPmN-PCZA" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpxuh2BYEemrIvPmN-PCZA" x="7" y="4"/>
@@ -567,35 +571,35 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_A4vMAGBZEemrIvPmN-PCZA" type="4001" element="_A4BaUGBZEemrIvPmN-PCZA" source="_KWMzsGBTEemrIvPmN-PCZA" target="_qEjtwGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_A4vMBGBZEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMBWBZEemrIvPmN-PCZA" x="-111" y="61" width="99" height="53"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMBWBZEemrIvPmN-PCZA" x="-42" y="61" width="99" height="53"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_A4vMBmBZEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMB2BZEemrIvPmN-PCZA" x="-3" y="9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMB2BZEemrIvPmN-PCZA" x="87" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_A4vMCGBZEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMCWBZEemrIvPmN-PCZA" x="31" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A4vMCWBZEemrIvPmN-PCZA" x="38" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_A4vMAWBZEemrIvPmN-PCZA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_A4vMAmBZEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A4vMA2BZEemrIvPmN-PCZA" points="[0, 0, -70, 211]$[0, -211, -70, 0]$[70, -211, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A4vMCmBZEemrIvPmN-PCZA" id="(0.8702290076335877,0.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A4vMA2BZEemrIvPmN-PCZA" points="[-37, -23, -34, 259]$[-37, -282, -34, 0]$[-3, -282, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A4vMCmBZEemrIvPmN-PCZA" id="(0.8337908472154325,0.10176991150442478)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A4vMC2BZEemrIvPmN-PCZA" id="(0.0,0.17346938775510204)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_f3Q5sGBZEemrIvPmN-PCZA" type="4001" element="_f267cGBZEemrIvPmN-PCZA" source="_PkyYcGBTEemrIvPmN-PCZA" target="_s5ghoGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_f3Q5tGBZEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3Q5tWBZEemrIvPmN-PCZA" x="6" y="-35" width="104" height="63"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3Q5tWBZEemrIvPmN-PCZA" x="6" y="-34" width="104" height="63"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_f3RgwGBZEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3RgwWBZEemrIvPmN-PCZA" x="71" y="34"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3RgwWBZEemrIvPmN-PCZA" x="59" y="35"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_f3RgwmBZEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3Rgw2BZEemrIvPmN-PCZA" x="13" y="17"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3Rgw2BZEemrIvPmN-PCZA" x="12" y="18"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_f3Q5sWBZEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_f3Q5smBZEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f3Q5s2BZEemrIvPmN-PCZA" points="[0, 0, 115, -12]$[-115, 12, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f3Q5s2BZEemrIvPmN-PCZA" points="[0, 0, 100, -12]$[-74, 8, 26, -4]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3RgxGBZEemrIvPmN-PCZA" id="(0.0,0.0625)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3RgxWBZEemrIvPmN-PCZA" id="(1.0,0.12244897959183673)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3RgxWBZEemrIvPmN-PCZA" id="(0.8433734939759037,0.17355371900826447)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_hKYucGBZEemrIvPmN-PCZA" type="4001" element="_hKNIQGBZEemrIvPmN-PCZA" source="_MwKUsGBTEemrIvPmN-PCZA" target="_s5ghoGBREemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_hKYudGBZEemrIvPmN-PCZA" type="6001">
@@ -611,21 +615,21 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_hKYucmBZEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hKYuc2BZEemrIvPmN-PCZA" points="[0, 0, -60, 210]$[60, -210, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hKYuemBZEemrIvPmN-PCZA" id="(0.8159203980099502,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hKYue2BZEemrIvPmN-PCZA" id="(0.34285714285714286,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hKYue2BZEemrIvPmN-PCZA" id="(0.42771084337349397,0.8842975206611571)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_-eqrZmBaEemrIvPmN-PCZA" type="4001" element="_-eMKQGBaEemrIvPmN-PCZA" source="_sZHQsGBZEemrIvPmN-PCZA" target="_n9MfAGBZEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_-eqramBaEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqra2BaEemrIvPmN-PCZA" x="-31" y="-114" width="117" height="61"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqra2BaEemrIvPmN-PCZA" x="-60" y="114" width="117" height="61"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_-eqrbGBaEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqrbWBaEemrIvPmN-PCZA" x="9" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqrbWBaEemrIvPmN-PCZA" x="3" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_-eqrbmBaEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqrb2BaEemrIvPmN-PCZA" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-eqrb2BaEemrIvPmN-PCZA" x="-18" y="-8"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_-eqrZ2BaEemrIvPmN-PCZA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_-eqraGBaEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-eqraWBaEemrIvPmN-PCZA" points="[-182, 34, -47, 57]$[-89, 34, 46, 57]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-eqraWBaEemrIvPmN-PCZA" points="[-227, 19, 188, -34]$[-369, 19, 46, -34]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-erScGBaEemrIvPmN-PCZA" id="(0.958041958041958,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-erScWBaEemrIvPmN-PCZA" id="(0.7676767676767676,1.0)"/>
         </edges>
@@ -659,7 +663,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_IHh4cmEeEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IHh4c2EeEemrIvPmN-PCZA" points="[0, -1, -8, 71]$[0, -38, -8, 34]$[2, -38, -6, 34]$[2, -67, -6, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IHh4emEeEemrIvPmN-PCZA" id="(0.5076142131979695,0.004329004329004329)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IHh4e2EeEemrIvPmN-PCZA" id="(0.5454545454545454,0.9489795918367347)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IHh4e2EeEemrIvPmN-PCZA" id="(0.30769230769230765,0.6795580110497238)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_cSt_YGEeEemrIvPmN-PCZA" type="4001" element="_cSNCAGEeEemrIvPmN-PCZA" source="_V5ArUGEeEemrIvPmN-PCZA" target="_MurUoGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_cSt_ZGEeEemrIvPmN-PCZA" type="6001">
@@ -675,11 +679,11 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_cSt_YmEeEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cSt_Y2EeEemrIvPmN-PCZA" points="[0, -2, -46, 187]$[0, -312, -46, -123]$[35, -312, -11, -123]$[35, -287, -11, -98]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cSt_amEeEemrIvPmN-PCZA" id="(0.7681818181818182,0.009345794392523364)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cSt_a2EeEemrIvPmN-PCZA" id="(0.544,1.101123595505618)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cSt_a2EeEemrIvPmN-PCZA" id="(0.5966850828729282,1.0584415584415585)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_npGBwGEeEemrIvPmN-PCZA" type="4001" element="_noryEGEeEemrIvPmN-PCZA" source="_MwKUsGBTEemrIvPmN-PCZA" target="_MurUoGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_npGBxGEeEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_npGBxWEeEemrIvPmN-PCZA" x="-35" y="51" width="89" height="74"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_npGBxWEeEemrIvPmN-PCZA" x="22" y="67" width="89" height="74"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_npGBxmEeEemrIvPmN-PCZA" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_npGBx2EeEemrIvPmN-PCZA" x="15" y="35"/>
@@ -691,39 +695,39 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_npGBwmEeEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_npGBw2EeEemrIvPmN-PCZA" points="[0, -12, -283, 21]$[0, -80, -283, -47]$[291, -80, 8, -47]$[291, -60, 8, -27]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_npGBymEeEemrIvPmN-PCZA" id="(0.9651741293532339,0.01195219123505976)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_npGBy2EeEemrIvPmN-PCZA" id="(0.0,0.3033707865168539)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_npGBy2EeEemrIvPmN-PCZA" id="(0.22099447513812154,0.5974025974025974)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Vjo2QG_aEemrIvPmN-PCZA" type="4001" element="_VaN0gG_aEemrIvPmN-PCZA" source="_MwKUsGBTEemrIvPmN-PCZA" target="_MurUoGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_Vj58AG_aEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj58AW_aEemrIvPmN-PCZA" x="71" y="72" width="109" height="68"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj58AW_aEemrIvPmN-PCZA" x="79" y="74" width="109" height="68"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Vj8_UG_aEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj8_UW_aEemrIvPmN-PCZA" x="25" y="-49"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj8_UW_aEemrIvPmN-PCZA" x="41" y="-47"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Vj-NcG_aEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj-NcW_aEemrIvPmN-PCZA" x="5" y="-56"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vj-NcW_aEemrIvPmN-PCZA" x="16" y="-56"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Vjo2QW_aEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Vjo2Qm_aEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vjo2Q2_aEemrIvPmN-PCZA" points="[3, -5, -163, 231]$[166, -236, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Vjo2Q2_aEemrIvPmN-PCZA" points="[3, -8, -141, 341]$[141, -344, -3, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VkEUEG_aEemrIvPmN-PCZA" id="(0.9850746268656716,0.4816326530612245)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VkFiMG_aEemrIvPmN-PCZA" id="(0.0,0.9438202247191011)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VkFiMG_aEemrIvPmN-PCZA" id="(0.22099447513812154,0.9675324675324676)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_z31LgG_wEemrIvPmN-PCZA" type="4001" element="_zz2qcG_wEemrIvPmN-PCZA" source="_V5ArUGEeEemrIvPmN-PCZA" target="_aj7NMGEcEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_z31LhG_wEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31LhW_wEemrIvPmN-PCZA" x="-94" y="58" width="141" height="63"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31LhW_wEemrIvPmN-PCZA" x="-101" y="48" width="141" height="63"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_z31Lhm_wEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31Lh2_wEemrIvPmN-PCZA" x="7" y="-61"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31Lh2_wEemrIvPmN-PCZA" x="-5" y="-57"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_z31LiG_wEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31LiW_wEemrIvPmN-PCZA" x="12" y="-51"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z31LiW_wEemrIvPmN-PCZA" x="6" y="-50"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_z31LgW_wEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_z31Lgm_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z31Lg2_wEemrIvPmN-PCZA" points="[2, -4, -150, 227]$[152, -231, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z31Lg2_wEemrIvPmN-PCZA" points="[2, -3, -175, 254]$[177, -257, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z31Lim_wEemrIvPmN-PCZA" id="(0.9946236559139785,0.28292682926829266)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z31Li2_wEemrIvPmN-PCZA" id="(0.0,0.16326530612244897)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z31Li2_wEemrIvPmN-PCZA" id="(0.0,0.2541436464088398)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -1343,7 +1347,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']"/>
     <target xmi:type="repository:Repository" href="mosaic-ch.repository#_Q76OUGBREemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_VlnScGBTEemrIvPmN-PCZA" name="&lt;MessageTransformation>&lt;getMessage(String messageBody)> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_VlnScGBTEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_VlnScWBTEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_VlnScmBTEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -1634,7 +1638,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_VlBckGBTEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_YhJ2gGBTEemrIvPmN-PCZA" name="&lt;Broker>&lt;publish(String exchange, String routingKey, String messageBody)> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_YhJ2gGBTEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_YhJ2gWBTEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_YhJ2gmBTEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -1660,7 +1664,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhMSwmBTEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_YhLruWBTEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhLrumBTEemrIvPmN-PCZA" x="1090" y="364" width="40" height="40"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YhLrumBTEemrIvPmN-PCZA" x="1185" y="364" width="40" height="40"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_u7tisG_jEemrIvPmN-PCZA" type="2002" element="_u2JGMG_jEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_u7x0IG_jEemrIvPmN-PCZA" type="5006"/>
@@ -1676,7 +1680,7 @@
                     <styles xmi:type="notation:DrawerStyle" xmi:id="_wGkzV2_jEemrIvPmN-PCZA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_wGkzUW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzUm_jEemrIvPmN-PCZA" width="449" height="29"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzUm_jEemrIvPmN-PCZA" width="504" height="29"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_wGkzWG_jEemrIvPmN-PCZA" type="3008" element="_wGi-IG_jEemrIvPmN-PCZA">
                   <children xmi:type="notation:Node" xmi:id="_wGkzW2_jEemrIvPmN-PCZA" type="5005"/>
@@ -1690,7 +1694,7 @@
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGlaZG_jEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_wGkzYW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzYm_jEemrIvPmN-PCZA" x="201" y="-4" width="30" height="30"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzYm_jEemrIvPmN-PCZA" x="256" y="-4" width="30" height="30"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_wGkzZW_jEemrIvPmN-PCZA" type="3007" element="_wGjlMG_jEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_wGlaYG_jEemrIvPmN-PCZA" type="5003">
@@ -1701,7 +1705,7 @@
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGlaZ2_jEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_wGkzZm_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzZ2_jEemrIvPmN-PCZA" x="195" y="507" width="40" height="40"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzZ2_jEemrIvPmN-PCZA" x="262" y="540" width="40" height="40"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_4LK74G_jEemrIvPmN-PCZA" type="3008" element="_4IFLoG_jEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_4LK742_jEemrIvPmN-PCZA" type="5005"/>
@@ -1714,7 +1718,7 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_4LK77m_jEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_4LK76G_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK76W_jEemrIvPmN-PCZA"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK76W_jEemrIvPmN-PCZA" width="458"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_4LK772_jEemrIvPmN-PCZA" type="3008" element="_4LJGsG_jEemrIvPmN-PCZA">
                           <children xmi:type="notation:Node" xmi:id="_4LLi8G_jEemrIvPmN-PCZA" type="5005"/>
@@ -1724,13 +1728,13 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_4LLi9G_jEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_4LK78G_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK78W_jEemrIvPmN-PCZA" y="40"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK78W_jEemrIvPmN-PCZA" y="40" width="458"/>
                         </children>
                         <styles xmi:type="notation:SortingStyle" xmi:id="_4LK75W_jEemrIvPmN-PCZA"/>
                         <styles xmi:type="notation:FilteringStyle" xmi:id="_4LK75m_jEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_4LK74W_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK74m_jEemrIvPmN-PCZA" x="25" y="39"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4LK74m_jEemrIvPmN-PCZA" x="62" y="39"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_JEsoUG_lEemrIvPmN-PCZA" type="3008" element="_JEGLYG_lEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_JEtPYG_lEemrIvPmN-PCZA" type="5005"/>
@@ -1743,7 +1747,7 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_JEtPa2_lEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_JEtPZW_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEtPZm_lEemrIvPmN-PCZA" width="301" height="40"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEtPZm_lEemrIvPmN-PCZA" width="569" height="40"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_JEtPbG_lEemrIvPmN-PCZA" type="3008" element="_JEqMEG_lEemrIvPmN-PCZA">
                           <children xmi:type="notation:Node" xmi:id="_JEt2cG_lEemrIvPmN-PCZA" type="5005"/>
@@ -1753,13 +1757,13 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_JEt2dG_lEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_JEtPbW_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEtPbm_lEemrIvPmN-PCZA" y="40" width="301" height="40"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEtPbm_lEemrIvPmN-PCZA" y="40" width="569" height="40"/>
                         </children>
                         <styles xmi:type="notation:SortingStyle" xmi:id="_JEtPYm_lEemrIvPmN-PCZA"/>
                         <styles xmi:type="notation:FilteringStyle" xmi:id="_JEtPY2_lEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_JEsoUW_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEsoUm_lEemrIvPmN-PCZA" x="6" y="196"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEsoUm_lEemrIvPmN-PCZA" x="23" y="206"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_LUb2UG_lEemrIvPmN-PCZA" type="3008" element="_LTzkMG_lEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_LUb2U2_lEemrIvPmN-PCZA" type="5005"/>
@@ -1772,7 +1776,7 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_LUcdam_lEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_LUcdZG_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUcdZW_lEemrIvPmN-PCZA"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUcdZW_lEemrIvPmN-PCZA" width="490"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_LUcda2_lEemrIvPmN-PCZA" type="3008" element="_LUYL8m_lEemrIvPmN-PCZA">
                           <children xmi:type="notation:Node" xmi:id="_LUcdbm_lEemrIvPmN-PCZA" type="5005"/>
@@ -1782,26 +1786,26 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_LUdEcG_lEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_LUcdbG_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUcdbW_lEemrIvPmN-PCZA" y="40"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUcdbW_lEemrIvPmN-PCZA" y="40" width="490"/>
                         </children>
                         <styles xmi:type="notation:SortingStyle" xmi:id="_LUcdYW_lEemrIvPmN-PCZA"/>
                         <styles xmi:type="notation:FilteringStyle" xmi:id="_LUcdYm_lEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_LUb2UW_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUb2Um_lEemrIvPmN-PCZA" x="11" y="351"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUb2Um_lEemrIvPmN-PCZA" x="48" y="371"/>
                     </children>
                     <styles xmi:type="notation:SortingStyle" xmi:id="_wGkzXW_jEemrIvPmN-PCZA"/>
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_wGkzXm_jEemrIvPmN-PCZA"/>
                     <styles xmi:type="notation:DrawerStyle" xmi:id="_wGkzX2_jEemrIvPmN-PCZA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_wGkzWW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzWm_jEemrIvPmN-PCZA" y="29" width="449" height="604"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkzWm_jEemrIvPmN-PCZA" y="29" width="504" height="604"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_wGkMRW_jEemrIvPmN-PCZA"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_wGkMRm_jEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_wGkMQW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkMQm_jEemrIvPmN-PCZA" x="25" y="36"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wGkMQm_jEemrIvPmN-PCZA" x="10" y="36"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_82LScG_jEemrIvPmN-PCZA" type="3008" element="_81c5sG_jEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_82LSc2_jEemrIvPmN-PCZA" type="5005"/>
@@ -1814,7 +1818,7 @@
                     <styles xmi:type="notation:DrawerStyle" xmi:id="_82LSfm_jEemrIvPmN-PCZA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_82LSeG_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LSeW_jEemrIvPmN-PCZA" width="439" height="29"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LSeW_jEemrIvPmN-PCZA" width="519" height="29"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_82LSf2_jEemrIvPmN-PCZA" type="3008" element="_82IPIm_jEemrIvPmN-PCZA">
                   <children xmi:type="notation:Node" xmi:id="_82L5gG_jEemrIvPmN-PCZA" type="5005"/>
@@ -1839,7 +1843,7 @@
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82L5lG_jEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_82L5i2_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82L5jG_jEemrIvPmN-PCZA" x="199" y="511" width="40" height="40"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82L5jG_jEemrIvPmN-PCZA" x="194" y="528" width="40" height="40"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_D7AAEG_kEemrIvPmN-PCZA" type="3008" element="_D6dNgG_kEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_D7AAE2_kEemrIvPmN-PCZA" type="5005"/>
@@ -1852,7 +1856,7 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_D7AnJ2_kEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_D7AnIW_kEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AnIm_kEemrIvPmN-PCZA"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AnIm_kEemrIvPmN-PCZA" width="448"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_D7AnKG_kEemrIvPmN-PCZA" type="3008" element="_D6-K4m_kEemrIvPmN-PCZA">
                           <children xmi:type="notation:Node" xmi:id="_D7AnK2_kEemrIvPmN-PCZA" type="5005"/>
@@ -1862,13 +1866,13 @@
                             <styles xmi:type="notation:DrawerStyle" xmi:id="_D7AnL2_kEemrIvPmN-PCZA"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_D7AnKW_kEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AnKm_kEemrIvPmN-PCZA" y="40"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AnKm_kEemrIvPmN-PCZA" y="40" width="448"/>
                         </children>
                         <styles xmi:type="notation:SortingStyle" xmi:id="_D7AAFW_kEemrIvPmN-PCZA"/>
                         <styles xmi:type="notation:FilteringStyle" xmi:id="_D7AAFm_kEemrIvPmN-PCZA"/>
                       </children>
                       <styles xmi:type="notation:ShapeStyle" xmi:id="_D7AAEW_kEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AAEm_kEemrIvPmN-PCZA" x="21" y="61"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D7AAEm_kEemrIvPmN-PCZA" x="50" y="45"/>
                     </children>
                     <children xmi:type="notation:Node" xmi:id="_T7qK0G_lEemrIvPmN-PCZA" type="3008" element="_T7Dt4G_lEemrIvPmN-PCZA">
                       <children xmi:type="notation:Node" xmi:id="_T7qK02_lEemrIvPmN-PCZA" type="5005"/>
@@ -1933,115 +1937,115 @@
                     <styles xmi:type="notation:DrawerStyle" xmi:id="_82L5hG_jEemrIvPmN-PCZA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_82LSgG_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LSgW_jEemrIvPmN-PCZA" y="29" width="439" height="587"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LSgW_jEemrIvPmN-PCZA" y="29" width="519" height="587"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_82LSdW_jEemrIvPmN-PCZA"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_82LSdm_jEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_82LScW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LScm_jEemrIvPmN-PCZA" x="485" y="36"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_82LScm_jEemrIvPmN-PCZA" x="525" y="36"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_u7x0Im_jEemrIvPmN-PCZA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_u7x0I2_jEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_u7tisW_jEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7tism_jEemrIvPmN-PCZA" x="100" y="30" width="958" height="710"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7tism_jEemrIvPmN-PCZA" x="60" y="30" width="1083" height="738"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_YhLrsmBTEemrIvPmN-PCZA"/>
         <edges xmi:type="notation:Edge" xmi:id="_CWJFoG_lEemrIvPmN-PCZA" type="4001" element="_CS8AoG_lEemrIvPmN-PCZA" source="_wGkzYG_jEemrIvPmN-PCZA" target="_4LK74G_jEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_CWJFpG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJFpW_lEemrIvPmN-PCZA" x="1" y="-2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJFpW_lEemrIvPmN-PCZA" x="-1" y="-2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_CWJFpm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJssG_lEemrIvPmN-PCZA" x="-3" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJssG_lEemrIvPmN-PCZA" x="-2" y="7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_CWJssW_lEemrIvPmN-PCZA" type="6003">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CWJssm_lEemrIvPmN-PCZA" x="-4" y="11"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_CWJFoW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_CWJFom_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWJFo2_lEemrIvPmN-PCZA" points="[0, 0, -1, -13]$[1, 13, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWJFo2_lEemrIvPmN-PCZA" points="[0, 0, -32, -13]$[32, 13, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJss2_lEemrIvPmN-PCZA" id="(0.5,1.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJstG_lEemrIvPmN-PCZA" id="(0.5026178010471204,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWJstG_lEemrIvPmN-PCZA" id="(0.525563396312315,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_DHwv0G_lEemrIvPmN-PCZA" type="4001" element="_DHLhAG_lEemrIvPmN-PCZA" source="_82L5hW_jEemrIvPmN-PCZA" target="_D7AAEG_kEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_DHwv1G_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv1W_lEemrIvPmN-PCZA" x="-10" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv1W_lEemrIvPmN-PCZA" x="1" y="-11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_DHwv1m_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv12_lEemrIvPmN-PCZA" x="-4" y="-1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv12_lEemrIvPmN-PCZA" x="-3" y="8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_DHwv2G_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv2W_lEemrIvPmN-PCZA" x="-4" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DHwv2W_lEemrIvPmN-PCZA" x="-5" y="8"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_DHwv0W_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_DHwv0m_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DHwv02_lEemrIvPmN-PCZA" points="[0, 0, 1, -24]$[-1, 24, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DHwv02_lEemrIvPmN-PCZA" points="[0, 0, -77, -8]$[77, 8, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DHxW4G_lEemrIvPmN-PCZA" id="(0.5,1.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DHxW4W_lEemrIvPmN-PCZA" id="(0.5026178010471204,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DHxW4W_lEemrIvPmN-PCZA" id="(0.5372425828970331,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_M_nlwG_lEemrIvPmN-PCZA" type="4001" element="_M9Q1UG_lEemrIvPmN-PCZA" source="_4LK74G_jEemrIvPmN-PCZA" target="_JEsoUG_lEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_M_nlxG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlxW_lEemrIvPmN-PCZA" x="-12" y="1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlxW_lEemrIvPmN-PCZA" x="-4" y="5"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_M_nlxm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlx2_lEemrIvPmN-PCZA" x="18" y="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlx2_lEemrIvPmN-PCZA" x="6" y="-2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_M_nlyG_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlyW_lEemrIvPmN-PCZA" x="7" y="3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_nlyW_lEemrIvPmN-PCZA" x="4" y="-9"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_M_nlwW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_M_nlwm_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M_nlw2_lEemrIvPmN-PCZA" points="[-1, 0, -1, -30]$[-1, 30, -1, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_nlym_lEemrIvPmN-PCZA" id="(0.5026178010471204,1.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_nly2_lEemrIvPmN-PCZA" id="(0.5011933174224343,0.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M_nlw2_lEemrIvPmN-PCZA" points="[0, 0, 25, -11]$[-25, 11, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_nlym_lEemrIvPmN-PCZA" id="(0.525563396312315,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_nly2_lEemrIvPmN-PCZA" id="(0.4480938269334459,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_OFyjoG_lEemrIvPmN-PCZA" type="4001" element="_OFMGsG_lEemrIvPmN-PCZA" source="_JEsoUG_lEemrIvPmN-PCZA" target="_LUb2UG_lEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_OFyjpG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjpW_lEemrIvPmN-PCZA" x="-12" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjpW_lEemrIvPmN-PCZA" x="-5" y="-5"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_OFyjpm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjp2_lEemrIvPmN-PCZA" x="-4" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjp2_lEemrIvPmN-PCZA" x="-1" y="6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_OFyjqG_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjqW_lEemrIvPmN-PCZA" x="-20" y="13"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFyjqW_lEemrIvPmN-PCZA" x="-8" y="2"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OFyjoW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OFyjom_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OFyjo2_lEemrIvPmN-PCZA" points="[-1, 0, -1, -30]$[-1, 30, -1, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OFyjqm_lEemrIvPmN-PCZA" id="(0.5011933174224343,1.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OFyjq2_lEemrIvPmN-PCZA" id="(0.5012224938875306,0.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OFyjo2_lEemrIvPmN-PCZA" points="[0, 0, -29, -25]$[29, 25, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OFyjqm_lEemrIvPmN-PCZA" id="(0.4480938269334459,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OFyjq2_lEemrIvPmN-PCZA" id="(0.5266911165444174,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Q54b4G_lEemrIvPmN-PCZA" type="4001" element="_Q3kHsG_lEemrIvPmN-PCZA" source="_LUb2UG_lEemrIvPmN-PCZA" target="_wGkzZW_jEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_Q55C8G_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C8W_lEemrIvPmN-PCZA" x="-11" y="5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C8W_lEemrIvPmN-PCZA" x="-5" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Q55C8m_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C82_lEemrIvPmN-PCZA" x="-5" y="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C82_lEemrIvPmN-PCZA" x="5" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Q55C9G_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C9W_lEemrIvPmN-PCZA" x="4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q55C9W_lEemrIvPmN-PCZA" x="5" y="-9"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Q54b4W_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Q54b4m_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q54b42_lEemrIvPmN-PCZA" points="[-1, 0, 0, -30]$[-1, 30, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q55C9m_lEemrIvPmN-PCZA" id="(0.5012224938875306,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q54b42_lEemrIvPmN-PCZA" points="[0, 0, 25, -13]$[-25, 13, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q55C9m_lEemrIvPmN-PCZA" id="(0.5266911165444174,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q55C92_lEemrIvPmN-PCZA" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_VDlcMG_lEemrIvPmN-PCZA" type="4001" element="_VC9xIG_lEemrIvPmN-PCZA" source="_D7AAEG_kEemrIvPmN-PCZA" target="_T7qK0G_lEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_VDlcNG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcNW_lEemrIvPmN-PCZA" x="-12" y="-2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcNW_lEemrIvPmN-PCZA" x="-7" y="7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_VDlcNm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcN2_lEemrIvPmN-PCZA" x="5" y="-1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcN2_lEemrIvPmN-PCZA" x="17" y="4"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_VDlcOG_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcOW_lEemrIvPmN-PCZA" x="7" y="2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VDlcOW_lEemrIvPmN-PCZA" x="7" y="-7"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_VDlcMW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VDlcMm_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VDlcM2_lEemrIvPmN-PCZA" points="[-1, 0, -1, -30]$[-1, 30, -1, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VDmDQG_lEemrIvPmN-PCZA" id="(0.5026178010471204,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VDlcM2_lEemrIvPmN-PCZA" points="[0, 0, 16, -15]$[-16, 15, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VDmDQG_lEemrIvPmN-PCZA" id="(0.5372425828970331,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VDmDQW_lEemrIvPmN-PCZA" id="(0.5011933174224343,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_bem-4G_lEemrIvPmN-PCZA" type="4001" element="_bd-swG_lEemrIvPmN-PCZA" source="_T7qK0G_lEemrIvPmN-PCZA" target="_YbgaQG_lEemrIvPmN-PCZA">
@@ -2062,17 +2066,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_gCO7EG_lEemrIvPmN-PCZA" type="4001" element="_gBnQAG_lEemrIvPmN-PCZA" source="_YbgaQG_lEemrIvPmN-PCZA" target="_82L5im_jEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_gCPiIG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiIW_lEemrIvPmN-PCZA" x="-10" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiIW_lEemrIvPmN-PCZA" x="-17" y="-1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_gCPiIm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiI2_lEemrIvPmN-PCZA" x="-2" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiI2_lEemrIvPmN-PCZA"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_gCPiJG_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiJW_lEemrIvPmN-PCZA" x="-13" y="6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCPiJW_lEemrIvPmN-PCZA" x="4" y="-3"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_gCO7EW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_gCO7Em_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gCO7E2_lEemrIvPmN-PCZA" points="[-1, 0, 0, -30]$[-1, 30, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gCO7E2_lEemrIvPmN-PCZA" points="[37, 0, 0, -13]$[37, 0, 0, -13]$[37, 14, 0, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gCPiJm_lEemrIvPmN-PCZA" id="(0.5012224938875306,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gCPiJ2_lEemrIvPmN-PCZA" id="(0.5,0.0)"/>
         </edges>
@@ -2090,22 +2094,22 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_iWxJgm_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iWxJg2_lEemrIvPmN-PCZA" points="[0, 1, -57, 1]$[57, 1, 0, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iWxwlm_lEemrIvPmN-PCZA" id="(0.9333333333333333,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iWxwl2_lEemrIvPmN-PCZA" id="(0.0,0.3107344632768362)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iWxwl2_lEemrIvPmN-PCZA" id="(0.03700277520814061,0.2989130434782609)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_jHIPcG_lEemrIvPmN-PCZA" type="4001" element="_jEjckG_lEemrIvPmN-PCZA" source="_u7tisG_jEemrIvPmN-PCZA" target="_YhLruGBTEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_jHIPdG_lEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPdW_lEemrIvPmN-PCZA" x="7" y="-24"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPdW_lEemrIvPmN-PCZA" x="33" y="-25"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_jHIPdm_lEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPd2_lEemrIvPmN-PCZA" x="-3" y="6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPd2_lEemrIvPmN-PCZA" x="-17" y="6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_jHIPeG_lEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPeW_lEemrIvPmN-PCZA" x="-4" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHIPeW_lEemrIvPmN-PCZA" x="-21" y="8"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_jHIPcW_lEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_jHIPcm_lEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jHIPc2_lEemrIvPmN-PCZA" points="[11, -2, -39, 7]$[45, -9, -5, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jHI2gG_lEemrIvPmN-PCZA" id="(0.9884937238493724,0.5098870056497176)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jHIPc2_lEemrIvPmN-PCZA" points="[21, -2, -124, 7]$[140, -9, -5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jHI2gG_lEemrIvPmN-PCZA" id="(0.9111933395004626,0.4904891304347827)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jHI2gW_lEemrIvPmN-PCZA" id="(0.125,0.45)"/>
         </edges>
       </data>
@@ -2488,7 +2492,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_YhFlEGBTEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_c2pQEGBTEemrIvPmN-PCZA" name="&lt;Notification>&lt;consume(String messageBody)> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_c2pQEGBTEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_c2pQEWBTEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_c2pQEmBTEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -2859,7 +2863,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_c2k-oGBTEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_-d4oQGBaEemrIvPmN-PCZA" name="&lt;BasicComponent5>&lt;startConsumption> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_-d4oQGBaEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-d4oQWBaEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-d4oQmBaEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -2985,7 +2989,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_-dzvwGBaEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_-eGDoGBaEemrIvPmN-PCZA" name="&lt;BasicComponent5>&lt;endConsumption> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_-eGDoGBaEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-eGDoWBaEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-eGDomBaEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -3111,7 +3115,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_-eByMGBaEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_oVHQ4G_dEemrIvPmN-PCZA" name="new Assembly Diagram">
+  <diagram:DSemanticDiagram uid="_oVHQ4G_dEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_oVHQ4W_dEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_oVHQ4m_dEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -3192,7 +3196,7 @@
               </children>
               <children xmi:type="notation:Node" xmi:id="_zjWD52_dEemrIvPmN-PCZA" type="3012" element="_zi8bQG_dEemrIvPmN-PCZA">
                 <children xmi:type="notation:Node" xmi:id="_zjWq8G_dEemrIvPmN-PCZA" type="5010">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_zjWq8W_dEemrIvPmN-PCZA" x="31" y="17"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_zjWq8W_dEemrIvPmN-PCZA" x="31" y="14"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_zjWq-2_dEemrIvPmN-PCZA" type="3014" element="_zi8bQW_dEemrIvPmN-PCZA">
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zjWq_G_dEemrIvPmN-PCZA" fontName=".AppleSystemUIFont"/>
@@ -3202,7 +3206,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjWD6W_dEemrIvPmN-PCZA" x="265" y="19" width="30" height="30"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_zjU1wW_dEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjU1wm_dEemrIvPmN-PCZA" x="265" y="370" width="267" height="98"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjU1wm_dEemrIvPmN-PCZA" x="214" y="370" width="267" height="98"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_3KLAoG_dEemrIvPmN-PCZA" type="3008" element="_3JuUsG_dEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_3KLnsG_dEemrIvPmN-PCZA" type="5005"/>
@@ -3243,7 +3247,7 @@
               </children>
               <children xmi:type="notation:Node" xmi:id="_5640x2_dEemrIvPmN-PCZA" type="3012" element="_56nH8G_dEemrIvPmN-PCZA">
                 <children xmi:type="notation:Node" xmi:id="_5640ym_dEemrIvPmN-PCZA" type="5010">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_5640y2_dEemrIvPmN-PCZA" x="-291" y="9"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_5640y2_dEemrIvPmN-PCZA" x="-369" y="5"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_565b1W_dEemrIvPmN-PCZA" type="3014" element="_56nH8W_dEemrIvPmN-PCZA">
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_565b1m_dEemrIvPmN-PCZA" fontName=".AppleSystemUIFont"/>
@@ -3264,7 +3268,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z33nxW_wEemrIvPmN-PCZA" x="9" y="-30" width="30" height="30"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_5640wW_dEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5640wm_dEemrIvPmN-PCZA" x="891" y="376" width="279"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5640wm_dEemrIvPmN-PCZA" x="891" y="370" width="279"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_8svRUG_dEemrIvPmN-PCZA" type="3008" element="_8sPiEG_dEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_8svRU2_dEemrIvPmN-PCZA" type="5005"/>
@@ -3312,22 +3316,6 @@
                 <children xmi:type="notation:Node" xmi:id="_txFE0IwtEemH0Z07vC2o3Q" type="3009" element="_tuK6wIwtEemH0Z07vC2o3Q">
                   <children xmi:type="notation:Node" xmi:id="_txFE04wtEemH0Z07vC2o3Q" type="5004"/>
                   <children xmi:type="notation:Node" xmi:id="_txFE1IwtEemH0Z07vC2o3Q" type="7003">
-                    <children xmi:type="notation:Node" xmi:id="_txGS8IwtEemH0Z07vC2o3Q" type="3010" element="_tvHV8IwtEemH0Z07vC2o3Q">
-                      <styles xmi:type="notation:FontStyle" xmi:id="_txGS8YwtEemH0Z07vC2o3Q" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Location" xmi:id="_txGS8owtEemH0Z07vC2o3Q"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_txGS84wtEemH0Z07vC2o3Q" type="3010" element="_twJQsIwtEemH0Z07vC2o3Q">
-                      <styles xmi:type="notation:FontStyle" xmi:id="_txGS9IwtEemH0Z07vC2o3Q" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Location" xmi:id="_txGS9YwtEemH0Z07vC2o3Q"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_txG6AIwtEemH0Z07vC2o3Q" type="3010" element="_twJ3wYwtEemH0Z07vC2o3Q">
-                      <styles xmi:type="notation:FontStyle" xmi:id="_txG6AYwtEemH0Z07vC2o3Q" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Location" xmi:id="_txG6AowtEemH0Z07vC2o3Q"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_txG6A4wtEemH0Z07vC2o3Q" type="3010" element="_twKe0YwtEemH0Z07vC2o3Q">
-                      <styles xmi:type="notation:FontStyle" xmi:id="_txG6BIwtEemH0Z07vC2o3Q" fontName=".AppleSystemUIFont" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Location" xmi:id="_txG6BYwtEemH0Z07vC2o3Q"/>
-                    </children>
                     <styles xmi:type="notation:SortingStyle" xmi:id="_txFE1YwtEemH0Z07vC2o3Q"/>
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_txFE1owtEemH0Z07vC2o3Q"/>
                   </children>
@@ -3411,33 +3399,33 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_oVJGEG_dEemrIvPmN-PCZA"/>
         <edges xmi:type="notation:Edge" xmi:id="_Gx1SAG_eEemrIvPmN-PCZA" type="4001" element="_Gwf1QG_eEemrIvPmN-PCZA" source="_vbO_AG_dEemrIvPmN-PCZA" target="_zjVc1G_dEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_Gx15EG_eEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx15EW_eEemrIvPmN-PCZA" x="3" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx15EW_eEemrIvPmN-PCZA" x="-7" y="-6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Gx15Em_eEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx15E2_eEemrIvPmN-PCZA" x="-10" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx15E2_eEemrIvPmN-PCZA" x="-1" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Gx2gIG_eEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx2gIW_eEemrIvPmN-PCZA" x="-6" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx2gIW_eEemrIvPmN-PCZA" x="3" y="9"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Gx1SAW_eEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Gx1SAm_eEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gx1SA2_eEemrIvPmN-PCZA" points="[0, 0, -28, -33]$[28, 33, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gx1SA2_eEemrIvPmN-PCZA" points="[0, 0, 26, -43]$[-26, 43, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gx2gIm_eEemrIvPmN-PCZA" id="(0.3333333333333333,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gx2gI2_eEemrIvPmN-PCZA" id="(0.3333333333333333,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_KHCTQG_eEemrIvPmN-PCZA" type="4001" element="_KGp4wG_eEemrIvPmN-PCZA" source="_zjVc2W_dEemrIvPmN-PCZA" target="_3KLntG_dEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_KHCTRG_eEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KHCTRW_eEemrIvPmN-PCZA" x="-12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KHCTRW_eEemrIvPmN-PCZA" x="-13" y="-1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_KHCTRm_eEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KHCTR2_eEemrIvPmN-PCZA" x="-5" y="3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KHCTR2_eEemrIvPmN-PCZA" x="-7" y="3"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_KHCTSG_eEemrIvPmN-PCZA" type="6003">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KHCTSW_eEemrIvPmN-PCZA" x="-4" y="-3"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_KHCTQW_eEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_KHCTQm_eEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KHCTQ2_eEemrIvPmN-PCZA" points="[0, 0, 88, 139]$[-88, -139, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KHCTQ2_eEemrIvPmN-PCZA" points="[0, 0, -141, -139]$[141, 139, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KHCTSm_eEemrIvPmN-PCZA" id="(1.0,0.5666666666666667)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KHCTS2_eEemrIvPmN-PCZA" id="(0.0,0.5333333333333333)"/>
         </edges>
@@ -3475,17 +3463,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_etPgQG_0EemrIvPmN-PCZA" type="4001" element="_erUNoG_0EemrIvPmN-PCZA" source="_z33nw2_wEemrIvPmN-PCZA" target="_8svRV2_dEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_etQHUG_0EemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHUW_0EemrIvPmN-PCZA" x="-5" y="-22"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHUW_0EemrIvPmN-PCZA" x="-8" y="-24"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_etQHUm_0EemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHU2_0EemrIvPmN-PCZA" x="-6" y="-2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHU2_0EemrIvPmN-PCZA" x="-6" y="-6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_etQHVG_0EemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHVW_0EemrIvPmN-PCZA" x="-10" y="2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_etQHVW_0EemrIvPmN-PCZA" x="-10" y="-2"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_etPgQW_0EemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_etPgQm_0EemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_etPgQ2_0EemrIvPmN-PCZA" points="[0, 0, -285, 20]$[285, -20, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_etPgQ2_0EemrIvPmN-PCZA" points="[0, 0, -289, 16]$[289, -16, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etQHVm_0EemrIvPmN-PCZA" id="(1.0,0.5333333333333333)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_etQHV2_0EemrIvPmN-PCZA" id="(0.0,0.7)"/>
         </edges>
@@ -3507,33 +3495,33 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_R2Su0HCrEemrIvPmN-PCZA" type="4001" element="_RzX9sHCrEemrIvPmN-PCZA" source="_zjWD52_dEemrIvPmN-PCZA" target="_5640x2_dEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_R2T88HCrEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T88XCrEemrIvPmN-PCZA" x="-8" y="-31"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T88XCrEemrIvPmN-PCZA" x="-12" y="-32"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_R2T88nCrEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T883CrEemrIvPmN-PCZA" x="-11" y="-6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T883CrEemrIvPmN-PCZA" x="-13" y="-12"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_R2T89HCrEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T89XCrEemrIvPmN-PCZA" x="-10" y="-12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R2T89XCrEemrIvPmN-PCZA" x="-12" y="-17"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_R2Su0XCrEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_R2Su0nCrEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R2Su03CrEemrIvPmN-PCZA" points="[0, 0, 300, 8]$[-300, -8, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R2Su03CrEemrIvPmN-PCZA" points="[0, 0, -352, -1]$[352, 1, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R2UkAHCrEemrIvPmN-PCZA" id="(1.0,0.26666666666666666)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R2UkAXCrEemrIvPmN-PCZA" id="(0.0,0.6666666666666666)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_UAANUHCrEemrIvPmN-PCZA" type="4001" element="_T_kvgHCrEemrIvPmN-PCZA" source="_zjWD4m_dEemrIvPmN-PCZA" target="__ht6YG_dEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_UAANVHCrEemrIvPmN-PCZA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANVXCrEemrIvPmN-PCZA" x="-45" y="-37"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANVXCrEemrIvPmN-PCZA" x="-54" y="-39"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_UAANVnCrEemrIvPmN-PCZA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANV3CrEemrIvPmN-PCZA" x="-25" y="-23"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANV3CrEemrIvPmN-PCZA" x="-29" y="-24"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_UAANWHCrEemrIvPmN-PCZA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANWXCrEemrIvPmN-PCZA" x="-10" y="-11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UAANWXCrEemrIvPmN-PCZA" x="-11" y="-12"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_UAANUXCrEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_UAANUnCrEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UAANU3CrEemrIvPmN-PCZA" points="[0, 0, 295, -150]$[-295, 150, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UAANU3CrEemrIvPmN-PCZA" points="[0, 0, -344, 151]$[344, -151, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UAANWnCrEemrIvPmN-PCZA" id="(0.4,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UAANW3CrEemrIvPmN-PCZA" id="(0.26666666666666666,1.0)"/>
         </edges>
@@ -3760,45 +3748,13 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_tuK6wIwtEemH0Z07vC2o3Q" name="ReplicableAssemblyContext">
+        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_tuK6wIwtEemH0Z07vC2o3Q">
           <target xmi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:ReplicableAssemblyContext" href="mosaic-ch.system#/1/@stereotypeApplications.1"/>
           <semanticElements xmi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:ReplicableAssemblyContext" href="mosaic-ch.system#/1/@stereotypeApplications.1"/>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tuPzQIwtEemH0Z07vC2o3Q" iconPath="/org.palladiosimulator.architecturaltemplates.edit/icons/full/obj16/Role2Component.gif" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
             <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" uid="_tvHV8IwtEemH0Z07vC2o3Q" name="numberOfReplicas=1">
-            <target xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_iSd3AJQ1EeSQN58w_W_prw"/>
-            <semanticElements xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_iSd3AJQ1EeSQN58w_W_prw"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_twIpoIwtEemH0Z07vC2o3Q" labelAlignment="LEFT" labelPosition="node">
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" uid="_twJQsIwtEemH0Z07vC2o3Q" name="scaleInThreshold=1.0">
-            <target xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_CgyA8LEnEeSCk_uvUgbERg"/>
-            <semanticElements xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_CgyA8LEnEeSCk_uvUgbERg"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_twJ3wIwtEemH0Z07vC2o3Q" labelAlignment="LEFT" labelPosition="node">
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" uid="_twJ3wYwtEemH0Z07vC2o3Q" name="scaleOutThreshold=2.0">
-            <target xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_EFnQwLEnEeSCk_uvUgbERg"/>
-            <semanticElements xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_EFnQwLEnEeSCk_uvUgbERg"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_twKe0IwtEemH0Z07vC2o3Q" labelAlignment="LEFT" labelPosition="node">
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']"/>
-          </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" uid="_twKe0YwtEemH0Z07vC2o3Q" name="measurementSpecificationID=_lMFKEIIKEemQxviTNT8WDg">
-            <target xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_EdPycCjFEeawEeT94RsgjA"/>
-            <semanticElements xmi:type="ecore:EAttribute" href="platform:/plugin/org.palladiosimulator.architecturaltemplates.catalog/profiles/DynamicHorizontalScalingAssemblyContext.emfprofile_diagram#_EdPycCjFEeawEeT94RsgjA"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_twLF4IwtEemH0Z07vC2o3Q" labelAlignment="LEFT" labelPosition="node">
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']/@subContainerMappings[name='Role%20Container']/@subNodeMappings[name='RoleParameter%20Node']"/>
-          </ownedElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BpsTgG_eEemrIvPmN-PCZA" name="&lt;&lt;AssemblyContext>>&#xA;Assembly_PollingConsumerGroup">
@@ -3820,7 +3776,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer/@containerMappings[name='ComposedProvidingRequiringEntity%20Node']/@subContainerMappings[name='AssemblyContext%20Container']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_s9o1sIwtEemH0Z07vC2o3Q" name="DynamicHorizontalScalingAssemblyContextSystem">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_s9o1sIwtEemH0Z07vC2o3Q">
         <target xmi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:DynamicHorizontalScalingAssemblyContextSystem" href="mosaic-ch.system#/1/@stereotypeApplications.0"/>
         <semanticElements xmi:type="org.palladiosimulator.architecturaltemplates.catalog.profiles:DynamicHorizontalScalingAssemblyContextSystem" href="mosaic-ch.system#/1/@stereotypeApplications.0"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_s9u8UIwtEemH0Z07vC2o3Q" iconPath="/org.palladiosimulator.architecturaltemplates.edit/icons/full/obj16/ATInstance.gif" borderSize="1" borderSizeComputationExpression="1" borderLineStyle="dash" backgroundColor="209,209,209">
@@ -3907,7 +3863,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@additionalLayers[name='QoS']"/>
     <target xmi:type="system:System" href="mosaic-ch.system#_nm4R4G_dEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="__6ACEG_eEemrIvPmN-PCZA" name="new ResourceEnvironment Diagram">
+  <diagram:DSemanticDiagram uid="__6ACEG_eEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__6ACEW_eEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="__6ACEm_eEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -4355,7 +4311,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.resourceenvironment/description/resourceenvironment.odesign#//@ownedViewpoints[name='ResourceEnvironment']/@ownedRepresentations[name='ResourceEnvironment%20Diagram']/@defaultLayer"/>
     <target xmi:type="resourceenvironment:ResourceEnvironment" href="mosaic-ch.resourceenvironment#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_UpGR4G_gEemrIvPmN-PCZA" name="new Allocation Diagram">
+  <diagram:DSemanticDiagram uid="_UpGR4G_gEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UpGR4W_gEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UpGR4m_gEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -4416,7 +4372,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_cno1xm_gEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_cno1wW_gEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cno1wm_gEemrIvPmN-PCZA" x="194" y="126"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cno1wm_gEemrIvPmN-PCZA" x="49" y="129"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_eKuZIG_gEemrIvPmN-PCZA" type="3008" element="_eKtLAG_gEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_eKuZI2_gEemrIvPmN-PCZA" type="5005"/>
@@ -4425,7 +4381,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_eKuZJm_gEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_eKuZIW_gEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eKuZIm_gEemrIvPmN-PCZA" x="194" y="54"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eKuZIm_gEemrIvPmN-PCZA" x="49" y="54"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_glXPkG_gEemrIvPmN-PCZA" type="3008" element="_glWBcG_gEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_glX2oG_gEemrIvPmN-PCZA" type="5005"/>
@@ -4452,7 +4408,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_rQiY1W_gEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_rQiY0G_gEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rQiY0W_gEemrIvPmN-PCZA" x="-36" y="89"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rQiY0W_gEemrIvPmN-PCZA" x="-31" y="219"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_U0XGuG_gEemrIvPmN-PCZA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_U0XGuW_gEemrIvPmN-PCZA"/>
@@ -4586,7 +4542,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer"/>
     <target xmi:type="allocation:Allocation" href="mosaic-ch.allocation#_OBIfYG_gEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_G0VuQG_wEemrIvPmN-PCZA" name="&lt;QueueResources>&lt;addToQueue> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_G0VuQG_wEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_G0VuQW_wEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_G0VuQm_wEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -4756,7 +4712,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_GKNzMG_wEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_UNoDkG_wEemrIvPmN-PCZA" name="&lt;QueueResources>&lt;removeFromQueue> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_UNoDkG_wEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UNoDkW_wEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UNoDkm_wEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -4800,7 +4756,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_YoY-s2_wEemrIvPmN-PCZA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_YoYXoW_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YoYXom_wEemrIvPmN-PCZA" x="78" y="245"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YoYXom_wEemrIvPmN-PCZA" x="78" y="245" width="165" height="88"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_UNrG4m_wEemrIvPmN-PCZA"/>
         <edges xmi:type="notation:Edge" xmi:id="_cM-fwG_wEemrIvPmN-PCZA" type="4001" element="_cJ0eEG_wEemrIvPmN-PCZA" source="_UyY9hW_wEemrIvPmN-PCZA" target="_XgPq4G_wEemrIvPmN-PCZA">
@@ -4833,7 +4789,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_cwTPQm_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cwTPQ2_wEemrIvPmN-PCZA" points="[-1, 0, -1, -30]$[-1, 30, -1, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cwTPSm_wEemrIvPmN-PCZA" id="(0.5067567567567568,1.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cwTPS2_wEemrIvPmN-PCZA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cwTPS2_wEemrIvPmN-PCZA" id="(0.4601226993865031,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_dZf9QG_wEemrIvPmN-PCZA" type="4001" element="_dXQhkG_wEemrIvPmN-PCZA" source="_YoYXoG_wEemrIvPmN-PCZA" target="_UyZkkm_wEemrIvPmN-PCZA">
           <children xmi:type="notation:Node" xmi:id="_dZf9RG_wEemrIvPmN-PCZA" type="6001">
@@ -4848,7 +4804,7 @@
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_dZf9QW_wEemrIvPmN-PCZA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_dZf9Qm_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dZf9Q2_wEemrIvPmN-PCZA" points="[-1, 0, 0, -30]$[-1, 30, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dZf9Sm_wEemrIvPmN-PCZA" id="(0.5067567567567568,1.0)"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dZf9Sm_wEemrIvPmN-PCZA" id="(0.4601226993865031,0.7906976744186046)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dZf9S2_wEemrIvPmN-PCZA" id="(0.5,0.0)"/>
         </edges>
       </data>
@@ -4926,7 +4882,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_TpNu8G_wEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_qbRxgG_wEemrIvPmN-PCZA" name="&lt;DefaultExchange>&lt;addToExchange> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_qbRxgG_wEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qbRxgW_wEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_qbRxgm_wEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -4989,7 +4945,7 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_3XiztG_wEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_3Xizrm_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Xizr2_wEemrIvPmN-PCZA" y="80" width="331" height="40"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Xizr2_wEemrIvPmN-PCZA" y="80" width="331" height="57"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_3XiztW_wEemrIvPmN-PCZA" type="3009" element="_3XhlhG_wEemrIvPmN-PCZA">
               <children xmi:type="notation:Node" xmi:id="_3XizuG_wEemrIvPmN-PCZA" type="5004"/>
@@ -4999,7 +4955,7 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_3XizvG_wEemrIvPmN-PCZA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_3Xiztm_wEemrIvPmN-PCZA" fontName=".AppleSystemUIFont" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Xizt2_wEemrIvPmN-PCZA" y="120" width="331" height="185"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Xizt2_wEemrIvPmN-PCZA" y="137" width="331" height="168"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_3XiMlW_wEemrIvPmN-PCZA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_3XiMlm_wEemrIvPmN-PCZA"/>
@@ -5136,7 +5092,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_psq_EG_wEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_GqSk8G_xEemrIvPmN-PCZA" name="&lt;DefaultExchange>&lt;removeFromExchange> SEFF Diagram">
+  <diagram:DSemanticDiagram uid="_GqSk8G_xEemrIvPmN-PCZA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_GqSk8W_xEemrIvPmN-PCZA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_GqSk8m_xEemrIvPmN-PCZA"/>
     </ownedAnnotationEntries>
@@ -5346,7 +5302,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <target xmi:type="seff:ResourceDemandingSEFF" href="mosaic-ch.repository#_GJ9fEG_xEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_zW6qYSC2EeqfDZoo5DmFaA" name="UsageModel Diagram">
+  <diagram:DSemanticDiagram uid="_zW6qYSC2EeqfDZoo5DmFaA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zX9zTCC2EeqfDZoo5DmFaA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_zX9zTSC2EeqfDZoo5DmFaA"/>
     </ownedAnnotationEntries>
@@ -5365,7 +5321,7 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_zX9zbiC2EeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zX9zaSC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zaiC2EeqfDZoo5DmFaA" x="15" y="87"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zaiC2EeqfDZoo5DmFaA" x="3" y="87"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_zX9zbyC2EeqfDZoo5DmFaA" type="3007" element="_zX0CSSC2EeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_zX9zciC2EeqfDZoo5DmFaA" type="5003">
@@ -5376,7 +5332,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zeyC2EeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zX9zcCC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="7"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zcSC2EeqfDZoo5DmFaA" x="159" y="42" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zcSC2EeqfDZoo5DmFaA" x="170" y="42" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_zX9zdCC2EeqfDZoo5DmFaA" type="3007" element="_zX0CTCC2EeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_zX9zdyC2EeqfDZoo5DmFaA" type="5003">
@@ -5387,13 +5343,13 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zfiC2EeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zX9zdSC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zdiC2EeqfDZoo5DmFaA" x="154" y="187" width="40" height="40"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zdiC2EeqfDZoo5DmFaA" x="165" y="187" width="40" height="40"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_zX9zXyC2EeqfDZoo5DmFaA"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_zX9zYCC2EeqfDZoo5DmFaA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_zX9zWyC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zXCC2EeqfDZoo5DmFaA" x="15" y="71" height="241"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zXCC2EeqfDZoo5DmFaA" x="15" y="71" width="388" height="276"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_zX9zYSC2EeqfDZoo5DmFaA" type="3009" element="_zX0CTyC2EeqfDZoo5DmFaA">
               <children xmi:type="notation:Node" xmi:id="_zX9zZCC2EeqfDZoo5DmFaA" type="5004"/>
@@ -5416,18 +5372,18 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_zX9zWSC2EeqfDZoo5DmFaA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_zX9zVCC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zVSC2EeqfDZoo5DmFaA" y="25" height="343"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zVSC2EeqfDZoo5DmFaA" y="25" height="383"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_zX9zUiC2EeqfDZoo5DmFaA"/>
         <edges xmi:type="notation:Edge" xmi:id="_zX9zhSC2EeqfDZoo5DmFaA" type="4001" element="_zX9zQiC2EeqfDZoo5DmFaA" source="_zX9zbyC2EeqfDZoo5DmFaA" target="_zX9zaCC2EeqfDZoo5DmFaA">
           <children xmi:type="notation:Node" xmi:id="_zX9ziSC2EeqfDZoo5DmFaA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9ziiC2EeqfDZoo5DmFaA" x="-3" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9ziiC2EeqfDZoo5DmFaA" x="-7" y="-5"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zX9ziyC2EeqfDZoo5DmFaA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zjCC2EeqfDZoo5DmFaA" x="4" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zjCC2EeqfDZoo5DmFaA" x="8" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zX9zjSC2EeqfDZoo5DmFaA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zjiC2EeqfDZoo5DmFaA" x="2" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zjiC2EeqfDZoo5DmFaA" x="7" y="11"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zX9zhiC2EeqfDZoo5DmFaA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zX9zhyC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
@@ -5437,13 +5393,13 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_zX9zkSC2EeqfDZoo5DmFaA" type="4001" element="_zX9zRyC2EeqfDZoo5DmFaA" source="_zX9zaCC2EeqfDZoo5DmFaA" target="_zX9zdCC2EeqfDZoo5DmFaA">
           <children xmi:type="notation:Node" xmi:id="_zX9zlSC2EeqfDZoo5DmFaA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zliC2EeqfDZoo5DmFaA" x="1" y="-7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zliC2EeqfDZoo5DmFaA" x="3" y="-4"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zX9zlyC2EeqfDZoo5DmFaA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zmCC2EeqfDZoo5DmFaA" x="-5" y="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zmCC2EeqfDZoo5DmFaA" x="-10" y="12"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zX9zmSC2EeqfDZoo5DmFaA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zmiC2EeqfDZoo5DmFaA" x="-4" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zX9zmiC2EeqfDZoo5DmFaA" x="-10" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zX9zkiC2EeqfDZoo5DmFaA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zX9zkyC2EeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
@@ -5473,6 +5429,9 @@
         <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zX0CRiC2EeqfDZoo5DmFaA" name="&lt;&lt;EntryLevelSystemCall>>&#xA;aName&#xA;MessageTransformation.getMessage(String messageBody)" outgoingEdges="_zX9zRyC2EeqfDZoo5DmFaA" incomingEdges="_zX9zQiC2EeqfDZoo5DmFaA">
           <target xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_E1uqUG_hEemrIvPmN-PCZA"/>
           <semanticElements xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_E1uqUG_hEemrIvPmN-PCZA"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zX0CRyC2EeqfDZoo5DmFaA" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
             <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@style"/>
           </ownedStyle>
@@ -5546,5 +5505,206 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_zW6qYiC2EeqfDZoo5DmFaA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer"/>
     <target xmi:type="usagemodel:UsageModel" href="default.usagemodel#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_hlB_YHXNEeu39twClqqmPw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hlZLwHXNEeu39twClqqmPw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_hlZLwXXNEeu39twClqqmPw" type="Sirius" element="_hlB_YHXNEeu39twClqqmPw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_horJQHXNEeu39twClqqmPw" type="2002" element="_hm4ZgHXNEeu39twClqqmPw">
+          <children xmi:type="notation:Node" xmi:id="_hoxP4HXNEeu39twClqqmPw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_hox28HXNEeu39twClqqmPw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_hozFFHXNEeu39twClqqmPw" type="3008" element="_hoRgoHXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_hozsInXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho0TMHXNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho0TMXXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho0TMnXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hozsIHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hozsIXXNEeu39twClqqmPw" x="25" y="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ho0TM3XNEeu39twClqqmPw" type="3008" element="_hoSHsnXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho0TNnXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho0TN3XNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho0TOHXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho0TOXXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho0TNHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho0TNXXNEeu39twClqqmPw" x="340" y="39"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_hox28XXNEeu39twClqqmPw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_hox28nXNEeu39twClqqmPw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_horJQXXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_horJQnXNEeu39twClqqmPw" y="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_hoyeAHXNEeu39twClqqmPw" type="2002" element="_hm7c0XXNEeu39twClqqmPw">
+          <children xmi:type="notation:Node" xmi:id="_hoyeA3XNEeu39twClqqmPw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_hoyeBHXNEeu39twClqqmPw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_ho0TOnXNEeu39twClqqmPw" type="3008" element="_hojNcHXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho0TPXXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho06QHXNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho06QXXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho06QnXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho0TO3XNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho0TPHXNEeu39twClqqmPw" x="25" y="39"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_hoyeBXXNEeu39twClqqmPw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_hoyeBnXNEeu39twClqqmPw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hoyeAXXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hoyeAnXNEeu39twClqqmPw" x="645" y="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_hoyeB3XNEeu39twClqqmPw" type="2002" element="_hm8D4XXNEeu39twClqqmPw">
+          <children xmi:type="notation:Node" xmi:id="_hozFEHXNEeu39twClqqmPw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_hozFEXXNEeu39twClqqmPw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_ho06Q3XNEeu39twClqqmPw" type="3008" element="_holCoHXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho06RnXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho06R3XNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho06SHXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho06SXXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho06RHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho06RXXNEeu39twClqqmPw" x="25" y="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ho06SnXNEeu39twClqqmPw" type="3008" element="_holCo3XNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho06TXXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho1hUHXNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho1hUXXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho1hUnXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho06S3XNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho06THXNEeu39twClqqmPw" x="295" y="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ho1hU3XNEeu39twClqqmPw" type="3008" element="_holpsXXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho1hVnXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho1hV3XNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho1hWHXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho1hWXXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho1hVHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho1hVXXNEeu39twClqqmPw" x="595" y="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ho1hWnXNEeu39twClqqmPw" type="3008" element="_holptHXNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho1hXXXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho2IYHXNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho2IYXXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho2IYnXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho1hW3XNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho1hXHXNEeu39twClqqmPw" x="895" y="39"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ho2IY3XNEeu39twClqqmPw" type="3008" element="_holpt3XNEeu39twClqqmPw">
+              <children xmi:type="notation:Node" xmi:id="_ho2IZnXNEeu39twClqqmPw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_ho2IZ3XNEeu39twClqqmPw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_ho2IaHXNEeu39twClqqmPw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_ho2IaXXNEeu39twClqqmPw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ho2IZHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ho2IZXXNEeu39twClqqmPw" x="1195" y="39"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_hozFEnXNEeu39twClqqmPw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_hozFE3XNEeu39twClqqmPw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hoyeCHXNEeu39twClqqmPw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hoyeCXXNEeu39twClqqmPw" x="1020" y="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_hlZLwnXNEeu39twClqqmPw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hootAHXNEeu39twClqqmPw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_hootAXXNEeu39twClqqmPw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hm4ZgHXNEeu39twClqqmPw" name="&lt;&lt;ResourceContainer>>&#xA;ResourceContainer3" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
+      <target xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
+      <semanticElements xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_Dj3EsG_fEemrIvPmN-PCZA"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hm5noHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hoRgoHXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_PollingConsumerGroup" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_fCUIcG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_fCUIcG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hoSHsHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hoSHsnXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_Notification" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_qU9hYG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_qU9hYG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hoSuwHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hm7c0XXNEeu39twClqqmPw" name="&lt;&lt;ResourceContainer>>&#xA;ResourceContainer1" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
+      <target xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_C8rI4G_fEemrIvPmN-PCZA"/>
+      <semanticElements xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_C8rI4G_fEemrIvPmN-PCZA"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hm7c0nXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hojNcHXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_MessageTransformation" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_nm_fQG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_nm_fQG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hoj0gHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hm8D4XXNEeu39twClqqmPw" name="&lt;&lt;ResourceContainer>>&#xA;ResourceContainer2" tooltipText="ResourceContainer from the specified ResourceEnviroment ">
+      <target xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+      <semanticElements xmi:type="resourceenvironment:ResourceContainer" href="mosaic-ch.resourceenvironment#_DO6vcG_fEemrIvPmN-PCZA"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hm8D4nXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_holCoHXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_QueueResources" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_gk3gUG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_gk3gUG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_holCoXXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_holCo3XNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_DefaultExchange" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_a-EP4G_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_a-EP4G_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_holCpHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_holpsXXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_DefaultExchange" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_eKMNoG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_eKMNoG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_holpsnXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_holptHXNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_QueueResources" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_h3XC8G_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_h3XC8G_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_holptXXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_holpt3XNEeu39twClqqmPw" name="&lt;&lt;Allocation>>&#xA;Allocation_Assembly_MessageBroker" tooltipText="AllocationContext">
+        <target xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_rP_mQG_gEemrIvPmN-PCZA"/>
+        <semanticElements xmi:type="allocation:AllocationContext" href="mosaic-ch.allocation#_rP_mQG_gEemrIvPmN-PCZA"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_holpuHXNEeu39twClqqmPw" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer/@containerMappings[name='ResourceContainer']/@subContainerMappings[name='Allocation_AssemblyContext']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_hlDNgHXNEeu39twClqqmPw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']/@ownedRepresentations[name='Allocation%20Diagram']/@defaultLayer"/>
+    <target xmi:type="allocation:Allocation" href="mosaic-ch.allocation#_OBIfYG_gEemrIvPmN-PCZA"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
