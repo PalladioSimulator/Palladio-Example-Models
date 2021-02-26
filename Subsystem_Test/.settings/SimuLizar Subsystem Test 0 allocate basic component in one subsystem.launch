@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.upb.pcm.interpreter.SimuLizarLaunching">
-    <stringAttribute key="EDP2RepositoryID" value="_FFPTcLerEeqQOtSQ6pWWhw"/>
+    <stringAttribute key="EDP2RepositoryID" value="_vOJLEHZqEeu7FOq_gH5hyA"/>
     <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
     <stringAttribute key="actionModelFile" value="platform:/plugin/org.palladiosimulator.simulizar.action.repository/model/repository.actions"/>
     <stringAttribute key="allocationFile" value="platform:/resource/SubsystemTest/default.allocation"/>
@@ -35,7 +35,7 @@
     <booleanAttribute key="simulateFailures" value="false"/>
     <booleanAttribute key="simulateLinkingResources" value="false"/>
     <booleanAttribute key="simulateThroughputOfLinkingResources" value="true"/>
-    <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
+    <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simulizar"/>
     <stringAttribute key="stepwidth" value=""/>
     <stringAttribute key="usageEvolutionFile" value=""/>
     <stringAttribute key="usageFile" value="platform:/resource/SubsystemTest/default.usagemodel"/>
