@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="de.upb.pcm.interpreter.SimuLizarLaunching">
-    <stringAttribute key="EDP2RepositoryID" value="_vOJLEHZqEeu7FOq_gH5hyA"/>
+    <stringAttribute key="EDP2RepositoryID" value="_nsYnAHawEeuyTJDQZMuB8Q"/>
     <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
     <stringAttribute key="actionModelFile" value="platform:/plugin/org.palladiosimulator.simulizar.action.repository/model/repository.actions"/>
     <stringAttribute key="allocationFile" value="platform:/resource/Simple Tactics Example/default.allocation"/>

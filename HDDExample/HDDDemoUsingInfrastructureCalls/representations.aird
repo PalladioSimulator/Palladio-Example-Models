@@ -54,7 +54,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_NV2LYCDUEeqfDZoo5DmFaA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NWaMESDUEeqfDZoo5DmFaA" name="UsageModel Diagram" repPath="#_NV2LYSDUEeqfDZoo5DmFaA" changeId="a653f1ba-4753-49bc-a5f9-4c23f5c78bbb">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NWaMESDUEeqfDZoo5DmFaA" name="UsageModel Diagram" repPath="#_NV2LYSDUEeqfDZoo5DmFaA" changeId="4e897118-559f-4267-af2f-1191a199db23">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']"/>
         <target xmi:type="usagemodel:UsageModel" href="default.usagemodel#/"/>
       </ownedRepresentationDescriptors>
@@ -1558,11 +1558,31 @@
                 <children xmi:type="notation:Node" xmi:id="_NWazOCDUEeqfDZoo5DmFaA" type="3008" element="_NWPM9iDUEeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_NWazOyDUEeqfDZoo5DmFaA" type="5005"/>
                   <children xmi:type="notation:Node" xmi:id="_NWazPCDUEeqfDZoo5DmFaA" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_qQLukHayEeuyTJDQZMuB8Q" type="3008" element="_qP2XYnayEeuyTJDQZMuB8Q">
+                      <children xmi:type="notation:Node" xmi:id="_qQLuk3ayEeuyTJDQZMuB8Q" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_qQMVoHayEeuyTJDQZMuB8Q" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_qQMVoXayEeuyTJDQZMuB8Q"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_qQMVonayEeuyTJDQZMuB8Q"/>
+                        <styles xmi:type="notation:DrawerStyle" xmi:id="_qQMVo3ayEeuyTJDQZMuB8Q"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_qQLukXayEeuyTJDQZMuB8Q" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQLuknayEeuyTJDQZMuB8Q"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_qQMVpHayEeuyTJDQZMuB8Q" type="3008" element="_qP3lgHayEeuyTJDQZMuB8Q">
+                      <children xmi:type="notation:Node" xmi:id="_qQNjwHayEeuyTJDQZMuB8Q" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_qQNjwXayEeuyTJDQZMuB8Q" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_qQNjwnayEeuyTJDQZMuB8Q"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_qQNjw3ayEeuyTJDQZMuB8Q"/>
+                        <styles xmi:type="notation:DrawerStyle" xmi:id="_qQNjxHayEeuyTJDQZMuB8Q"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_qQMVpXayEeuyTJDQZMuB8Q" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQMVpnayEeuyTJDQZMuB8Q" y="40"/>
+                    </children>
                     <styles xmi:type="notation:SortingStyle" xmi:id="_NWazPSDUEeqfDZoo5DmFaA"/>
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_NWazPiDUEeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_NWazOSDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazOiDUEeqfDZoo5DmFaA" x="15" y="74"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazOiDUEeqfDZoo5DmFaA" x="29" y="89"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_NWazPyDUEeqfDZoo5DmFaA" type="3009" element="_NWPM-SDUEeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_NWazQiDUEeqfDZoo5DmFaA" type="5004"/>
@@ -1575,7 +1595,7 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_NWazRSDUEeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_NWazQCDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazQSDUEeqfDZoo5DmFaA" x="81" y="169"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazQSDUEeqfDZoo5DmFaA" x="95" y="304"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_NWbaMCDUEeqfDZoo5DmFaA" type="3007" element="_NWPM_iDUEeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_NWbaMyDUEeqfDZoo5DmFaA" type="5003">
@@ -1586,7 +1606,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaPyDUEeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_NWbaMSDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="7"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaMiDUEeqfDZoo5DmFaA" x="125" y="34" width="30" height="30"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaMiDUEeqfDZoo5DmFaA" x="140" y="49" width="30" height="30"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_NWbaNSDUEeqfDZoo5DmFaA" type="3007" element="_NWPNASDUEeqfDZoo5DmFaA">
                   <children xmi:type="notation:Node" xmi:id="_NWbaOCDUEeqfDZoo5DmFaA" type="5003">
@@ -1597,13 +1617,13 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaQiDUEeqfDZoo5DmFaA"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_NWbaNiDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaNyDUEeqfDZoo5DmFaA" x="115" y="259" width="40" height="40"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWbaNyDUEeqfDZoo5DmFaA" x="135" y="424" width="40" height="40"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_NWazLyDUEeqfDZoo5DmFaA"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_NWazMCDUEeqfDZoo5DmFaA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_NWazKyDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazLCDUEeqfDZoo5DmFaA" x="15" y="34" height="318"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazLCDUEeqfDZoo5DmFaA" x="15" y="34" width="313" height="538"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_NWazMSDUEeqfDZoo5DmFaA" type="3009" element="_NWPNBCDUEeqfDZoo5DmFaA">
               <children xmi:type="notation:Node" xmi:id="_NWazNCDUEeqfDZoo5DmFaA" type="5004"/>
@@ -1626,7 +1646,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_NWazKSDUEeqfDZoo5DmFaA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_NWazJCDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazJSDUEeqfDZoo5DmFaA" y="25" width="483" height="366"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWazJSDUEeqfDZoo5DmFaA" y="25" width="483" height="638"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_NWazIiDUEeqfDZoo5DmFaA"/>
         <edges xmi:type="notation:Edge" xmi:id="_NWbaSSDUEeqfDZoo5DmFaA" type="4001" element="_NWZlASDUEeqfDZoo5DmFaA" source="_NWbaMCDUEeqfDZoo5DmFaA" target="_NWazOCDUEeqfDZoo5DmFaA">
@@ -1647,33 +1667,33 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_NWcBQSDUEeqfDZoo5DmFaA" type="4001" element="_NWZlBiDUEeqfDZoo5DmFaA" source="_NWazOCDUEeqfDZoo5DmFaA" target="_NWazPyDUEeqfDZoo5DmFaA">
           <children xmi:type="notation:Node" xmi:id="_NWcBRSDUEeqfDZoo5DmFaA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBRiDUEeqfDZoo5DmFaA" x="3" y="-5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBRiDUEeqfDZoo5DmFaA" x="-23" y="13"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_NWcBRyDUEeqfDZoo5DmFaA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBSCDUEeqfDZoo5DmFaA" x="-7" y="5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBSCDUEeqfDZoo5DmFaA" x="10" y="-3"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_NWcBSSDUEeqfDZoo5DmFaA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBSiDUEeqfDZoo5DmFaA" x="-5" y="5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBSiDUEeqfDZoo5DmFaA" x="9" y="-4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_NWcBQiDUEeqfDZoo5DmFaA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_NWcBQyDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NWcBRCDUEeqfDZoo5DmFaA" points="[0, 0, 0, -27]$[0, 27, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NWcBRCDUEeqfDZoo5DmFaA" points="[0, 0, 0, -72]$[0, 72, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NWcBSyDUEeqfDZoo5DmFaA" id="(0.5022222222222222,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NWcBTCDUEeqfDZoo5DmFaA" id="(0.5047619047619047,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_NWcBTSDUEeqfDZoo5DmFaA" type="4001" element="_NWZlCyDUEeqfDZoo5DmFaA" source="_NWazPyDUEeqfDZoo5DmFaA" target="_NWbaNSDUEeqfDZoo5DmFaA">
           <children xmi:type="notation:Node" xmi:id="_NWcBUSDUEeqfDZoo5DmFaA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBUiDUEeqfDZoo5DmFaA" x="-2" y="-4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBUiDUEeqfDZoo5DmFaA" x="-10" y="-2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_NWcBUyDUEeqfDZoo5DmFaA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBVCDUEeqfDZoo5DmFaA" x="1" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBVCDUEeqfDZoo5DmFaA" x="9" y="2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_NWcBVSDUEeqfDZoo5DmFaA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBViDUEeqfDZoo5DmFaA" x="-1" y="6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWcBViDUEeqfDZoo5DmFaA" x="6" y="3"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_NWcBTiDUEeqfDZoo5DmFaA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_NWcBTyDUEeqfDZoo5DmFaA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NWcBUCDUEeqfDZoo5DmFaA" points="[0, 0, 5, -26]$[-5, 26, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NWcBUCDUEeqfDZoo5DmFaA" points="[0, 0, -16, -56]$[16, 56, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NWcBVyDUEeqfDZoo5DmFaA" id="(0.5047619047619047,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NWcBWCDUEeqfDZoo5DmFaA" id="(0.5,0.0)"/>
         </edges>
@@ -1696,13 +1716,32 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_NWPM9iDUEeqfDZoo5DmFaA" name="&lt;&lt;EntryLevelSystemCall>>&#xA;aName&#xA;AccountingInterface.chargeForEspresso" outgoingEdges="_NWZlBiDUEeqfDZoo5DmFaA" incomingEdges="_NWZlASDUEeqfDZoo5DmFaA">
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_NWPM9iDUEeqfDZoo5DmFaA" name="&lt;&lt;EntryLevelSystemCall>>&#xA;aName&#xA;AccountingInterface.chargeForEspresso" outgoingEdges="_NWZlBiDUEeqfDZoo5DmFaA" incomingEdges="_NWZlASDUEeqfDZoo5DmFaA" childrenPresentation="VerticalStack">
           <target xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
           <semanticElements xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NWPM9yDUEeqfDZoo5DmFaA" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
             <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qP2XYnayEeuyTJDQZMuB8Q" name="InputVariableUsageCompartment">
+            <target xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
+            <semanticElements xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qP2-cHayEeuyTJDQZMuB8Q" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@subContainerMappings[name='InputVariableUsageCompartment']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@subContainerMappings[name='InputVariableUsageCompartment']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qP3lgHayEeuyTJDQZMuB8Q" name="OutputVariableUsageCompartment">
+            <target xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
+            <semanticElements xmi:type="usagemodel:EntryLevelSystemCall" href="default.usagemodel#_NC8HwCHdEd6lJo4DCALHMw"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qP3lgXayEeuyTJDQZMuB8Q" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@subContainerMappings[name='OutputVariableUsageCompartment']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='scenarioBehavior']/@subContainerMappings[name='entryLevelSystemCall']/@subContainerMappings[name='OutputVariableUsageCompartment']"/>
+          </ownedDiagramElements>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_NWPM-SDUEeqfDZoo5DmFaA" name="&lt;&lt;Delay>>&#xA;aName" outgoingEdges="_NWZlCyDUEeqfDZoo5DmFaA" incomingEdges="_NWZlBiDUEeqfDZoo5DmFaA">
           <target xmi:type="usagemodel:Delay" href="default.usagemodel#_H8BfsA3zEeCgT6LmvPDQdQ"/>

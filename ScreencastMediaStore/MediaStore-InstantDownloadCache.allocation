@@ -16,7 +16,7 @@
   </allocationContexts_Allocation>
   <allocationContexts_Allocation id="_dx0e4L3NEeSvHZ5kF_aE4g" entityName="MediaManagement">
     <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
-    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_C1kK8HD5EeSA4fySuX9I2S"/>
+    <assemblyContext_AllocationContext href="MediaStore-InstantDownloadCache.system#_C1kK8HD5EeSA4fySuX9I2Z"/>
   </allocationContexts_Allocation>
   <allocationContexts_Allocation id="_dx0e4L3NEeSvHZ5kF_aE4z" entityName="InstantDownloadCache">
     <resourceContainer_AllocationContext href="MediaStore.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
