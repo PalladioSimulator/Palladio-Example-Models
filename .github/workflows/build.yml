@@ -8,7 +8,7 @@ jobs:
     with:
       use-display-output: true
       no-caching: true
-      release-version: '5.2.0'
+      release-version: 5.2.0
       deploy-updatesite: 'target/deploy'
     secrets:
       SERVER_SSH_KEY: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
