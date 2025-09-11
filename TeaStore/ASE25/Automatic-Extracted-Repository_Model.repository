@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_2LUc0TZ-EeytffP2k4xk1w">
+  <components__Repository xsi:type="repository:BasicComponent" id="_7FvBADaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7I97MDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth_provides_AuthCartRest" providedInterface__OperationProvidedRole="_7Hq6sDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7R9fITaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth_provides_AuthUserActionsRest" providedInterface__OperationProvidedRole="_7R9fIDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7S2P8TaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth_provides_ReadyRest" providedInterface__OperationProvidedRole="_7S2P8DaBEeytffP2k4xk1w"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_K1T4QDaCEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth_requires_AbstractCRUDEndpoint" requiredInterface__OperationRequiredRole="_7k7ecTaBEeytffP2k4xk1w"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_K1jv4DaCEeytffP2k4xk1w" entityName="tools.descartes.teastore.auth_requires_UserEndpoint" requiredInterface__OperationRequiredRole="_7pP9wDaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7KFVgDaBEeytffP2k4xk1w" describedService__SEFF="_7JYK4DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7O_DoDaBEeytffP2k4xk1w" successor_AbstractAction="_7MyrQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7MyrQDaBEeytffP2k4xk1w" entityName="IA  @position: AuthCartRest.AuthCartRest.addProductToCart(). unknown exact possition" predecessor_AbstractAction="_7O_DoDaBEeytffP2k4xk1w" successor_AbstractAction="_7ODPgDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7ODPgDaBEeytffP2k4xk1w" entityName="getEntity @position: AuthCartRest.AuthCartRest.addProductToCart().. unknown exact possition" predecessor_AbstractAction="_7MyrQDaBEeytffP2k4xk1w" successor_AbstractAction="_7O9OcDaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7O9OcDaBEeytffP2k4xk1w" entityName=" @position: AuthCartRest.AuthCartRest.addProductToCart(). unknown exact possition" predecessor_AbstractAction="_7ODPgDaBEeytffP2k4xk1w" successor_AbstractAction="_7O91gDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7OUVQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7O91gDaBEeytffP2k4xk1w" entityName="IA  @position: AuthCartRest.AuthCartRest.addProductToCart(). unknown exact possition" predecessor_AbstractAction="_7O9OcDaBEeytffP2k4xk1w" successor_AbstractAction="_7O_DoTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7O_DoTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7O91gDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7OUVQDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7O6LIDaBEeytffP2k4xk1w" successor_AbstractAction="_7O6yMDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7O6yMDaBEeytffP2k4xk1w" entityName="IA  @position: ShaSecurityProvider.ShaSecurityProvider.secure(). unknown exact possition" predecessor_AbstractAction="_7O6LIDaBEeytffP2k4xk1w" successor_AbstractAction="_7O7ZQDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7O7ZQDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7O6yMDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7RtAcDaBEeytffP2k4xk1w" describedService__SEFF="_7RsZYDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7Ru1oDaBEeytffP2k4xk1w" successor_AbstractAction="_7RtngDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7RtngDaBEeytffP2k4xk1w" entityName="IA  @position: AuthCartRest.AuthCartRest.removeProductFromCart(). unknown exact possition" predecessor_AbstractAction="_7Ru1oDaBEeytffP2k4xk1w" successor_AbstractAction="_7Ru1oTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7Ru1oTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7RtngDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7RzuIDaBEeytffP2k4xk1w" describedService__SEFF="_7RzHEDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7R08QTaBEeytffP2k4xk1w" successor_AbstractAction="_7R08QDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7R08QDaBEeytffP2k4xk1w" entityName="IA  @position: AuthCartRest.AuthCartRest.updateQuantity(). unknown exact possition" predecessor_AbstractAction="_7R08QTaBEeytffP2k4xk1w" successor_AbstractAction="_7R1jUDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7R1jUDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7R08QDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7R-GMTaBEeytffP2k4xk1w" describedService__SEFF="_7R-GMDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7SS2UDaBEeytffP2k4xk1w" successor_AbstractAction="_7R-tQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7R-tQDaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder(). unknown exact possition" predecessor_AbstractAction="_7SS2UDaBEeytffP2k4xk1w" successor_AbstractAction="_7R_UUDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7R_UUDaBEeytffP2k4xk1w" entityName="sendEntityForCreation @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder().. unknown exact possition" predecessor_AbstractAction="_7R-tQDaBEeytffP2k4xk1w" successor_AbstractAction="_7SBJgDaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:LoopAction" id="_7SBJgDaBEeytffP2k4xk1w" entityName=" @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder(). unknown exact possition" predecessor_AbstractAction="_7R_UUDaBEeytffP2k4xk1w" successor_AbstractAction="_7SSPRDaBEeytffP2k4xk1w">
+        <bodyBehaviour_Loop id="_7SBJgTaBEeytffP2k4xk1w">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_7SQaEDaBEeytffP2k4xk1w" successor_AbstractAction="_7SQaETaBEeytffP2k4xk1w"/>
+          <steps_Behaviour xsi:type="seff:InternalAction" id="_7SQaETaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder()... unknown exact possition" predecessor_AbstractAction="_7SQaEDaBEeytffP2k4xk1w" successor_AbstractAction="_7SRBIDaBEeytffP2k4xk1w"/>
+          <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7SRBIDaBEeytffP2k4xk1w" entityName="sendEntityForCreation @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder()... unknown exact possition" predecessor_AbstractAction="_7SQaETaBEeytffP2k4xk1w" successor_AbstractAction="_7SRBITaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QDaBEeytffP2k4xk1w"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_7SRBITaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SRBIDaBEeytffP2k4xk1w"/>
+        </bodyBehaviour_Loop>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7SSPRDaBEeytffP2k4xk1w" entityName=" @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder(). unknown exact possition" predecessor_AbstractAction="_7SBJgDaBEeytffP2k4xk1w" successor_AbstractAction="_7SSPRTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7SSPQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7SSPRTaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.placeOrder(). unknown exact possition" predecessor_AbstractAction="_7SSPRDaBEeytffP2k4xk1w" successor_AbstractAction="_7SS2UTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7SS2UTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SSPRTaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7SSPQDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7SSPQTaBEeytffP2k4xk1w" successor_AbstractAction="_7SSPQjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7SSPQjaBEeytffP2k4xk1w" entityName="IA  @position: ShaSecurityProvider.ShaSecurityProvider.secure(). unknown exact possition" predecessor_AbstractAction="_7SSPQTaBEeytffP2k4xk1w" successor_AbstractAction="_7SSPQzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7SSPQzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SSPQjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7Sj8EDaBEeytffP2k4xk1w" describedService__SEFF="_7SjVADaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7SlxQDaBEeytffP2k4xk1w" successor_AbstractAction="_7Sj8ETaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7Sj8ETaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.login(). unknown exact possition" predecessor_AbstractAction="_7SlxQDaBEeytffP2k4xk1w" successor_AbstractAction="_7SkjIDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7SkjIDaBEeytffP2k4xk1w" entityName="getEntityWithProperties @position: AuthUserActionsRest.AuthUserActionsRest.login().. unknown exact possition" predecessor_AbstractAction="_7Sj8ETaBEeytffP2k4xk1w" successor_AbstractAction="_7SmYUDaBEeytffP2k4xk1w" calledService_ExternalService="_7pXSgDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7SmYUDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SkjIDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7SttETaBEeytffP2k4xk1w" describedService__SEFF="_7SttEDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7SuUITaBEeytffP2k4xk1w" successor_AbstractAction="_7SuUIDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7SuUIDaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.logout(). unknown exact possition" predecessor_AbstractAction="_7SuUITaBEeytffP2k4xk1w" successor_AbstractAction="_7SuUIjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7SuUIjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SuUIDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7SwwYTaBEeytffP2k4xk1w" describedService__SEFF="_7SwwYDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7SylkTaBEeytffP2k4xk1w" successor_AbstractAction="_7Sx-gDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7Sx-gDaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.isLoggedIn(). unknown exact possition" predecessor_AbstractAction="_7SylkTaBEeytffP2k4xk1w" successor_AbstractAction="_7Sx-hTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7Sx-hTaBEeytffP2k4xk1w" entityName=" @position: AuthUserActionsRest.AuthUserActionsRest.isLoggedIn(). unknown exact possition" predecessor_AbstractAction="_7Sx-gDaBEeytffP2k4xk1w" successor_AbstractAction="_7SylkDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7Sx-gTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7SylkDaBEeytffP2k4xk1w" entityName="IA  @position: AuthUserActionsRest.AuthUserActionsRest.isLoggedIn(). unknown exact possition" predecessor_AbstractAction="_7Sx-hTaBEeytffP2k4xk1w" successor_AbstractAction="_7SylkjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7SylkjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7SylkDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7Sx-gTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7Sx-gjaBEeytffP2k4xk1w" successor_AbstractAction="_7Sx-gzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7Sx-gzaBEeytffP2k4xk1w" entityName="IA  @position: ShaSecurityProvider.ShaSecurityProvider.validate(). unknown exact possition" predecessor_AbstractAction="_7Sx-gjaBEeytffP2k4xk1w" successor_AbstractAction="_7Sx-hDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7Sx-hDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7Sx-gzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7S23ATaBEeytffP2k4xk1w" describedService__SEFF="_7S23ADaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7S3eETaBEeytffP2k4xk1w" successor_AbstractAction="_7S3eEDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7S3eEDaBEeytffP2k4xk1w" entityName="IA  @position: ReadyRest.ReadyRest.isReady(). unknown exact possition" predecessor_AbstractAction="_7S3eETaBEeytffP2k4xk1w" successor_AbstractAction="_7S4FIDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7S4FIDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7S3eEDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7Vt9wDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.image">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7YchoTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.image_provides_ImageProviderEndpoint" providedInterface__OperationProvidedRole="_7YchoDaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7YdIsTaBEeytffP2k4xk1w" describedService__SEFF="_7YdIsDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7YeW0DaBEeytffP2k4xk1w" successor_AbstractAction="_7YdvwDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7YdvwDaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.getProductImages(). unknown exact possition" predecessor_AbstractAction="_7YeW0DaBEeytffP2k4xk1w" successor_AbstractAction="_7YeW0TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7YeW0TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7YdvwDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7YiBMTaBEeytffP2k4xk1w" describedService__SEFF="_7YiBMDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7YioQTaBEeytffP2k4xk1w" successor_AbstractAction="_7YioQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7YioQDaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.getWebUIImages(). unknown exact possition" predecessor_AbstractAction="_7YioQTaBEeytffP2k4xk1w" successor_AbstractAction="_7YioQjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7YioQjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7YioQDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7Ym5sDaBEeytffP2k4xk1w" describedService__SEFF="_7YmSoDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7Ym5sjaBEeytffP2k4xk1w" successor_AbstractAction="_7Ym5sTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7Ym5sTaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.regenerateImages(). unknown exact possition" predecessor_AbstractAction="_7Ym5sjaBEeytffP2k4xk1w" successor_AbstractAction="_7YngwDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7YngwDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7Ym5sTaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7YoH0TaBEeytffP2k4xk1w" describedService__SEFF="_7YoH0DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7You4TaBEeytffP2k4xk1w" successor_AbstractAction="_7You4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7You4DaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.isFinished(). unknown exact possition" predecessor_AbstractAction="_7You4TaBEeytffP2k4xk1w" successor_AbstractAction="_7You4jaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7You4jaBEeytffP2k4xk1w" predecessor_AbstractAction="_7You4DaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7Yp9ATaBEeytffP2k4xk1w" describedService__SEFF="_7Yp9ADaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7YqkETaBEeytffP2k4xk1w" successor_AbstractAction="_7YqkEDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7YqkEDaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.getState(). unknown exact possition" predecessor_AbstractAction="_7YqkETaBEeytffP2k4xk1w" successor_AbstractAction="_7YqkEjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7YqkEjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7YqkEDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7YryMTaBEeytffP2k4xk1w" describedService__SEFF="_7YryMDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7YsZQTaBEeytffP2k4xk1w" successor_AbstractAction="_7YsZQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7YsZQDaBEeytffP2k4xk1w" entityName="IA  @position: ImageProviderEndpoint.ImageProviderEndpoint.setCacheSize(). unknown exact possition" predecessor_AbstractAction="_7YsZQTaBEeytffP2k4xk1w" successor_AbstractAction="_7YsZQjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7YsZQjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7YsZQDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7fEuEDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7kq_wTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_CacheManagerEndpoint" providedInterface__OperationProvidedRole="_7kq_wDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7nH20DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_CategoryEndpoint" providedInterface__OperationProvidedRole="_7k7ecDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7nQZsTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_DatabaseGenerationEndpoint" providedInterface__OperationProvidedRole="_7nQZsDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7oJxkDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_OrderEndpoint" providedInterface__OperationProvidedRole="_7oIjcDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7odTkDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_OrderItemEndpoint" providedInterface__OperationProvidedRole="_7ocFcDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7o2VIDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_ProductEndpoint" providedInterface__OperationProvidedRole="_7o1HADaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7pRL4DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_UserEndpoint" providedInterface__OperationProvidedRole="_7pP9wDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7rINEDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_provides_IndexServlet" providedInterface__OperationProvidedRole="_7qSfkDaBEeytffP2k4xk1w"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_K1jv4TaCEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_requires_DatabaseGenerationEndpoint" requiredInterface__OperationRequiredRole="_7nQZsDaBEeytffP2k4xk1w"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_K1jv4jaCEeytffP2k4xk1w" entityName="tools.descartes.teastore.persistence_requires_CacheManagerEndpoint" requiredInterface__OperationRequiredRole="_7kq_wDaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7krm0TaBEeytffP2k4xk1w" describedService__SEFF="_7krm0DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7kuDEDaBEeytffP2k4xk1w" successor_AbstractAction="_7ksN4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7ksN4DaBEeytffP2k4xk1w" entityName="IA  @position: CacheManagerEndpoint.CacheManagerEndpoint.clearClassCache(). unknown exact possition" predecessor_AbstractAction="_7kuDEDaBEeytffP2k4xk1w" successor_AbstractAction="_7kuDETaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7kuDETaBEeytffP2k4xk1w" predecessor_AbstractAction="_7ksN4DaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7kxtcTaBEeytffP2k4xk1w" describedService__SEFF="_7kxtcDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7k0wwDaBEeytffP2k4xk1w" successor_AbstractAction="_7k0JsTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7k0JsTaBEeytffP2k4xk1w" entityName=" @position: CacheManagerEndpoint.CacheManagerEndpoint.clearAllCaches(). unknown exact possition" predecessor_AbstractAction="_7k0wwDaBEeytffP2k4xk1w" successor_AbstractAction="_7k0JsjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7kzioDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7k0JsjaBEeytffP2k4xk1w" entityName="IA  @position: CacheManagerEndpoint.CacheManagerEndpoint.clearAllCaches(). unknown exact possition" predecessor_AbstractAction="_7k0JsTaBEeytffP2k4xk1w" successor_AbstractAction="_7k0wwTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7k0wwTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7k0JsjaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7kzioDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7kzioTaBEeytffP2k4xk1w" successor_AbstractAction="_7kziqjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7kziqjaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.clearLocalCacheOnly(). unknown exact possition" predecessor_AbstractAction="_7kzioTaBEeytffP2k4xk1w" successor_AbstractAction="_7kziqzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7kziojaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7kziqzaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.clearLocalCacheOnly(). unknown exact possition" predecessor_AbstractAction="_7kziqjaBEeytffP2k4xk1w" successor_AbstractAction="_7k0JsDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7k0JsDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7kziqzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7kziojaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7kziozaBEeytffP2k4xk1w" successor_AbstractAction="_7kziqDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7kziqDaBEeytffP2k4xk1w" entityName=" @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEMF(). unknown exact possition" predecessor_AbstractAction="_7kziozaBEeytffP2k4xk1w" successor_AbstractAction="_7kziqTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7kzipDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7kziqTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7kziqDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7kzipDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7kzipTaBEeytffP2k4xk1w" successor_AbstractAction="_7kzipjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7kzipjaBEeytffP2k4xk1w" entityName="IA  @position: EMFManager.EMFManager.getEMF(). unknown exact possition" predecessor_AbstractAction="_7kzipTaBEeytffP2k4xk1w" successor_AbstractAction="_7kzipzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7kzipzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7kzipjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7k2l8DaBEeytffP2k4xk1w" describedService__SEFF="_7k1-4DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7k30ETaBEeytffP2k4xk1w" successor_AbstractAction="_7k3NCDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7k3NCDaBEeytffP2k4xk1w" entityName=" @position: CacheManagerEndpoint.CacheManagerEndpoint.clearEMF(). unknown exact possition" predecessor_AbstractAction="_7k30ETaBEeytffP2k4xk1w" successor_AbstractAction="_7k30EDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7k3NADaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7k30EDaBEeytffP2k4xk1w" entityName="IA  @position: CacheManagerEndpoint.CacheManagerEndpoint.clearEMF(). unknown exact possition" predecessor_AbstractAction="_7k3NCDaBEeytffP2k4xk1w" successor_AbstractAction="_7k30EjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7k30EjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7k30EDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7k3NADaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7k3NATaBEeytffP2k4xk1w" successor_AbstractAction="_7k3NBjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7k3NBjaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.resetLocalEMF(). unknown exact possition" predecessor_AbstractAction="_7k3NATaBEeytffP2k4xk1w" successor_AbstractAction="_7k3NBzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7k3NAjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7k3NBzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7k3NBjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7k3NAjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7k3NAzaBEeytffP2k4xk1w" successor_AbstractAction="_7k3NBDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7k3NBDaBEeytffP2k4xk1w" entityName="IA  @position: EMFManager.EMFManager.clearEMF(). unknown exact possition" predecessor_AbstractAction="_7k3NAzaBEeytffP2k4xk1w" successor_AbstractAction="_7k3NBTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7k3NBTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7k3NBDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7nRn0TaBEeytffP2k4xk1w" describedService__SEFF="_7nRn0DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7nu60DaBEeytffP2k4xk1w" successor_AbstractAction="_7nSO4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7nSO4DaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nu60DaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdCzaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nTdCzaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nSO4DaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdDDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nS18DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7nTdDDaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nTdCzaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8kTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nY8kTaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nTdDDaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8kjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nXucDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7nY8kjaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nY8kTaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8lzaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nY8lzaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nY8kjaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8mzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nY8kzaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nY8mzaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nY8lzaBEeytffP2k4xk1w" successor_AbstractAction="_7nZjozaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nY8mDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nZjozaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nY8mzaBEeytffP2k4xk1w" successor_AbstractAction="_7nZjpzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nZjoDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nZjpzaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nZjozaBEeytffP2k4xk1w" successor_AbstractAction="_7nZjqDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nZjpDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7nZjqDaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nZjpzaBEeytffP2k4xk1w" successor_AbstractAction="_7nsekDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nsekDaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nZjqDaBEeytffP2k4xk1w" successor_AbstractAction="_7nsekTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nrQcDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7nsekTaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nsekDaBEeytffP2k4xk1w" successor_AbstractAction="_7nsenTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nsenTaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nsekTaBEeytffP2k4xk1w" successor_AbstractAction="_7ntFoDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nsekjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7ntFoDaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7nsenTaBEeytffP2k4xk1w" successor_AbstractAction="_7ntFpDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7ntFpDaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7ntFoDaBEeytffP2k4xk1w" successor_AbstractAction="_7ntFpTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7ntFoTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7ntFpTaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.generateDataBase(). unknown exact possition" predecessor_AbstractAction="_7ntFpDaBEeytffP2k4xk1w" successor_AbstractAction="_7nu60TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7nu60TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7ntFpTaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7nS18DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nS18TaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdAjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nTdAjaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.setMaintenanceModeGlobal(). unknown exact possition" predecessor_AbstractAction="_7nS18TaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdBzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nS18jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nTdBzaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.setMaintenanceModeGlobal(). unknown exact possition" predecessor_AbstractAction="_7nTdAjaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdCDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nTdAzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7nTdCDaBEeytffP2k4xk1w" entityName="multicastRESTToOtherServiceInstances @position: DataGenerator.DataGenerator.setMaintenanceModeGlobal(). unknown exact possition" predecessor_AbstractAction="_7nTdBzaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdCTaBEeytffP2k4xk1w" calledService_ExternalService="_7oAAkDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nTdCTaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.setMaintenanceModeGlobal(). unknown exact possition" predecessor_AbstractAction="_7nTdCDaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdCjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nTdCjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nTdCTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nS18jaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nS18zaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdADaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nTdADaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.setMaintenanceModeInternal(). unknown exact possition" predecessor_AbstractAction="_7nS18zaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdATaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nTdATaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nTdADaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nTdAzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nTdBDaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdBTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nTdBTaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.setMaintenanceModeExternal(). unknown exact possition" predecessor_AbstractAction="_7nTdBDaBEeytffP2k4xk1w" successor_AbstractAction="_7nTdBjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nTdBjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nTdBTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nXucDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nXucTaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVgjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYVgjaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.dropAndCreateTables(). unknown exact possition" predecessor_AbstractAction="_7nXucTaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVizaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nXucjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYVizaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.dropAndCreateTables(). unknown exact possition" predecessor_AbstractAction="_7nYVgjaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVjDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nYVgzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nYVjDaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.dropAndCreateTables(). unknown exact possition" predecessor_AbstractAction="_7nYVizaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVmzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYVmzaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.dropAndCreateTables(). unknown exact possition" predecessor_AbstractAction="_7nYVjDaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8kDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nYVjTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nY8kDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVmzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nXucjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nXuczaBEeytffP2k4xk1w" successor_AbstractAction="_7nXufDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nXufDaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.clearLocalCacheOnly(). unknown exact possition" predecessor_AbstractAction="_7nXuczaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVgDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nXudDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nYVgDaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.clearLocalCacheOnly(). unknown exact possition" predecessor_AbstractAction="_7nXufDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVgTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVgTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVgDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nXudDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nXudTaBEeytffP2k4xk1w" successor_AbstractAction="_7nXuejaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nXuejaBEeytffP2k4xk1w" entityName=" @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEMF(). unknown exact possition" predecessor_AbstractAction="_7nXudTaBEeytffP2k4xk1w" successor_AbstractAction="_7nXuezaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nXudjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nXuezaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nXuejaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nXudjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nXudzaBEeytffP2k4xk1w" successor_AbstractAction="_7nXueDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nXueDaBEeytffP2k4xk1w" entityName="IA  @position: EMFManager.EMFManager.getEMF(). unknown exact possition" predecessor_AbstractAction="_7nXudzaBEeytffP2k4xk1w" successor_AbstractAction="_7nXueTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nXueTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nXueDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nYVgzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nYVhDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYViDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYViDaBEeytffP2k4xk1w" entityName=" @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEM(). unknown exact possition" predecessor_AbstractAction="_7nYVhDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYViTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nYVhTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nYViTaBEeytffP2k4xk1w" entityName="IA  @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEM(). unknown exact possition" predecessor_AbstractAction="_7nYViDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVijaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVijaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYViTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nYVhTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nYVhjaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVhzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVhzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVhjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nYVjTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nYVjjaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVkjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYVkjaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.clearAllCaches(). unknown exact possition" predecessor_AbstractAction="_7nYVjjaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVkzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nYVjzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nYVkzaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.clearAllCaches(). unknown exact possition" predecessor_AbstractAction="_7nYVkjaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVmDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nYVmDaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.clearAllCaches().. unknown exact possition" predecessor_AbstractAction="_7nYVkzaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVmTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nYVlDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7nYVmTaBEeytffP2k4xk1w" entityName="multicastRESTToOtherServiceInstances @position: CacheManager.CacheManager.clearAllCaches().. unknown exact possition" predecessor_AbstractAction="_7nYVmDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVmjaBEeytffP2k4xk1w" calledService_ExternalService="_7kxtcDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVmjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVmTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nYVjzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nYVkDaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVkTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVkTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVkDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nYVlDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nYVlTaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVljaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nYVljaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.clearRemoteCacheREST(). unknown exact possition" predecessor_AbstractAction="_7nYVlTaBEeytffP2k4xk1w" successor_AbstractAction="_7nYVlzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nYVlzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nYVljaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nY8kzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nY8lDaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8lTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nY8lTaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.parseQuery(). unknown exact possition" predecessor_AbstractAction="_7nY8lDaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8ljaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nY8ljaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nY8lTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nY8mDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nY8mTaBEeytffP2k4xk1w" successor_AbstractAction="_7nY8mjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nY8mjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nY8mTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nZjoDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nZjoTaBEeytffP2k4xk1w" successor_AbstractAction="_7nZjojaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nZjojaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nZjoTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nZjpDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nZjpTaBEeytffP2k4xk1w" successor_AbstractAction="_7nZjpjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nZjpjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nZjpTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nrQcDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nr3gDaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3iTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nr3iTaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.generateDatabaseContent(). unknown exact possition" predecessor_AbstractAction="_7nr3gDaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3jTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nr3gTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nr3jTaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.generateDatabaseContent(). unknown exact possition" predecessor_AbstractAction="_7nr3iTaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3jjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nr3ijaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nr3jjaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.generateDatabaseContent(). unknown exact possition" predecessor_AbstractAction="_7nr3jTaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3kjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nr3kjaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.generateDatabaseContent(). unknown exact possition" predecessor_AbstractAction="_7nr3jjaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3kzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nr3jzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nr3kzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nr3kjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nr3gTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nr3gjaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3hjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nr3hjaBEeytffP2k4xk1w" entityName=" @position: DataGenerator.DataGenerator.setGenerationFinishedFlag(). unknown exact possition" predecessor_AbstractAction="_7nr3gjaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3hzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nr3gzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nr3hzaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.setGenerationFinishedFlag(). unknown exact possition" predecessor_AbstractAction="_7nr3hjaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3iDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nr3iDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nr3hzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nr3gzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nr3hDaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3hTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nr3hTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nr3hDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nr3ijaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nr3izaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3jDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nr3jDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nr3izaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nr3jzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nr3kDaBEeytffP2k4xk1w" successor_AbstractAction="_7nr3kTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nr3kTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nr3kDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nsekjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nsekzaBEeytffP2k4xk1w" successor_AbstractAction="_7nselDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nselDaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.resetRemoteEMFs(). unknown exact possition" predecessor_AbstractAction="_7nsekzaBEeytffP2k4xk1w" successor_AbstractAction="_7nsemTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7nsemTaBEeytffP2k4xk1w" entityName=" @position: CacheManager.CacheManager.resetRemoteEMFs().. unknown exact possition" predecessor_AbstractAction="_7nselDaBEeytffP2k4xk1w" successor_AbstractAction="_7nsemjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7nselTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7nsemjaBEeytffP2k4xk1w" entityName="multicastRESTToOtherServiceInstances @position: CacheManager.CacheManager.resetRemoteEMFs().. unknown exact possition" predecessor_AbstractAction="_7nsemTaBEeytffP2k4xk1w" successor_AbstractAction="_7nsemzaBEeytffP2k4xk1w" calledService_ExternalService="_7oAAkDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nsemzaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.resetRemoteEMFs(). unknown exact possition" predecessor_AbstractAction="_7nsemjaBEeytffP2k4xk1w" successor_AbstractAction="_7nsenDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nsenDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nsemzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7nselTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7nseljaBEeytffP2k4xk1w" successor_AbstractAction="_7nselzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7nselzaBEeytffP2k4xk1w" entityName="IA  @position: CacheManager.CacheManager.resetRemoteEMF(). unknown exact possition" predecessor_AbstractAction="_7nseljaBEeytffP2k4xk1w" successor_AbstractAction="_7nsemDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7nsemDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7nselzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7ntFoTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7ntFojaBEeytffP2k4xk1w" successor_AbstractAction="_7ntFozaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7ntFozaBEeytffP2k4xk1w" predecessor_AbstractAction="_7ntFojaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7n8WMDaBEeytffP2k4xk1w" describedService__SEFF="_7n7vIDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7n-LYTaBEeytffP2k4xk1w" successor_AbstractAction="_7n9kVDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7n9kVDaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.isFinshed(). unknown exact possition" predecessor_AbstractAction="_7n-LYTaBEeytffP2k4xk1w" successor_AbstractAction="_7n-LYDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7n9kUDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7n-LYDaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.isFinshed(). unknown exact possition" predecessor_AbstractAction="_7n9kVDaBEeytffP2k4xk1w" successor_AbstractAction="_7n-LYjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7n-LYjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7n-LYDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7n9kUDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7n9kUTaBEeytffP2k4xk1w" successor_AbstractAction="_7n9kUjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7n9kUjaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.getGenerationFinishedFlag(). unknown exact possition" predecessor_AbstractAction="_7n9kUTaBEeytffP2k4xk1w" successor_AbstractAction="_7n9kUzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7n9kUzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7n9kUjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7oAnoDaBEeytffP2k4xk1w" describedService__SEFF="_7oAAkDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7oB1wTaBEeytffP2k4xk1w" successor_AbstractAction="_7oAnoTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7oAnoTaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.setMaintenanceMode(). unknown exact possition" predecessor_AbstractAction="_7oB1wTaBEeytffP2k4xk1w" successor_AbstractAction="_7oBOtDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7oBOtDaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.setMaintenanceMode(). unknown exact possition" predecessor_AbstractAction="_7oAnoTaBEeytffP2k4xk1w" successor_AbstractAction="_7oB1wDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7oBOsDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7oB1wDaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.setMaintenanceMode(). unknown exact possition" predecessor_AbstractAction="_7oBOtDaBEeytffP2k4xk1w" successor_AbstractAction="_7oB1wjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7oB1wjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oB1wDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7oBOsDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7oBOsTaBEeytffP2k4xk1w" successor_AbstractAction="_7oBOsjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7oBOsjaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.setMaintenanceModeInternal(). unknown exact possition" predecessor_AbstractAction="_7oBOsTaBEeytffP2k4xk1w" successor_AbstractAction="_7oBOszaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7oBOszaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oBOsjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7oESATaBEeytffP2k4xk1w" describedService__SEFF="_7oESADaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7oFgJjaBEeytffP2k4xk1w" successor_AbstractAction="_7oFgJDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7oFgJDaBEeytffP2k4xk1w" entityName=" @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.isMaintenance(). unknown exact possition" predecessor_AbstractAction="_7oFgJjaBEeytffP2k4xk1w" successor_AbstractAction="_7oFgJTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7oFgIDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7oFgJTaBEeytffP2k4xk1w" entityName="IA  @position: DatabaseGenerationEndpoint.DatabaseGenerationEndpoint.isMaintenance(). unknown exact possition" predecessor_AbstractAction="_7oFgJDaBEeytffP2k4xk1w" successor_AbstractAction="_7oFgJzaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7oFgJzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oFgJTaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7oFgIDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7oFgITaBEeytffP2k4xk1w" successor_AbstractAction="_7oFgIjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7oFgIjaBEeytffP2k4xk1w" entityName="IA  @position: DataGenerator.DataGenerator.isMaintenanceMode(). unknown exact possition" predecessor_AbstractAction="_7oFgITaBEeytffP2k4xk1w" successor_AbstractAction="_7oFgIzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7oFgIzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oFgIjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7oRGUTaBEeytffP2k4xk1w" describedService__SEFF="_7oRGUDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7oUJoTaBEeytffP2k4xk1w" successor_AbstractAction="_7oSUcDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_7oSUcDaBEeytffP2k4xk1w" entityName=" @position: OrderEndpoint.OrderEndpoint.listAllForUser(). unknown exact possition" predecessor_AbstractAction="_7oUJoTaBEeytffP2k4xk1w" successor_AbstractAction="_7oUJoDaBEeytffP2k4xk1w">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_7oS7gDaBEeytffP2k4xk1w" entityName="parent  @position: OrderEndpoint.OrderEndpoint.listAllForUser(). unknown exact possition/ @position: OrderEndpoint.OrderEndpoint.listAllForUser(). unknown exact possition">
+          <branchBehaviour_BranchTransition id="_7oS7gTaBEeytffP2k4xk1w">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_7oS7gjaBEeytffP2k4xk1w" successor_AbstractAction="_7oTikDaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7oTikDaBEeytffP2k4xk1w" entityName="listAll @position: OrderEndpoint.OrderEndpoint.listAllForUser().. unknown exact possition" predecessor_AbstractAction="_7oS7gjaBEeytffP2k4xk1w" successor_AbstractAction="_7oTikTaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_7oTikTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oTikDaBEeytffP2k4xk1w"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7oUJoDaBEeytffP2k4xk1w" entityName="IA  @position: OrderEndpoint.OrderEndpoint.listAllForUser(). unknown exact possition" predecessor_AbstractAction="_7oSUcDaBEeytffP2k4xk1w" successor_AbstractAction="_7oUJojaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7oUJojaBEeytffP2k4xk1w" predecessor_AbstractAction="_7oUJoDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7omdgDaBEeytffP2k4xk1w" describedService__SEFF="_7ol2cDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7onroDaBEeytffP2k4xk1w" successor_AbstractAction="_7onEkDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_7onEkDaBEeytffP2k4xk1w" entityName=" @position: OrderItemEndpoint.OrderItemEndpoint.listAllForProduct(). unknown exact possition" predecessor_AbstractAction="_7onroDaBEeytffP2k4xk1w" successor_AbstractAction="_7onEljaBEeytffP2k4xk1w">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_7onEkTaBEeytffP2k4xk1w" entityName="parent  @position: OrderItemEndpoint.OrderItemEndpoint.listAllForProduct(). unknown exact possition/ @position: OrderItemEndpoint.OrderItemEndpoint.listAllForProduct(). unknown exact possition">
+          <branchBehaviour_BranchTransition id="_7onEkjaBEeytffP2k4xk1w">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_7onEkzaBEeytffP2k4xk1w" successor_AbstractAction="_7onElDaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7onElDaBEeytffP2k4xk1w" entityName="listAll @position: OrderItemEndpoint.OrderItemEndpoint.listAllForProduct().. unknown exact possition" predecessor_AbstractAction="_7onEkzaBEeytffP2k4xk1w" successor_AbstractAction="_7onElTaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_7onElTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7onElDaBEeytffP2k4xk1w"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7onEljaBEeytffP2k4xk1w" entityName="IA  @position: OrderItemEndpoint.OrderItemEndpoint.listAllForProduct(). unknown exact possition" predecessor_AbstractAction="_7onEkDaBEeytffP2k4xk1w" successor_AbstractAction="_7onroTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7onroTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7onEljaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7oskITaBEeytffP2k4xk1w" describedService__SEFF="_7oskIDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7otyQjaBEeytffP2k4xk1w" successor_AbstractAction="_7otLMDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_7otLMDaBEeytffP2k4xk1w" entityName=" @position: OrderItemEndpoint.OrderItemEndpoint.listAllForOrder(). unknown exact possition" predecessor_AbstractAction="_7otyQjaBEeytffP2k4xk1w" successor_AbstractAction="_7otyQTaBEeytffP2k4xk1w">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_7otLMTaBEeytffP2k4xk1w" entityName="parent  @position: OrderItemEndpoint.OrderItemEndpoint.listAllForOrder(). unknown exact possition/ @position: OrderItemEndpoint.OrderItemEndpoint.listAllForOrder(). unknown exact possition">
+          <branchBehaviour_BranchTransition id="_7otLMjaBEeytffP2k4xk1w">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_7otLMzaBEeytffP2k4xk1w" successor_AbstractAction="_7otLNDaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7otLNDaBEeytffP2k4xk1w" entityName="listAll @position: OrderItemEndpoint.OrderItemEndpoint.listAllForOrder().. unknown exact possition" predecessor_AbstractAction="_7otLMzaBEeytffP2k4xk1w" successor_AbstractAction="_7otyQDaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_7otyQDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7otLNDaBEeytffP2k4xk1w"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7otyQTaBEeytffP2k4xk1w" entityName="IA  @position: OrderItemEndpoint.OrderItemEndpoint.listAllForOrder(). unknown exact possition" predecessor_AbstractAction="_7otLMDaBEeytffP2k4xk1w" successor_AbstractAction="_7otyQzaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7otyQzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7otyQTaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7pAtMTaBEeytffP2k4xk1w" describedService__SEFF="_7pAtMDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7pB7UzaBEeytffP2k4xk1w" successor_AbstractAction="_7pBUQDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_7pBUQDaBEeytffP2k4xk1w" entityName=" @position: ProductEndpoint.ProductEndpoint.listAllForCategory(). unknown exact possition" predecessor_AbstractAction="_7pB7UzaBEeytffP2k4xk1w" successor_AbstractAction="_7pB7UjaBEeytffP2k4xk1w">
+        <branches_Branch xsi:type="seff:ProbabilisticBranchTransition" id="_7pBUQTaBEeytffP2k4xk1w" entityName="parent  @position: ProductEndpoint.ProductEndpoint.listAllForCategory(). unknown exact possition/ @position: ProductEndpoint.ProductEndpoint.listAllForCategory(). unknown exact possition">
+          <branchBehaviour_BranchTransition id="_7pBUQjaBEeytffP2k4xk1w">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_7pBUQzaBEeytffP2k4xk1w" successor_AbstractAction="_7pB7UDaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7pB7UDaBEeytffP2k4xk1w" entityName="listAll @position: ProductEndpoint.ProductEndpoint.listAllForCategory().. unknown exact possition" predecessor_AbstractAction="_7pBUQzaBEeytffP2k4xk1w" successor_AbstractAction="_7pB7UTaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_7pB7UTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pB7UDaBEeytffP2k4xk1w"/>
+          </branchBehaviour_BranchTransition>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7pB7UjaBEeytffP2k4xk1w" entityName="IA  @position: ProductEndpoint.ProductEndpoint.listAllForCategory(). unknown exact possition" predecessor_AbstractAction="_7pBUQDaBEeytffP2k4xk1w" successor_AbstractAction="_7pB7VDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7pB7VDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pB7UjaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7pHa4DaBEeytffP2k4xk1w" describedService__SEFF="_7pGz0DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7pLsUDaBEeytffP2k4xk1w" successor_AbstractAction="_7pIB8DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7pIB8DaBEeytffP2k4xk1w" entityName="IA  @position: ProductEndpoint.ProductEndpoint.countForCategory(). unknown exact possition" predecessor_AbstractAction="_7pLsUDaBEeytffP2k4xk1w" successor_AbstractAction="_7pKeNDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pKeNDaBEeytffP2k4xk1w" entityName=" @position: ProductEndpoint.ProductEndpoint.countForCategory(). unknown exact possition" predecessor_AbstractAction="_7pIB8DaBEeytffP2k4xk1w" successor_AbstractAction="_7pLFQDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pKeMDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7pLFQDaBEeytffP2k4xk1w" entityName="IA  @position: ProductEndpoint.ProductEndpoint.countForCategory(). unknown exact possition" predecessor_AbstractAction="_7pKeNDaBEeytffP2k4xk1w" successor_AbstractAction="_7pLsUTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7pLsUTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pLFQDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7pKeMDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pKeMTaBEeytffP2k4xk1w" successor_AbstractAction="_7pKeMjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pKeMjaBEeytffP2k4xk1w" entityName="IA  @position: ProductRepository.ProductRepository.getProductCount(). unknown exact possition" predecessor_AbstractAction="_7pKeMTaBEeytffP2k4xk1w" successor_AbstractAction="_7pKeMzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pKeMzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pKeMjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7pX5kDaBEeytffP2k4xk1w" describedService__SEFF="_7pXSgDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7pcLADaBEeytffP2k4xk1w" successor_AbstractAction="_7pX5kTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7pX5kTaBEeytffP2k4xk1w" entityName="IA  @position: UserEndpoint.UserEndpoint.findById(). unknown exact possition" predecessor_AbstractAction="_7pcLADaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu3DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZu3DaBEeytffP2k4xk1w" entityName=" @position: UserEndpoint.UserEndpoint.findById(). unknown exact possition" predecessor_AbstractAction="_7pX5kTaBEeytffP2k4xk1w" successor_AbstractAction="_7paV0DaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZuwDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7paV0DaBEeytffP2k4xk1w" entityName="IA  @position: UserEndpoint.UserEndpoint.findById(). unknown exact possition" predecessor_AbstractAction="_7pZu3DaBEeytffP2k4xk1w" successor_AbstractAction="_7pcLATaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7pcLATaBEeytffP2k4xk1w" predecessor_AbstractAction="_7paV0DaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7pZuwDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZuwTaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuzzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZuzzaBEeytffP2k4xk1w" entityName=" @position: UserRepository.UserRepository.getUserByName(). unknown exact possition" predecessor_AbstractAction="_7pZuwTaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu1DaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZuwjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZu1DaBEeytffP2k4xk1w" entityName=" @position: UserRepository.UserRepository.getUserByName(). unknown exact possition" predecessor_AbstractAction="_7pZuzzaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu1TaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZu0DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pZu1TaBEeytffP2k4xk1w" entityName="IA  @position: UserRepository.UserRepository.getUserByName(). unknown exact possition" predecessor_AbstractAction="_7pZu1DaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu2TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZu2TaBEeytffP2k4xk1w" entityName=" @position: UserRepository.UserRepository.getUserByName(). unknown exact possition" predecessor_AbstractAction="_7pZu1TaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu2jaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZu1jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pZu2jaBEeytffP2k4xk1w" entityName="IA  @position: UserRepository.UserRepository.getUserByName(). unknown exact possition" predecessor_AbstractAction="_7pZu2TaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu2zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZu2zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZu2jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7pZuwjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZuwzaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuzDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZuzDaBEeytffP2k4xk1w" entityName=" @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEM(). unknown exact possition" predecessor_AbstractAction="_7pZuwzaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuzTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZuxDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pZuzTaBEeytffP2k4xk1w" entityName="IA  @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEM(). unknown exact possition" predecessor_AbstractAction="_7pZuzDaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuzjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZuzjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZuzTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7pZuxDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZuxTaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuyjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7pZuyjaBEeytffP2k4xk1w" entityName=" @position: AbstractPersistenceRepository.AbstractPersistenceRepository.getEMF(). unknown exact possition" predecessor_AbstractAction="_7pZuxTaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuyzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7pZuxjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZuyzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZuyjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7pZuxjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZuxzaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuyDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pZuyDaBEeytffP2k4xk1w" entityName="IA  @position: EMFManager.EMFManager.getEMF(). unknown exact possition" predecessor_AbstractAction="_7pZuxzaBEeytffP2k4xk1w" successor_AbstractAction="_7pZuyTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZuyTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZuyDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7pZu0DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZu0TaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu0jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7pZu0jaBEeytffP2k4xk1w" entityName="IA  @position: UserRepository.UserRepository.getEntityClass(). unknown exact possition" predecessor_AbstractAction="_7pZu0TaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu0zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZu0zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZu0jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7pZu1jaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7pZu1zaBEeytffP2k4xk1w" successor_AbstractAction="_7pZu2DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7pZu2DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7pZu1zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7rQv8DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7tDfsTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender_provides_RecommendEndpoint" providedInterface__OperationProvidedRole="_7tDfsDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7tLbgTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender_provides_RecommendSingleEndpoint" providedInterface__OperationProvidedRole="_7tLbgDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7tXowTaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender_provides_TrainEndpoint" providedInterface__OperationProvidedRole="_7tXowDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7t50QDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender_provides_IndexServlet" providedInterface__OperationProvidedRole="_7t2w8DaBEeytffP2k4xk1w"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_K1kW8DaCEeytffP2k4xk1w" entityName="tools.descartes.teastore.recommender_requires_AbstractCRUDEndpoint" requiredInterface__OperationRequiredRole="_7k7ecTaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7tEt0DaBEeytffP2k4xk1w" describedService__SEFF="_7tEGwDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7tGjATaBEeytffP2k4xk1w" successor_AbstractAction="_7tF79DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tF79DaBEeytffP2k4xk1w" entityName=" @position: RecommendEndpoint.RecommendEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tGjATaBEeytffP2k4xk1w" successor_AbstractAction="_7tF7-TaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tF78DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tF7-TaBEeytffP2k4xk1w" entityName=" @position: RecommendEndpoint.RecommendEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tF79DaBEeytffP2k4xk1w" successor_AbstractAction="_7tGjADaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tF79TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tGjADaBEeytffP2k4xk1w" entityName="IA  @position: RecommendEndpoint.RecommendEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tF7-TaBEeytffP2k4xk1w" successor_AbstractAction="_7tGjAjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7tGjAjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tGjADaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7tF78DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tF78TaBEeytffP2k4xk1w" successor_AbstractAction="_7tF78jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tF78jaBEeytffP2k4xk1w" entityName="IA  @position: RecommenderSelector.RecommenderSelector.getInstance(). unknown exact possition" predecessor_AbstractAction="_7tF78TaBEeytffP2k4xk1w" successor_AbstractAction="_7tF78zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tF78zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tF78jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tF79TaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tF79jaBEeytffP2k4xk1w" successor_AbstractAction="_7tF79zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tF79zaBEeytffP2k4xk1w" entityName="IA  @position: RecommenderSelector.RecommenderSelector.recommendProducts(). unknown exact possition" predecessor_AbstractAction="_7tF79jaBEeytffP2k4xk1w" successor_AbstractAction="_7tF7-DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tF7-DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tF79zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7tNQsDaBEeytffP2k4xk1w" describedService__SEFF="_7tMpoDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7tPs8TaBEeytffP2k4xk1w" successor_AbstractAction="_7tNQsTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tNQsTaBEeytffP2k4xk1w" entityName="IA  @position: RecommendSingleEndpoint.RecommendSingleEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tPs8TaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF5DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tPF5DaBEeytffP2k4xk1w" entityName=" @position: RecommendSingleEndpoint.RecommendSingleEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tNQsTaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF6TaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tPF4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tPF6TaBEeytffP2k4xk1w" entityName=" @position: RecommendSingleEndpoint.RecommendSingleEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tPF5DaBEeytffP2k4xk1w" successor_AbstractAction="_7tPs8DaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tPF5TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tPs8DaBEeytffP2k4xk1w" entityName="IA  @position: RecommendSingleEndpoint.RecommendSingleEndpoint.recommend(). unknown exact possition" predecessor_AbstractAction="_7tPF6TaBEeytffP2k4xk1w" successor_AbstractAction="_7tPs8jaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7tPs8jaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tPs8DaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7tPF4DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tPF4TaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF4jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tPF4jaBEeytffP2k4xk1w" entityName="IA  @position: RecommenderSelector.RecommenderSelector.getInstance(). unknown exact possition" predecessor_AbstractAction="_7tPF4TaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF4zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tPF4zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tPF4jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tPF5TaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tPF5jaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF5zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tPF5zaBEeytffP2k4xk1w" entityName="IA  @position: RecommenderSelector.RecommenderSelector.recommendProducts(). unknown exact possition" predecessor_AbstractAction="_7tPF5jaBEeytffP2k4xk1w" successor_AbstractAction="_7tPF6DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tPF6DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tPF5zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7tY24DaBEeytffP2k4xk1w" describedService__SEFF="_7tYP0DaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7tlrMDaBEeytffP2k4xk1w" successor_AbstractAction="_7thZwDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7thZwDaBEeytffP2k4xk1w" entityName="IA  @position: TrainEndpoint.TrainEndpoint.train().. unknown exact possition" predecessor_AbstractAction="_7tlrMDaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA0jaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tiA0jaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.train().. unknown exact possition" predecessor_AbstractAction="_7thZwDaBEeytffP2k4xk1w" successor_AbstractAction="_7tj2AjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7thZwTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tj2AjaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.train().. unknown exact possition" predecessor_AbstractAction="_7tiA0jaBEeytffP2k4xk1w" successor_AbstractAction="_7tj2AzaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tiA0zaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tj2AzaBEeytffP2k4xk1w" entityName="IA  @position: TrainEndpoint.TrainEndpoint.train().. unknown exact possition" predecessor_AbstractAction="_7tj2AjaBEeytffP2k4xk1w" successor_AbstractAction="_7tlrMTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7tlrMTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tj2AzaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7thZwTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7thZwjaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA0DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tiA0DaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.getInstance(). unknown exact possition" predecessor_AbstractAction="_7thZwjaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA0TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tiA0TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tiA0DaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tiA0zaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tiA1DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA2TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tiA2TaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tiA1DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA2jaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tiA1TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tiA2jaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tiA2TaBEeytffP2k4xk1w" successor_AbstractAction="_7tin4zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tin4zaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tiA2jaBEeytffP2k4xk1w" successor_AbstractAction="_7tin5DaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tiA2zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tin5DaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tin4zaBEeytffP2k4xk1w" successor_AbstractAction="_7tin5TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7tin5TaBEeytffP2k4xk1w" entityName="getEntities @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain().. unknown exact possition" predecessor_AbstractAction="_7tin5DaBEeytffP2k4xk1w" successor_AbstractAction="_7tin5jaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tin5jaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain().. unknown exact possition" predecessor_AbstractAction="_7tin5TaBEeytffP2k4xk1w" successor_AbstractAction="_7tin5zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7tin5zaBEeytffP2k4xk1w" entityName="getEntities @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain().. unknown exact possition" predecessor_AbstractAction="_7tin5jaBEeytffP2k4xk1w" successor_AbstractAction="_7tin6DaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tin6DaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain().. unknown exact possition" predecessor_AbstractAction="_7tin5zaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO9jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tjO9jaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tin6DaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO-zaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tjO8DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tjO-zaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tjO9jaBEeytffP2k4xk1w" successor_AbstractAction="_7tj2ADaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tjO9zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tj2ADaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.retrieveDataAndRetrain(). unknown exact possition" predecessor_AbstractAction="_7tjO-zaBEeytffP2k4xk1w" successor_AbstractAction="_7tj2ATaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tjO_DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tj2ATaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tj2ADaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tiA1TaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tiA1jaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA1zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tiA1zaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.setReady(). unknown exact possition" predecessor_AbstractAction="_7tiA1jaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA2DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tiA2DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tiA1zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tiA2zaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tiA3DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA3TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tiA3TaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.waitForPersistence(). unknown exact possition" predecessor_AbstractAction="_7tiA3DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA3jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:LoopAction" id="_7tiA3jaBEeytffP2k4xk1w" entityName=" @position: TrainingSynchronizer.TrainingSynchronizer.waitForPersistence(). unknown exact possition" predecessor_AbstractAction="_7tiA3TaBEeytffP2k4xk1w" successor_AbstractAction="_7tin4jaBEeytffP2k4xk1w">
+          <bodyBehaviour_Loop id="_7tiA3zaBEeytffP2k4xk1w">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_7tiA4DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA4TaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_7tiA4TaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.waitForPersistence().. unknown exact possition" predecessor_AbstractAction="_7tiA4DaBEeytffP2k4xk1w" successor_AbstractAction="_7tiA4jaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7tiA4jaBEeytffP2k4xk1w" entityName="loadBalanceRESTOperation @position: TrainingSynchronizer.TrainingSynchronizer.waitForPersistence()... unknown exact possition" predecessor_AbstractAction="_7tiA4TaBEeytffP2k4xk1w" successor_AbstractAction="_7tin4DaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="_7tin4DaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.waitForPersistence()... unknown exact possition" predecessor_AbstractAction="_7tiA4jaBEeytffP2k4xk1w" successor_AbstractAction="_7tin4TaBEeytffP2k4xk1w"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_7tin4TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tin4DaBEeytffP2k4xk1w"/>
+          </bodyBehaviour_Loop>
+        </steps_Behaviour>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tin4jaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tiA3jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tjO8DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tjO8TaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO8jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tjO8jaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.filterLists(). unknown exact possition" predecessor_AbstractAction="_7tjO8TaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO8zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_7tjO8zaBEeytffP2k4xk1w" entityName="multicastRESTOperation @position: TrainingSynchronizer.TrainingSynchronizer.filterLists(). unknown exact possition" predecessor_AbstractAction="_7tjO8jaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO9DaBEeytffP2k4xk1w" calledService_ExternalService="_7mu1QjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tjO9DaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.filterLists(). unknown exact possition" predecessor_AbstractAction="_7tjO8zaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO9TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tjO9TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tjO9DaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tjO9zaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tjO-DaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO-TaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tjO-TaBEeytffP2k4xk1w" entityName="IA  @position: RecommenderSelector.RecommenderSelector.getInstance(). unknown exact possition" predecessor_AbstractAction="_7tjO-DaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO-jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tjO-jaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tjO-TaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tjO_DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tjO_TaBEeytffP2k4xk1w" successor_AbstractAction="_7tjO_jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tjO_jaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tjO_TaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7tqjsTaBEeytffP2k4xk1w" describedService__SEFF="_7tqjsDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7ts_8DaBEeytffP2k4xk1w" successor_AbstractAction="_7trx0DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7trx0DaBEeytffP2k4xk1w" entityName="IA  @position: TrainEndpoint.TrainEndpoint.getTimeStamp(). unknown exact possition" predecessor_AbstractAction="_7ts_8DaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY5DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tsY5DaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.getTimeStamp(). unknown exact possition" predecessor_AbstractAction="_7trx0DaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY6TaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tsY4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tsY6TaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.getTimeStamp(). unknown exact possition" predecessor_AbstractAction="_7tsY5DaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY6jaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tsY5TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tsY6jaBEeytffP2k4xk1w" entityName="IA  @position: TrainEndpoint.TrainEndpoint.getTimeStamp(). unknown exact possition" predecessor_AbstractAction="_7tsY6TaBEeytffP2k4xk1w" successor_AbstractAction="_7ts_8TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7ts_8TaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tsY6jaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7tsY4DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tsY4TaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY4jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tsY4jaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.getInstance(). unknown exact possition" predecessor_AbstractAction="_7tsY4TaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY4zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tsY4zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tsY4jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tsY5TaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tsY5jaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY5zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tsY5zaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.getMaxTime(). unknown exact possition" predecessor_AbstractAction="_7tsY5jaBEeytffP2k4xk1w" successor_AbstractAction="_7tsY6DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tsY6DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tsY5zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7twDQTaBEeytffP2k4xk1w" describedService__SEFF="_7twDQDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7tyfgTaBEeytffP2k4xk1w" successor_AbstractAction="_7txRZDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7txRZDaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.isReady(). unknown exact possition" predecessor_AbstractAction="_7tyfgTaBEeytffP2k4xk1w" successor_AbstractAction="_7tx4dDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7txRYDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7tx4dDaBEeytffP2k4xk1w" entityName=" @position: TrainEndpoint.TrainEndpoint.isReady(). unknown exact possition" predecessor_AbstractAction="_7txRZDaBEeytffP2k4xk1w" successor_AbstractAction="_7tyfgDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7tx4cDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7tyfgDaBEeytffP2k4xk1w" entityName="IA  @position: TrainEndpoint.TrainEndpoint.isReady(). unknown exact possition" predecessor_AbstractAction="_7tx4dDaBEeytffP2k4xk1w" successor_AbstractAction="_7tyfgjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7tyfgjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tyfgDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7txRYDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7txRYTaBEeytffP2k4xk1w" successor_AbstractAction="_7txRYjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7txRYjaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.getInstance(). unknown exact possition" predecessor_AbstractAction="_7txRYTaBEeytffP2k4xk1w" successor_AbstractAction="_7txRYzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7txRYzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7txRYjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7tx4cDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7tx4cTaBEeytffP2k4xk1w" successor_AbstractAction="_7tx4cjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7tx4cjaBEeytffP2k4xk1w" entityName="IA  @position: TrainingSynchronizer.TrainingSynchronizer.isReady(). unknown exact possition" predecessor_AbstractAction="_7tx4cTaBEeytffP2k4xk1w" successor_AbstractAction="_7tx4czaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7tx4czaBEeytffP2k4xk1w" predecessor_AbstractAction="_7tx4cjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7vAAcDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.registry">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7wLFIDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.registry_provides_RegistryREST" providedInterface__OperationProvidedRole="_7wKeEDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7wjfoDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.registry_provides_IndexServlet" providedInterface__OperationProvidedRole="_7wiRgDaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7wMTQDaBEeytffP2k4xk1w" describedService__SEFF="_7wLsMDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7wOvgDaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhZDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wNhZDaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.register(). unknown exact possition" predecessor_AbstractAction="_7wOvgDaBEeytffP2k4xk1w" successor_AbstractAction="_7wNheDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wNhYDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wNheDaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.register(). unknown exact possition" predecessor_AbstractAction="_7wNhZDaBEeytffP2k4xk1w" successor_AbstractAction="_7wOIcDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wNhZTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7wOIcDaBEeytffP2k4xk1w" entityName="IA  @position: RegistryREST.RegistryREST.register(). unknown exact possition" predecessor_AbstractAction="_7wNheDaBEeytffP2k4xk1w" successor_AbstractAction="_7wOvgTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7wOvgTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wOIcDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7wNhYDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wNhYTaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhYjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wNhYjaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getRegistryInstance(). unknown exact possition" predecessor_AbstractAction="_7wNhYTaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhYzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wNhYzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wNhYjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wNhZTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wNhZjaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhazaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wNhazaBEeytffP2k4xk1w" entityName=" @position: Registry.Registry.register(). unknown exact possition" predecessor_AbstractAction="_7wNhZjaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhdTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wNhZzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wNhdTaBEeytffP2k4xk1w" entityName=" @position: Registry.Registry.register(). unknown exact possition" predecessor_AbstractAction="_7wNhazaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhdjaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wNhbDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wNhdjaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.register(). unknown exact possition" predecessor_AbstractAction="_7wNhdTaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhdzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wNhdzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wNhdjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wNhZzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wNhaDaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhaTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wNhaTaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getFromMap(). unknown exact possition" predecessor_AbstractAction="_7wNhaDaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhajaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wNhajaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wNhaTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wNhbDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wNhbTaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhcjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wNhcjaBEeytffP2k4xk1w" entityName=" @position: Registry.Registry.updateHeartbeatMap(). unknown exact possition" predecessor_AbstractAction="_7wNhbTaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhczaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wNhbjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wNhczaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.updateHeartbeatMap(). unknown exact possition" predecessor_AbstractAction="_7wNhcjaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhdDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wNhdDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wNhczaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wNhbjaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wNhbzaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhcDaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wNhcDaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getFromHeartbeatMap(). unknown exact possition" predecessor_AbstractAction="_7wNhbzaBEeytffP2k4xk1w" successor_AbstractAction="_7wNhcTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wNhcTaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wNhcDaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7wRLwDaBEeytffP2k4xk1w" describedService__SEFF="_7wQksDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7wToADaBEeytffP2k4xk1w" successor_AbstractAction="_7wSZ5DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wSZ5DaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.unregister(). unknown exact possition" predecessor_AbstractAction="_7wToADaBEeytffP2k4xk1w" successor_AbstractAction="_7wTA8DaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wSZ4DaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wTA8DaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.unregister(). unknown exact possition" predecessor_AbstractAction="_7wSZ5DaBEeytffP2k4xk1w" successor_AbstractAction="_7wTA8TaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wSZ5TaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7wTA8TaBEeytffP2k4xk1w" entityName="IA  @position: RegistryREST.RegistryREST.unregister(). unknown exact possition" predecessor_AbstractAction="_7wTA8DaBEeytffP2k4xk1w" successor_AbstractAction="_7wToATaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7wToATaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wTA8TaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7wSZ4DaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wSZ4TaBEeytffP2k4xk1w" successor_AbstractAction="_7wSZ4jaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wSZ4jaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getRegistryInstance(). unknown exact possition" predecessor_AbstractAction="_7wSZ4TaBEeytffP2k4xk1w" successor_AbstractAction="_7wSZ4zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wSZ4zaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wSZ4jaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wSZ5TaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wSZ5jaBEeytffP2k4xk1w" successor_AbstractAction="_7wSZ5zaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wSZ5zaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.unregister(). unknown exact possition" predecessor_AbstractAction="_7wSZ5jaBEeytffP2k4xk1w" successor_AbstractAction="_7wSZ6DaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wSZ6DaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wSZ5zaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7wX5cTaBEeytffP2k4xk1w" describedService__SEFF="_7wX5cDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7wZuoTaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHlDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wZHlDaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.getInstances(). unknown exact possition" predecessor_AbstractAction="_7wZuoTaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHnTaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wZHkDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wZHnTaBEeytffP2k4xk1w" entityName=" @position: RegistryREST.RegistryREST.getInstances(). unknown exact possition" predecessor_AbstractAction="_7wZHlDaBEeytffP2k4xk1w" successor_AbstractAction="_7wZuoDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wZHlTaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7wZuoDaBEeytffP2k4xk1w" entityName="IA  @position: RegistryREST.RegistryREST.getInstances(). unknown exact possition" predecessor_AbstractAction="_7wZHnTaBEeytffP2k4xk1w" successor_AbstractAction="_7wZuojaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7wZuojaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wZuoDaBEeytffP2k4xk1w"/>
+      <resourceDemandingInternalBehaviours id="_7wZHkDaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wZHkTaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHkjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wZHkjaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getRegistryInstance(). unknown exact possition" predecessor_AbstractAction="_7wZHkTaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHkzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wZHkzaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wZHkjaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wZHlTaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wZHljaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHmzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalCallAction" id="_7wZHmzaBEeytffP2k4xk1w" entityName=" @position: Registry.Registry.getLocations(). unknown exact possition" predecessor_AbstractAction="_7wZHljaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHnDaBEeytffP2k4xk1w" calledResourceDemandingInternalBehaviour="_7wZHlzaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wZHnDaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wZHmzaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+      <resourceDemandingInternalBehaviours id="_7wZHlzaBEeytffP2k4xk1w">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_7wZHmDaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHmTaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7wZHmTaBEeytffP2k4xk1w" entityName="IA  @position: Registry.Registry.getFromMap(). unknown exact possition" predecessor_AbstractAction="_7wZHmDaBEeytffP2k4xk1w" successor_AbstractAction="_7wZHmjaBEeytffP2k4xk1w"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_7wZHmjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wZHmTaBEeytffP2k4xk1w"/>
+      </resourceDemandingInternalBehaviours>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7wo_MDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7wo_MjaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_ReadyRest" providedInterface__OperationProvidedRole="_7wo_MTaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7wwT8DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_AboutUsServlet" providedInterface__OperationProvidedRole="_7wvF0DaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7w1zgDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_AbstractUIServlet" providedInterface__OperationProvidedRole="_7wvF0TaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7zJgoDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_CartActionServlet" providedInterface__OperationProvidedRole="_7zHEYDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7zpP4DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_CartServlet" providedInterface__OperationProvidedRole="_7znasDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7z6VoDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_CategoryServlet" providedInterface__OperationProvidedRole="_7z4gcDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_70YPsDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_DataBaseActionServlet" providedInterface__OperationProvidedRole="_70WagDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_70uN8DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_DataBaseServlet" providedInterface__OperationProvidedRole="_70s_0DaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_707CQDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_ErrorServlet" providedInterface__OperationProvidedRole="_704mADaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_71EMMDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_IndexServlet" providedInterface__OperationProvidedRole="_71Bv8DaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_71QZcDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_LoginActionServlet" providedInterface__OperationProvidedRole="_71MvEDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_71zMADaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_LoginServlet" providedInterface__OperationProvidedRole="_71wvwDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_717H0DaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_OrderServlet" providedInterface__OperationProvidedRole="_715SoDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_72GuADaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_ProductServlet" providedInterface__OperationProvidedRole="_72DqsDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_72aQADaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_ProfileServlet" providedInterface__OperationProvidedRole="_72XMsDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_72nrYDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.webui_provides_StatusServlet" providedInterface__OperationProvidedRole="_72lPIDaBEeytffP2k4xk1w"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7wqNUDaBEeytffP2k4xk1w" describedService__SEFF="_7wpmQDaBEeytffP2k4xk1w">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7wq0YTaBEeytffP2k4xk1w" successor_AbstractAction="_7wq0YDaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7wq0YDaBEeytffP2k4xk1w" entityName="IA  @position: ReadyRest.ReadyRest.isReady(). unknown exact possition" predecessor_AbstractAction="_7wq0YTaBEeytffP2k4xk1w" successor_AbstractAction="_7wq0YjaBEeytffP2k4xk1w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7wq0YjaBEeytffP2k4xk1w" predecessor_AbstractAction="_7wq0YDaBEeytffP2k4xk1w"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_74mBUDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.kieker.rabbitmq">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_74odkDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.kieker.rabbitmq_provides_DisplayLogs" providedInterface__OperationProvidedRole="_74moYDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_749NsDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.kieker.rabbitmq_provides_IndexServlet" providedInterface__OperationProvidedRole="_747YgDaBEeytffP2k4xk1w"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_75fZMDaBEeytffP2k4xk1w" entityName="tools.descartes.teastore.kieker.rabbitmq_provides_Reset" providedInterface__OperationProvidedRole="_75dkADaBEeytffP2k4xk1w"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7Hq6sDaBEeytffP2k4xk1w" entityName="AuthCartRest">
+    <signatures__OperationInterface id="_7JYK4DaBEeytffP2k4xk1w" entityName="addProductToCart" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="pid"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7RsZYDaBEeytffP2k4xk1w" entityName="removeProductFromCart" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="pid"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7RzHEDaBEeytffP2k4xk1w" entityName="updateQuantity" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="pid"/>
+      <parameters__OperationSignature parameterName="quantity">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7R9fIDaBEeytffP2k4xk1w" entityName="AuthUserActionsRest">
+    <signatures__OperationInterface id="_7R-GMDaBEeytffP2k4xk1w" entityName="placeOrder" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+      <parameters__OperationSignature parameterName="totalPriceInCents">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="addressName">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="address1">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="address2">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="creditCardCompany">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="creditCardNumber">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="creditCardExpiryDate">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7SjVADaBEeytffP2k4xk1w" entityName="login" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="password">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7SttEDaBEeytffP2k4xk1w" entityName="logout" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7SwwYDaBEeytffP2k4xk1w" entityName="isLoggedIn" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7PuqgDaBEeytffP2k4xk1w" parameterName="blob"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7S2P8DaBEeytffP2k4xk1w" entityName="ReadyRest">
+    <signatures__OperationInterface id="_7S23ADaBEeytffP2k4xk1w" entityName="isReady" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7YchoDaBEeytffP2k4xk1w" entityName="ImageProviderEndpoint">
+    <signatures__OperationInterface id="_7YdIsDaBEeytffP2k4xk1w" entityName="getProductImages" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7YeW0jaBEeytffP2k4xk1w" parameterName="images"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7YiBMDaBEeytffP2k4xk1w" entityName="getWebUIImages" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7YeW0jaBEeytffP2k4xk1w" parameterName="images"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7YmSoDaBEeytffP2k4xk1w" entityName="regenerateImages" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7YoH0DaBEeytffP2k4xk1w" entityName="isFinished" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7Yp9ADaBEeytffP2k4xk1w" entityName="getState" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7YryMDaBEeytffP2k4xk1w" entityName="setCacheSize" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="cacheSize">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7kq_wDaBEeytffP2k4xk1w" entityName="CacheManagerEndpoint">
+    <signatures__OperationInterface id="_7krm0DaBEeytffP2k4xk1w" entityName="clearClassCache" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="className">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7kxtcDaBEeytffP2k4xk1w" entityName="clearAllCaches" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7k1-4DaBEeytffP2k4xk1w" entityName="clearEMF" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7k7ecDaBEeytffP2k4xk1w" entityName="CategoryEndpoint" parentInterfaces__Interface="_7k7ecTaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7k7ecTaBEeytffP2k4xk1w" entityName="AbstractCRUDEndpoint">
+    <signatures__OperationInterface id="_7mu1QDaBEeytffP2k4xk1w" entityName="create" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_791GoDaBEeytffP2k4xk1w" parameterName="entity"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7mu1QTaBEeytffP2k4xk1w" entityName="findById" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="id"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7mu1QjaBEeytffP2k4xk1w" entityName="listAll" returnType__OperationSignature="_7RchwDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="startPosition"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="maxResult"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7mu1QzaBEeytffP2k4xk1w" entityName="update" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="id"/>
+      <parameters__OperationSignature dataType__Parameter="_791GoDaBEeytffP2k4xk1w" parameterName="entity"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7mvcUDaBEeytffP2k4xk1w" entityName="deleteById" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="id"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7nQZsDaBEeytffP2k4xk1w" entityName="DatabaseGenerationEndpoint">
+    <signatures__OperationInterface id="_7nRn0DaBEeytffP2k4xk1w" entityName="generateDataBase" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="categories"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="products"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="users"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="orders"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7n7vIDaBEeytffP2k4xk1w" entityName="isFinshed" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7oAAkDaBEeytffP2k4xk1w" entityName="setMaintenanceMode" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7oCc0DaBEeytffP2k4xk1w" parameterName="maintenanceMode"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7oESADaBEeytffP2k4xk1w" entityName="isMaintenance" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7oIjcDaBEeytffP2k4xk1w" entityName="OrderEndpoint" parentInterfaces__Interface="_7k7ecTaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7oRGUDaBEeytffP2k4xk1w" entityName="listAllForUser" returnType__OperationSignature="_7RchwDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="userId"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="startPosition"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="maxResult"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7ocFcDaBEeytffP2k4xk1w" entityName="OrderItemEndpoint" parentInterfaces__Interface="_7k7ecTaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7ol2cDaBEeytffP2k4xk1w" entityName="listAllForProduct" returnType__OperationSignature="_7RchwDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="productId"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="startPosition"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="maxResult"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7oskIDaBEeytffP2k4xk1w" entityName="listAllForOrder" returnType__OperationSignature="_7RchwDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="orderId"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="startPosition"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="maxResult"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7o1HADaBEeytffP2k4xk1w" entityName="ProductEndpoint" parentInterfaces__Interface="_7k7ecTaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7pAtMDaBEeytffP2k4xk1w" entityName="listAllForCategory" returnType__OperationSignature="_7RchwDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="categoryId"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="startPosition"/>
+      <parameters__OperationSignature dataType__Parameter="_7nvh4DaBEeytffP2k4xk1w" parameterName="maxResult"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7pGz0DaBEeytffP2k4xk1w" entityName="countForCategory" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="categoryId"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7pP9wDaBEeytffP2k4xk1w" entityName="UserEndpoint" parentInterfaces__Interface="_7k7ecTaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7pXSgDaBEeytffP2k4xk1w" entityName="findById" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7qSfkDaBEeytffP2k4xk1w" entityName="IndexServlet" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7rFJwDaBEeytffP2k4xk1w" entityName="HttpServlet" parentInterfaces__Interface="_7rFw0TaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7rFw0DaBEeytffP2k4xk1w" entityName="service">
+      <parameters__OperationSignature dataType__Parameter="_89HZYDaBEeytffP2k4xk1w" parameterName="param0"/>
+      <parameters__OperationSignature dataType__Parameter="_89IAcDaBEeytffP2k4xk1w" parameterName="param1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7rFw0TaBEeytffP2k4xk1w" entityName="GenericServlet" parentInterfaces__Interface="_7rG-9TaBEeytffP2k4xk1w">
+    <signatures__OperationInterface id="_7rFw0jaBEeytffP2k4xk1w" entityName="destroy"/>
+    <signatures__OperationInterface id="_7rGX4DaBEeytffP2k4xk1w" entityName="getInitParameter">
+      <parameters__OperationSignature parameterName="param0">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rGX4TaBEeytffP2k4xk1w" entityName="getInitParameterNames" returnType__OperationSignature="_9QPJsDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7rGX4jaBEeytffP2k4xk1w" entityName="getServletConfig" returnType__OperationSignature="_9QQ-4DaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7rGX4zaBEeytffP2k4xk1w" entityName="getServletContext" returnType__OperationSignature="_9QRl8DaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7rGX5DaBEeytffP2k4xk1w" entityName="getServletInfo">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rGX5TaBEeytffP2k4xk1w" entityName="getServletName">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rG-8DaBEeytffP2k4xk1w" entityName="init"/>
+    <signatures__OperationInterface id="_7rG-8TaBEeytffP2k4xk1w" entityName="init">
+      <parameters__OperationSignature dataType__Parameter="_9QQ-4DaBEeytffP2k4xk1w" parameterName="param0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rG-8jaBEeytffP2k4xk1w" entityName="log">
+      <parameters__OperationSignature parameterName="param0">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rG-8zaBEeytffP2k4xk1w" entityName="log">
+      <parameters__OperationSignature parameterName="param0">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_9Qav4DaBEeytffP2k4xk1w" parameterName="param1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rG-9DaBEeytffP2k4xk1w" entityName="service">
+      <parameters__OperationSignature dataType__Parameter="_89HZYDaBEeytffP2k4xk1w" parameterName="param0"/>
+      <parameters__OperationSignature dataType__Parameter="_89IAcDaBEeytffP2k4xk1w" parameterName="param1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7rG-9TaBEeytffP2k4xk1w" entityName="Servlet">
+    <signatures__OperationInterface id="_7rHmADaBEeytffP2k4xk1w" entityName="destroy"/>
+    <signatures__OperationInterface id="_7rHmATaBEeytffP2k4xk1w" entityName="getServletConfig" returnType__OperationSignature="_9QQ-4DaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7rHmAjaBEeytffP2k4xk1w" entityName="getServletInfo">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rHmAzaBEeytffP2k4xk1w" entityName="init">
+      <parameters__OperationSignature dataType__Parameter="_9QQ-4DaBEeytffP2k4xk1w" parameterName="param0"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7rHmBDaBEeytffP2k4xk1w" entityName="service">
+      <parameters__OperationSignature dataType__Parameter="_89HZYDaBEeytffP2k4xk1w" parameterName="param0"/>
+      <parameters__OperationSignature dataType__Parameter="_89IAcDaBEeytffP2k4xk1w" parameterName="param1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7tDfsDaBEeytffP2k4xk1w" entityName="RecommendEndpoint">
+    <signatures__OperationInterface id="_7tEGwDaBEeytffP2k4xk1w" entityName="recommend" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7RchwDaBEeytffP2k4xk1w" parameterName="currentItems"/>
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="uid"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7tLbgDaBEeytffP2k4xk1w" entityName="RecommendSingleEndpoint">
+    <signatures__OperationInterface id="_7tMpoDaBEeytffP2k4xk1w" entityName="recommend" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature dataType__Parameter="_7RMDEDaBEeytffP2k4xk1w" parameterName="item"/>
+      <parameters__OperationSignature dataType__Parameter="_7QopcDaBEeytffP2k4xk1w" parameterName="uid"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7tXowDaBEeytffP2k4xk1w" entityName="TrainEndpoint">
+    <signatures__OperationInterface id="_7tYP0DaBEeytffP2k4xk1w" entityName="train" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7tqjsDaBEeytffP2k4xk1w" entityName="getTimeStamp" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+    <signatures__OperationInterface id="_7twDQDaBEeytffP2k4xk1w" entityName="isReady" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7t2w8DaBEeytffP2k4xk1w" entityName="IndexServlet" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7wKeEDaBEeytffP2k4xk1w" entityName="RegistryREST">
+    <signatures__OperationInterface id="_7wLsMDaBEeytffP2k4xk1w" entityName="register" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="location">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7wQksDaBEeytffP2k4xk1w" entityName="unregister" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <parameters__OperationSignature parameterName="location">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_7wX5cDaBEeytffP2k4xk1w" entityName="getInstances" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w">
+      <parameters__OperationSignature parameterName="name">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7wiRgDaBEeytffP2k4xk1w" entityName="IndexServlet" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7wo_MTaBEeytffP2k4xk1w" entityName="ReadyRest">
+    <signatures__OperationInterface id="_7wpmQDaBEeytffP2k4xk1w" entityName="isReady" returnType__OperationSignature="_7PYsQDaBEeytffP2k4xk1w"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7wvF0DaBEeytffP2k4xk1w" entityName="AboutUsServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7wvF0TaBEeytffP2k4xk1w" entityName="AbstractUIServlet" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7zHEYDaBEeytffP2k4xk1w" entityName="CartActionServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7znasDaBEeytffP2k4xk1w" entityName="CartServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7z4gcDaBEeytffP2k4xk1w" entityName="CategoryServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_70WagDaBEeytffP2k4xk1w" entityName="DataBaseActionServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_70s_0DaBEeytffP2k4xk1w" entityName="DataBaseServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_704mADaBEeytffP2k4xk1w" entityName="ErrorServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_71Bv8DaBEeytffP2k4xk1w" entityName="IndexServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_71MvEDaBEeytffP2k4xk1w" entityName="LoginActionServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_71wvwDaBEeytffP2k4xk1w" entityName="LoginServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_715SoDaBEeytffP2k4xk1w" entityName="OrderServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_72DqsDaBEeytffP2k4xk1w" entityName="ProductServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_72XMsDaBEeytffP2k4xk1w" entityName="ProfileServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_72lPIDaBEeytffP2k4xk1w" entityName="StatusServlet" parentInterfaces__Interface="_7wvF0TaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_74moYDaBEeytffP2k4xk1w" entityName="DisplayLogs" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_747YgDaBEeytffP2k4xk1w" entityName="IndexServlet" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_75dkADaBEeytffP2k4xk1w" entityName="Reset" parentInterfaces__Interface="_7rFJwDaBEeytffP2k4xk1w"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7PYsQDaBEeytffP2k4xk1w" entityName="Response"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7PuqgDaBEeytffP2k4xk1w" entityName="SessionBlob">
+    <innerDeclaration_CompositeDataType entityName="uid" datatype_InnerDeclaration="_7QopcDaBEeytffP2k4xk1w"/>
+    <innerDeclaration_CompositeDataType entityName="sid">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="token">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="order" datatype_InnerDeclaration="_7Q2E0DaBEeytffP2k4xk1w"/>
+    <innerDeclaration_CompositeDataType entityName="orderItems" datatype_InnerDeclaration="_7RchwDaBEeytffP2k4xk1w"/>
+    <innerDeclaration_CompositeDataType entityName="message">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7QopcDaBEeytffP2k4xk1w" entityName="Long"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7Q2E0DaBEeytffP2k4xk1w" entityName="Order">
+    <innerDeclaration_CompositeDataType entityName="id">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="userId">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="time">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="totalPriceInCents">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="addressName">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="address1">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="address2">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="creditCardCompany">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="creditCardNumber">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="creditCardExpiryDate">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7RMDEDaBEeytffP2k4xk1w" entityName="OrderItem">
+    <innerDeclaration_CompositeDataType entityName="id">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="productId">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="orderId">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="quantity">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+    <innerDeclaration_CompositeDataType entityName="unitPriceInCents">
+      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+    </innerDeclaration_CompositeDataType>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_7RchwDaBEeytffP2k4xk1w" entityName="List_of_OrderItem" innerType_CollectionDataType="_7RMDEDaBEeytffP2k4xk1w"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_7YeW0jaBEeytffP2k4xk1w" entityName="HashMap_of_STRING">
+    <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7nvh4DaBEeytffP2k4xk1w" entityName="Integer"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_7oCc0DaBEeytffP2k4xk1w" entityName="Boolean"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_791GoDaBEeytffP2k4xk1w" entityName="T"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_89HZYDaBEeytffP2k4xk1w" entityName="ServletRequest"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_89IAcDaBEeytffP2k4xk1w" entityName="ServletResponse"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_9QPJsDaBEeytffP2k4xk1w" entityName="Enumeration"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_9QQ-4DaBEeytffP2k4xk1w" entityName="ServletConfig"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_9QRl8DaBEeytffP2k4xk1w" entityName="ServletContext"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_9Qav4DaBEeytffP2k4xk1w" entityName="Throwable"/>
+</repository:Repository>

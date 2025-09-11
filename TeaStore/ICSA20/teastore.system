@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_wcqtEGBWEem3FetPjQjq2g" entityName="TeaStore System">
+  <assemblyContexts__ComposedStructure id="_glnfYGBXEem3FetPjQjq2g" entityName="innerRecomm">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="teastore.repository#_FSvLwGBREem3FetPjQjq2g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_qCsJsHZDEempQpRnYjFCyw" entityName="innerUtil">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="teastore.repository#_7Q--gHY_EempQpRnYjFCyw"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_n4NjRGBXEem3FetPjQjq2g" entityName="delegateThrough" outerProvidedRole_ProvidedDelegationConnector="_V9UrD2BXEem3FetPjQjq2g" assemblyContext_ProvidedDelegationConnector="_glnfYGBXEem3FetPjQjq2g">
+    <innerProvidedRole_ProvidedDelegationConnector href="teastore.repository#_FuAgkWBTEem3FetPjQjq2g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_tDmV9nZDEempQpRnYjFCyw" entityName="connectUtil" requiringAssemblyContext_AssemblyConnector="_glnfYGBXEem3FetPjQjq2g" providingAssemblyContext_AssemblyConnector="_qCsJsHZDEempQpRnYjFCyw">
+    <providedRole_AssemblyConnector href="teastore.repository#_MlTwkXZBEempQpRnYjFCyw"/>
+    <requiredRole_AssemblyConnector href="teastore.repository#_-Q3alXZAEempQpRnYjFCyw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_V9UrD2BXEem3FetPjQjq2g" entityName="provideRecommendation">
+    <providedInterface__OperationProvidedRole href="teastore.repository#_KMP4YWBREem3FetPjQjq2g"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>
