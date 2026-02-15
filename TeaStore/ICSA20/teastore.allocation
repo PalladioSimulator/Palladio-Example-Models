@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_qNC3MGBYEem3FetPjQjq2g" entityName="TeaStore Allocation">
+  <targetResourceEnvironment_Allocation href="teastore.resourceenvironment#/"/>
+  <system_Allocation href="teastore.system#_wcqtEGBWEem3FetPjQjq2g"/>
+  <allocationContexts_Allocation id="_uybG4GBYEem3FetPjQjq2g" entityName="allocateRecomm">
+    <resourceContainer_AllocationContext href="teastore.resourceenvironment#_9fz90WBXEem3FetPjQjq2g"/>
+    <assemblyContext_AllocationContext href="teastore.system#_glnfYGBXEem3FetPjQjq2g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_-JDbAHZDEempQpRnYjFCyw" entityName="allocateUtil">
+    <resourceContainer_AllocationContext href="teastore.resourceenvironment#_9fz90WBXEem3FetPjQjq2g"/>
+    <assemblyContext_AllocationContext href="teastore.system#_qCsJsHZDEempQpRnYjFCyw"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
