@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <usageScenario_UsageModel id="__hpRMHD6EeSA4fySuX9I2Q" entityName="RealisticUsageScenario">
+    <scenarioBehaviour_UsageScenario id="__hrGYHD6EeSA4fySuX9I2Q" entityName="RealisticUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="__hs7kHD6EeSA4fySuX9I2Q" entityName="startUsage" successor="_N-J2sHD-EeSA4fySuX9I2Q"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="__huJsHD6EeSA4fySuX9I2Q" entityName="stopUsage" predecessor="_TutY0Hk9EeSGtbTG2d9Ipg"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Branch" id="_N-J2sHD-EeSA4fySuX9I2Q" entityName="isRegistered" successor="_jata0HlBEeSGtbTG2d9Ipg" predecessor="__hs7kHD6EeSA4fySuX9I2Q">
+        <branchTransitions_Branch branchProbability="0.6">
+          <branchedBehaviour_BranchTransition id="_marxQHplEeS7kdTjUFmzYw" entityName="needsToRegister">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_mavboHplEeS7kdTjUFmzYw" successor="_obUMQHplEeS7kdTjUFmzYw"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_mawpwHplEeS7kdTjUFmzYw" predecessor="_obUMQHplEeS7kdTjUFmzYw"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_obUMQHplEeS7kdTjUFmzYw" entityName="register" successor="_mawpwHplEeS7kdTjUFmzYw" predecessor="_mavboHplEeS7kdTjUFmzYw">
+              <providedRole_EntryLevelSystemCall href="ms_parallel_audio_wm_replicas.system#_b9NvYHD6EeSA4fySuX9I2Q"/>
+              <operationSignature__EntryLevelSystemCall href="ms.repository#_SzTwIHDwEeSqnN80MQ2uGw"/>
+            </actions_ScenarioBehaviour>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+        <branchTransitions_Branch branchProbability="0.4">
+          <branchedBehaviour_BranchTransition id="_sp7hwHplEeS7kdTjUFmzYw" entityName="isAlreadyRegistered">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_sp8v4HplEeS7kdTjUFmzYw" successor="_sp9W8HplEeS7kdTjUFmzYw"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_sp9W8HplEeS7kdTjUFmzYw" predecessor="_sp8v4HplEeS7kdTjUFmzYw"/>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Branch" id="_TutY0Hk9EeSGtbTG2d9Ipg" entityName="downloadOrUpload" successor="__huJsHD6EeSA4fySuX9I2Q" predecessor="_xR3cQL27EeSVWpDAPvBY2w">
+        <branchTransitions_Branch branchProbability="0.8">
+          <branchedBehaviour_BranchTransition id="_6SJpcHk9EeSGtbTG2d9Ipg" entityName="downloadCase">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_6SKQgHk9EeSGtbTG2d9Ipg" successor="_8QUmUHk9EeSGtbTG2d9Ipg"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_6SK3kHk9EeSGtbTG2d9Ipg" predecessor="_8QUmUHk9EeSGtbTG2d9Ipg"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_8QUmUHk9EeSGtbTG2d9Ipg" entityName="download" successor="_6SK3kHk9EeSGtbTG2d9Ipg" predecessor="_6SKQgHk9EeSGtbTG2d9Ipg">
+              <providedRole_EntryLevelSystemCall href="ms_parallel_audio_wm_replicas.system#_b9NvYHD6EeSA4fySuX9I2Q"/>
+              <operationSignature__EntryLevelSystemCall href="ms.repository#_gQd40HDwEeSqnN80MQ2uGw"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="2"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="audioRequest">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Count"/>
+                </namedReference__VariableUsage>
+              </inputParameterUsages_EntryLevelSystemCall>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="IntPMF[(38303999; 0.16666667)(38304000; 0.16666667)(40568000; 0.16666667)(41544000; 0.16666667)(48280000; 0.16666666)(65000000; 0.16666667)(88216000; 0.16666666)]"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="audioRequest">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Size"/>
+                </namedReference__VariableUsage>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+        <branchTransitions_Branch branchProbability="0.2">
+          <branchedBehaviour_BranchTransition id="_SBJOUHk-EeSGtbTG2d9Ipg" entityName="uploadCase">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_SBJ1YHk-EeSGtbTG2d9Ipg" successor="_U83_oHk-EeSGtbTG2d9Ipg"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_SBKccHk-EeSGtbTG2d9Ipg" predecessor="_U83_oHk-EeSGtbTG2d9Ipg"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_U83_oHk-EeSGtbTG2d9Ipg" entityName="upload" successor="_SBKccHk-EeSGtbTG2d9Ipg" predecessor="_SBJ1YHk-EeSGtbTG2d9Ipg">
+              <providedRole_EntryLevelSystemCall href="ms_parallel_audio_wm_replicas.system#_b9NvYHD6EeSA4fySuX9I2Q"/>
+              <operationSignature__EntryLevelSystemCall href="ms.repository#_Ss-eoHDwEeSqnN80MQ2uGw"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="BYTESIZE">
+                  <specification_VariableCharacterisation specification="IntPMF[(38303999; 0.16666667)(38304000; 0.16666667)(40568000; 0.16666667)(41544000; 0.16666667)(48280000; 0.16666666)(65000000; 0.16666667)(88216000; 0.16666666)]"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="file"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_jata0HlBEeSGtbTG2d9Ipg" entityName="login" successor="_QWeEIL25EeSVWpDAPvBY2w" predecessor="_N-J2sHD-EeSA4fySuX9I2Q">
+        <providedRole_EntryLevelSystemCall href="ms_parallel_audio_wm_replicas.system#_b9NvYHD6EeSA4fySuX9I2Q"/>
+        <operationSignature__EntryLevelSystemCall href="ms.repository#_gMMc0HDwEeSqnN80MQ2uGw"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_4P-X0HplEeS7kdTjUFmzYw" entityName="getFileList" successor="_xR3cQL27EeSVWpDAPvBY2w" predecessor="_QWeEIL25EeSVWpDAPvBY2w">
+        <providedRole_EntryLevelSystemCall href="ms_parallel_audio_wm_replicas.system#_b9NvYHD6EeSA4fySuX9I2Q"/>
+        <operationSignature__EntryLevelSystemCall href="ms.repository#_SxZroHDwEeSqnN80MQ2uGw"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Delay" id="_QWeEIL25EeSVWpDAPvBY2w" entityName="userDelayAfterLogin" successor="_4P-X0HplEeS7kdTjUFmzYw" predecessor="_jata0HlBEeSGtbTG2d9Ipg">
+        <timeSpecification_Delay specification="GammaMoments(3000, 0.3)"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Delay" id="_xR3cQL27EeSVWpDAPvBY2w" entityName="userDelayAfterGetFileList" successor="_TutY0Hk9EeSGtbTG2d9Ipg" predecessor="_4P-X0HplEeS7kdTjUFmzYw">
+        <timeSpecification_Delay specification="GammaMoments(6000, 0.3)"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+    <workload_UsageScenario xsi:type="usagemodel:OpenWorkload">
+      <interArrivalTime_OpenWorkload specification="Exp(0.00004)"/>
+    </workload_UsageScenario>
+  </usageScenario_UsageModel>
+</usagemodel:UsageModel>

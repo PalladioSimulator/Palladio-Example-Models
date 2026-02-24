@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_j6AqsLayEeSScPJX5tIqjQ" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="ms.resourceenvironment#/"/>
+  <system_Allocation href="ms_audio_wm.system#_oPwBYHDhEeSqnN80MQ2uGw"/>
+  <allocationContexts_Allocation id="_lJWysLayEeSScPJX5tIqjQ" entityName="Allocation_Assembly_Facade &lt;Facade> &lt;Facade>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_VD-4oHD4EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_myX-8LayEeSScPJX5tIqjQ" entityName="Allocation_Assembly_UserDBAdapter &lt;UserDBAdapter> &lt;UserDBAdapter>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_pulfcHD4EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_paIEULayEeSScPJX5tIqjQ" entityName="Allocation_Assembly_MediaAccess &lt;MediaAccess> &lt;MediaAccess>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_4LdYsHD4EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_q64FYLayEeSScPJX5tIqjQ" entityName="Allocation_Assembly_MediaManagement &lt;MediaManagement> &lt;MediaManagement>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_C1kK8HD5EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rhW2kLayEeSScPJX5tIqjQ" entityName="Allocation_Assembly_Packaging &lt;Packaging> &lt;Packaging>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_IPnY0HD5EeSA4fySuX9I2Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_2-ehYLg3EeSNPorBlo7x9g" entityName="Allocation_Assembly_DB &lt;DB> &lt;DB>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_aMTWgLg3EeSNPorBlo7x9g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_9QFIsLg_EeSNPorBlo7x9g" entityName="Allocation_Assembly_FileStorage &lt;FileStorage> &lt;FileStorage>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_1ek7QLg_EeSNPorBlo7x9g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_QAUiULhFEeSNPorBlo7x9g" entityName="Allocation_Assembly_AudioWatermarking &lt;AudioWatermarking> &lt;AudioWatermarking>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_ImkGgLhFEeSNPorBlo7x9g"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rhzpwL0ZEeSAHuL4ItXOLQ" entityName="Allocation_Assembly_UserManagement &lt;UserManagement> &lt;UserManagement>">
+    <resourceContainer_AllocationContext href="ms.resourceenvironment#_t8rcYHlPEeSGtbTG2d9Ipg"/>
+    <assemblyContext_AllocationContext href="ms_audio_wm.system#_bUxacL0ZEeSAHuL4ItXOLQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

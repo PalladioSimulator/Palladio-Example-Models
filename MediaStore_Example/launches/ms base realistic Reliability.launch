@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.uka.ipd.sdq.dsolver_plugin.PCMSolverLaunchConfigurationType.Reliability">
+<stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+<stringAttribute key="allocationFile" value="platform:/resource/MediaStore/ms_base.allocation"/>
+<booleanAttribute key="clear" value="true"/>
+<intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="2"/>
+<booleanAttribute key="doSensitivityAnalysis" value="true"/>
+<stringAttribute key="eventMiddlewareRepositoryFile" value="pathmap://PCM_MODELS/default_event_middleware.repository"/>
+<booleanAttribute key="iterationOverPhysicalSystemStatesEnabled" value="true"/>
+<stringAttribute key="logFile" value=""/>
+<stringAttribute key="markovEvaluationMode" value="POINTSOFFAILURE"/>
+<stringAttribute key="markovModelFile" value=""/>
+<booleanAttribute key="markovModelReduction" value="true"/>
+<booleanAttribute key="markovModelStorageEnabled" value="false"/>
+<booleanAttribute key="markovModelTracesEnabled" value="false"/>
+<booleanAttribute key="markovStatistics" value="false"/>
+<stringAttribute key="mwRepositoryFile" value="pathmap://PCM_MODELS/Glassfish.repository"/>
+<intAttribute key="numberOfEvaluatedSystemStates" value="1"/>
+<booleanAttribute key="numberOfEvaluatedSystemStatesEnabled" value="false"/>
+<intAttribute key="numberOfExactDecimalPlaces" value="1"/>
+<booleanAttribute key="numberOfExactDecimalPlacesEnabled" value="false"/>
+<stringAttribute key="outpath" value="de.uka.ipd.sdq.temporary"/>
+<stringAttribute key="saveFileDefault" value=""/>
+<booleanAttribute key="saveResultsToFileEnabled" value="false"/>
+<stringAttribute key="sensitivityLogFile" value="platform:/resource/MediaStore/sensitivity-results.txt"/>
+<stringAttribute key="sensitivityModelFile" value="platform:/resource/MediaStore/ms_base.sensitivity"/>
+<booleanAttribute key="simulateAccuracy" value="false"/>
+<booleanAttribute key="singleResults" value="false"/>
+<intAttribute key="solvingTimeLimit" value="1"/>
+<booleanAttribute key="solvingTimeLimitEnabled" value="false"/>
+<stringAttribute key="usageFile" value="platform:/resource/MediaStore/ms_base_usage_realistic.usagemodel"/>
+</launchConfiguration>

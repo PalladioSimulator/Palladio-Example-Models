@@ -1,1 +1,0 @@
-see https://svnserver.informatik.kit.edu/i43/svn/code/CaseStudies/MediaStore3/trunk/Model/MediaStore3_Model/
